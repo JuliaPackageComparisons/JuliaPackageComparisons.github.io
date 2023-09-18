@@ -1,4 +1,4 @@
-# [JuliaPackageComparisons](JuliaPackageComparisons.github.io)
+# [JuliaPackageComparisons](https://juliapackagecomparisons.github.io/)
 
 Welcome to the repository for Julia Package Comaprisons. This repository hosts a website that aims to help Julia users discover and choose between packages. Click the title above to open the website!
 
