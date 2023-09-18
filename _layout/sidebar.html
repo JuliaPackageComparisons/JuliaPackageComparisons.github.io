@@ -1,0 +1,79 @@
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>Click "Julia Package Comparisons" to open the main menu</p>
+  </div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item {{ispage pages/plotting/*}}active{{end}}" href="/pages/plotting/">Plotting
+    </a>
+    <a class="sidebar-nav-item {{ispage pages/automatid_differentiation/*}}active{{end}}"
+      href="/pages/automatic_differentiation/">Automatic Differentiation
+    </a>
+    <a class="sidebar-nav-item {{ispage pages/uncertainty_propagation/*}}active{{end}}"
+      href="/pages/uncertainty_propagation/">Uncertainty Propagation
+    </a>
+    <a class="sidebar-nav-item {{ispage pages/machine_learning/*}}active{{end}}" href="/pages/machine_learning/">Machine
+      Learning
+    </a>
+    <a class="sidebar-nav-item {{ispage pages/machine_learning_datasets/*}}active{{end}}"
+      href="/pages/machine_learning_datasets/">Machine Learning Datasets
+    </a>
+    <a class="sidebar-nav-item {{ispage pages/neural_networks/*}}active{{end}}" href="/pages/neural_networks/">Neural
+      Networks
+    </a>
+    <a class="sidebar-nav-item {{ispage pages/notebooks/*}}active{{end}}" href="/pages/notebooks/">Notebooks
+    </a>
+    <a class="sidebar-nav-item {{ispage pages/multithreading/*}}active{{end}}"
+      href="/pages/multithreading/">Multithreading
+    </a>
+    <a class="sidebar-nav-item {{ispage pages/loop_acceleration/*}}active{{end}}" href="/pages/loop_acceleration/">Loop
+      Acceleration
+    </a>
+    <a class="sidebar-nav-item {{ispage pages/dataframes/*}}active{{end}}" href="/pages/dataframes/">Dataframes
+    </a>
+    <a class="sidebar-nav-item {{ispage pages/linear_solvers/*}}active{{end}}" href="/pages/linear_solvers/">Linear
+      Solvers
+    </a>
+    <a class="sidebar-nav-item {{ispage pages/saving_files/*}}active{{end}}" href="/pages/saving_files/">Saving Files
+    </a>
+    <a class="sidebar-nav-item {{ispage pages/redefinable_structs/*}}active{{end}}"
+      href="/pages/redefinable_structs/">Redefinable Structs
+    </a>
+    <a class="sidebar-nav-item {{ispage pages/signal_processing/*}}active{{end}}"
+      href="/pages/signal_processing/">Signal Processing
+    </a>
+    <a class="sidebar-nav-item {{ispage pages/probabilistic_programming/*}}active{{end}}"
+      href="/pages/probabilistic_programming/">Probabilistic Programming
+    </a>
+    <a class="sidebar-nav-item {{ispage pages/triangulations_or_tessellations/*}}active{{end}}"
+      href="/pages/triangulations_or_tessellations/">Triangulations / tessellations
+    </a>
+
+
+
+
+    <!---
+    <a class="sidebar-nav-item {{ispage menu2/*}}active{{end}}" href="/menu2/">More goodies</a>
+    <a class="sidebar-nav-item {{ispage menu3/*}}active{{end}}" href="/menu3/">Tags</a>
+    -->
+  </nav>
+  <div class="sidebar-item">
+    <p>&copy; {{fill author}}.</p>
+  </div>
+</div>
+
+<!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+content to avoid any CSS collisions with our real content. -->
+<div class="wrap">
+  <div class="masthead">
+    <div class="container">
+      <h3 class="masthead-title">
+        <a href="/" title="Home">Julia Package Comparisons</a>
+        <small>my description</small>
+      </h3>
+    </div>
+  </div>
+
+  <div class="container content">
