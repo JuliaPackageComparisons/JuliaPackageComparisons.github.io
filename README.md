@@ -1,6 +1,6 @@
 # Julia Package Comparisons
 
-Welcome to the repository for Julia Package Comaprisons! This repository hosts a website that aims to help Julia users discover and choose between packages. Click the link below to open it!
+Welcome to the repository for Julia Package Comparisons! This repository hosts a website that aims to help Julia users discover and choose between packages. Click the link below to open it!
 
 ## [Website link](https://juliapackagecomparisons.github.io/)
 
