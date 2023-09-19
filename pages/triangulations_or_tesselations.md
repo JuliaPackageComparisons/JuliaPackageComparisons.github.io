@@ -1,9 +1,9 @@
 # Triangulations / Tessellations
 
-In modeling, it is often neccesary to discretize space. This is often referred to as "triangulation" or ["tessellation"](https://en.wikipedia.org/wiki/Tessellation). This section is dedicated to packages that provide such functionality.
+Two common methods for partitioning space into individual elements are [_triangulations_](https://en.wikipedia.org/wiki/Point-set_triangulation) and [_tessellations_](https://en.wikipedia.org/wiki/Voronoi_diagram). This section is dedicated to packages that implement such methods.
 
 ### Short summary
-DelaunayTriangulation.jl is the most supported package for Delaunay triangulations in two dimensions. Delaunator.jl might be faster for unconstrained triangulations if you do not need exact arithmetic, and if you do not need constrained tesselations. In higher dimensions, you need Delaunay.jl if $n > 3$, or TetGen.jl is great if $n=3$.
+DelaunayTriangulation.jl is the most supported package for Delaunay triangulations and Voronoi tessellations in two dimensions. Delaunator.jl might be faster for unconstrained triangulations if you do not need exact arithmetic, and if you do not need constrained tesselations. In higher dimensions, you need Delaunay.jl if $n > 3$, or TetGen.jl is great if $n=3$.
 
 ### List of packages with short descriptions
 - [DelaunayTriangulation.jl](https://github.com/DanielVandH/DelaunayTriangulation.jl): A pure Julia library for constructing planar triangulations with support for both unconstrained and constrained triangulations (including domains with holes, disjoint domains, etc.), mesh refinement, Voronoi tessellations, clipped and centroidal Voronoi tessellations, and dynamic updates. Uses exact geometric predicates and supports custom types.
@@ -17,7 +17,7 @@ DelaunayTriangulation.jl is the most supported package for Delaunay triangulatio
 - [TetGen.jl](https://github.com/JuliaGeometry/TetGen.jl): This is for Delaunay tetrahedralisation, wrapping [TetGen](https://wias-berlin.de/software/index.jsp?id=TetGen).
 - [GMT.jl](https://github.com/GenericMappingTools/GMT.jl): A wrapper of [GMT](https://github.com/GenericMappingTools/gmt), allowing for [unconstrained Delaunay triangulations in two dimensions](https://www.generic-mapping-tools.org/GMTjl_doc/documentation/modules/triangulate/index.html#triangulate), and for [spherical triangulation, i.e. triangulation of points lying on a sphere](https://www.generic-mapping-tools.org/GMTjl_doc/documentation/modules/sphtriangulate/index.html#sphtriangulate).
 
-Note that many of these are likely not maintained anymore - the last commit dates are, going from more to less recent:
+Note that many of these are likely not maintained anymore - as of Sep 13, 2023, the last commit dates are, going from more to less recent:
 
 - DelaunayTriangulation.jl: Sep 13, 2023 
 - VoronoiDelaunay.jl: Jun 28, 2023 (This commit was to add a note that the package is only in maintenance mode)
