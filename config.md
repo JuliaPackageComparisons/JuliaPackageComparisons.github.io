@@ -3,7 +3,7 @@ Add here global page variables to use throughout your website.
 -->
 @def title = "Julia Package Comparisons"
 +++
-author = "The Julia Comunity"
+author = "The Julia Community"
 mintoclevel = 2
 
 # Add here files or directories that should be ignored by Franklin, otherwise
