@@ -1,0 +1,2 @@
+# Graphs
+In May of 2023, the Graphs ecosystem for Julia was summarized [here](https://discourse.julialang.org/t/the-graphs-ecosystem/99463). In the future, the content of that post should be updated (if needed), and put directly on this page.
