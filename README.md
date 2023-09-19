@@ -5,7 +5,7 @@ Welcome to the repository for Julia Package Comaprisons! This repository hosts a
 ## [Website link](https://juliapackagecomparisons.github.io/)
 
 ## The future of this project
-This project is currently a one-person project. The future hope is that more contributors will join to add and review pull requests, and that a more suitable person/organization will host the project.
+This project is currently a one-person project. The future hope is that the users and developers of the packages being compared will improve and add content to the webpage, in an organic way that mirrors the Julia Package ecosystem. I am currently looking for more maintainers to add and review pull requests, so please contact me if you are interested!
 
 ## The problem to be adressed by this project
 The Julia Package ecosystem is organic. This means that situations like the ones below occur all the time:
