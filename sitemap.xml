@@ -20,6 +20,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>pages/static_websites/index.html</loc>
+    <lastmod>2023-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>pages/automatic_differentiation/index.html</loc>
     <lastmod>2023-09-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -33,6 +39,12 @@
 </url>
 <url>
     <loc>pages/linear_solvers/index.html</loc>
+    <lastmod>2023-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/graphs/index.html</loc>
     <lastmod>2023-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -57,6 +69,12 @@
 </url>
 <url>
     <loc>pages/machine_learning/index.html</loc>
+    <lastmod>2023-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/web_apps/index.html</loc>
     <lastmod>2023-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
