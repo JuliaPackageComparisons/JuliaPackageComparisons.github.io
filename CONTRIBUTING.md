@@ -1,8 +1,6 @@
 # Contributing
 Thanks for showing interest in contributing to Julia Package Comparisons! This file is intended to inform people who want to contribute on how to do it. It will contain conventions for how things are normally done, and guides on how to do specific things.
 
-\toc
-
 ## Style Conventions
 There are many different ways to write the same content. 
 - The page could be intended for reading from start to finnish, or more like a loop-up.
