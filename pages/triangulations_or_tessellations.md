@@ -3,7 +3,7 @@
 Two common methods for partitioning space into individual elements are [_triangulations_](https://en.wikipedia.org/wiki/Point-set_triangulation) and [_tessellations_](https://en.wikipedia.org/wiki/Voronoi_diagram). This section is dedicated to packages that implement such methods.
 
 ### Short summary
-DelaunayTriangulation.jl is the most supported package for Delaunay triangulations and Voronoi tessellations in two dimensions. Delaunator.jl might be faster for unconstrained triangulations if you do not need exact arithmetic, and if you do not need constrained tesselations. In higher dimensions, you need Delaunay.jl if $n > 3$, or TetGen.jl is great if $n=3$.
+DelaunayTriangulation.jl is the most supported package for Delaunay triangulations and Voronoi tessellations in two dimensions. Delaunator.jl might be faster for unconstrained triangulations if you do not need exact arithmetic. In higher dimensions, you need Delaunay.jl if $n > 3$, or TetGen.jl is great if $n=3$.
 
 ### List of packages with short descriptions
 - [DelaunayTriangulation.jl](https://github.com/DanielVandH/DelaunayTriangulation.jl): A pure Julia library for constructing planar triangulations with support for both unconstrained and constrained triangulations (including domains with holes, disjoint domains, etc.), mesh refinement, Voronoi tessellations, clipped and centroidal Voronoi tessellations, and dynamic updates. Uses exact geometric predicates and supports custom types.
