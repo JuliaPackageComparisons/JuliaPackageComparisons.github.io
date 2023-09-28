@@ -17,3 +17,5 @@ Finally, there is [JSServe.jl](https://github.com/SimonDanisch/JSServe.jl). It d
 
 ## Other
 It is worth mentioning the github organization [JuliaWeb](https://github.com/JuliaWeb). JuliaWeb hosts a number of repositories which implement the tools needed to build web apps.
+
+This section is not yet written well. If you have used or developed Julia packages in this domain, we would love your help! Please visit the ["Contributing" section](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io#contributing) of the [repository that hosts this website](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io) for information on contributions.

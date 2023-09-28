@@ -12,3 +12,5 @@ vector such as `[1, 2, 3, 1]`, which has a peak at it's third index. Functions a
 continous context. Multidimensional arrays/functions also have peaks, which are significantly harder to find.  
 
 Peaks.jl, FindPeaks.jl, Images.jl
+
+This section is not yet written. If you have used or developed Julia packages in this domain, we would love your help! Please visit the ["Contributing" section](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io#contributing) of the [repository that hosts this website](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io) for information on contributions.
