@@ -6,7 +6,7 @@ A linear problem is of the form $Ax=b$ for some matrix $A$, known vector $b$ and
 
 The most complete one is [LinearSolve.jl](https://github.com/SciML/LinearSolve.jl/), which is part of the [SciML](https://sciml.ai/) ecosystem. It takes the role of a meta-package, and build on top of other packages that implement the actual algorithms. The benefit is that you can define the problem once, and then solve it with a number of different solvers by changing a keyword argument.
 
-Specific solvers providing their own API's include [Paradiso.jl](https://github.com/JuliaSparse/Pardiso.jl), [MLK.jl](https://github.com/JuliaLinearAlgebra/MKL.jl), [BandedMatrices.jl](https://github.com/JuliaLinearAlgebra/BandedMatrices.jl), and more.
+Specific solvers providing their own API's include [Paradiso.jl](https://github.com/JuliaSparse/Pardiso.jl), [MKL.jl](https://github.com/JuliaLinearAlgebra/MKL.jl), [BandedMatrices.jl](https://github.com/JuliaLinearAlgebra/BandedMatrices.jl), and more.
 
 See https://discourse.julialang.org/t/solving-sparse-linear-systems-fast/83071/9 
 for a relevant discussion on the options for solving numerical linear equations.
