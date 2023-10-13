@@ -46,7 +46,7 @@ Sparse auto-differentiation|:white_check_mark: | :white_check_mark:|:white_check
 
 ## Performance evaluation
 
-Performance is evaluated on unconstrained, unrobustified problems, some small and dense, others larger and sparse. Only solvers able to optimize all problems are included.Performance is evaluated by the time taken to optimize the cost function. [This script](https://gist.github.com/ojwoodford/789e85197b18dcddb349e1f695bffc31) was used to evaluate the algorithms, on an Apple M1 Pro CPU. Except where timings are omitted, solvers converged to the global optimum.
+Performance is evaluated on unconstrained, unrobustified problems, some small and dense, others larger and sparse. Only solvers able to optimize all problems are included. Performance is evaluated by the time taken to optimize the cost function. [This script](https://gist.github.com/ojwoodford/789e85197b18dcddb349e1f695bffc31) was used to evaluate the algorithms, on an Apple M1 Pro CPU. Except where timings are omitted, solvers converged to the global optimum.
 
 ### Small, dense problems
 
