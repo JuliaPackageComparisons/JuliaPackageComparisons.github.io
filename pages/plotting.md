@@ -36,6 +36,11 @@ All of these are pretty good. You have a lot of options. In the end, pick the on
 * Pro: Fast startups 
 * Cons Similar to Gadfly, little to no flexibility (making apps, animations, ...) and integration with Julia libraries beyond Queryverse.
 
+### Deneb
+[Deneb.jl](https://github.com/brucala/Deneb.jl) is another Julia alternative to build [Vega-Lite](https://vega.github.io/vega-lite/) plots. It provides an elegant julian API for creating Vega-Lite visualizations with high inspiration from Python's [Altair](https://altair-viz.github.io/).
+* Pros: Deneb.jl gives access to Vega-Lite's high-level grammar of interactive graphics. It can produce beautiful plots with high levels of interactivity using a concise, declarative syntax. See the [gallery](https://brucala.github.io/Deneb.jl/dev/examples/#Interactive) for a showcase of compelling interactive plots.
+* Cons: Limited to what Vega-Lite can achieve, for instance there is no support yet for 3D plotting. It might face challenges with larger datasets, since it doesn't produce plots consisting of pixels, but rather plots consisting of data along with a specification. For scalability with larger datasets, [VegaFusion](https://vegafusion.io/) provides a solution, but Deneb.jl has yet to leverage this potential.
+
 ### PlotlyLight
 [PlotlyLight.jl](https://github.com/JuliaComputing/PlotlyLight.jl) is a no-frills wrapper to Plotly. 
 * Pro: No startup time
