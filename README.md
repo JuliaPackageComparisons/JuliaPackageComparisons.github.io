@@ -10,10 +10,10 @@ This project is currently a one-person project. The future hope is that the user
 ## The problem to be adressed by this project
 The Julia Package ecosystem is organic. This means that situations like the ones below occur all the time:
 * A new package is registered. It uses a technically superior algorithm to achieve a goal that an existing package solves, but is less tested.
-* There are 5 or more different packages that do the same thing in different ways (e.g. automatic differentiation).
-* A new package is registered. It makes grand promises, and the documentation looks great. However it appears to be a one-man project, and you are unsure if it is tested or will continue to be maintained and developed.
+* There are five or more different packages that do the same thing in different ways (e.g. automatic differentiation).
+* A new package is registered. It makes grand promises, and the documentation looks great. However, it appears to be a one-person project, and you are unsure if it is tested or will continue to be maintained and developed.
 * Two packages look interesting. You feel like one looks superior, but the other one has more stars.
-* One package looks okay, another looks good. The good one is a wrapper of an existing python/C++ package.
+* One package looks okay, another looks good. The good one is a wrapper of an existing Python/C++ package.
 
 Such situations, and many many more, will always be part of an organic package system. However, it can be hard to navigate. 
 Currently, users will have to do one or more of the following to choose between competing/overlapping packages:
@@ -23,11 +23,11 @@ Currently, users will have to do one or more of the following to choose between 
 * Read the documentation of both packages.
 * Try to solve a simple test-problem with both packages, and see which one feels best.
 
-The solutions above take increasingly more effort. Doing all of them is the best way to figure out which package is right for you, but it takes too much effort for many, especially when in the middle of a project where you need a package only for a specific part. The result is likely that many users never discover all the packages that could solve their problem, and definitly do not make a systematic comparison to find the ideal one.
+The solutions above take increasingly more effort. Doing all of them is the best way to figure out which package is right for you, but it takes too much effort for many, especially when in the middle of a project where you need a package only for a specific part. The result is likely that many users never discover all the packages that could solve their problem, and definitely do not make a systematic comparison to find the ideal one.
 
-Some packgages try to alleviate this problem by having a "See also" or "Related packges" section in the bottom of their readme. This is a bandaid-fix, as a) work is duplicated if each package repository has this section, and b) there are few guidelines on this section, and it style, existence and scope varies wildly.
+Some packages try to alleviate this problem by having a "See also" or "Related packges" section in the bottom of their README. This is a bandaid-fix, as a) work is duplicated if each package repository has this section, and b) there are few guidelines on this section, and its style, existence and scope varies wildly.
 
-Comparisons of packages in any package repository or in a discourse discussion are always suceptable to going out of date, as the organic package ecosystem is ever-changing. A good solution will therefore have to be updatable, and independent of any single package. A github-hosted website solves this issue, as anyone can make PR's and issues as things go out of date.
+Comparisons of packages in any package repository or in a discourse discussion are always suceptable to going out of date, as the organic package ecosystem is ever-changing. A good solution will therefore have to be updatable, and independent of any single package. A GitHub-hosted website solves this issue, as anyone can make PR's and issues as things go out of date.
 
 This project aims to create a canonical and updated website that will
 1) make it easier for users to discover packages for specific problems/domains, and
