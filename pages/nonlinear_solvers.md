@@ -1,4 +1,8 @@
 # Nonlinear Solvers
+This section is still missing a lot of content. If you have used or developed Julia packages in this domain, we would love your help! Please visit the ["Contributing" section](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io#contributing) of the [repository that hosts this website](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io) for information on contributions.
+**Table of contents:**
+\toc
+
 This section will be split into two categories; Numerical nonlinear solvers, and symbolic nonlinear solvers.
 
 ## Numerical Nonlinear Solvers
@@ -10,7 +14,7 @@ There are also a number of other packages that provide nonlinear solver algorith
 
 Finally, there are a number of packages that specialize in optimizing nonlinear least-squares functions, discussed below.
 
-## Nonlinear Least Squares Solvers
+### Nonlinear Least Squares Solvers
 
 Nonlinear Least Squares (NLLS) solvers are a particular class of numerical nonlinear solvers that optimize problems of the form:
 \begin{align*}\argmin_{\mathbf{x}} ~&~ \frac12 \sum_i \rho_i\left(\| f_i(\mathbf{x})\|^2\right), \\
@@ -37,7 +41,7 @@ More general nonlinear solvers can also often be used to optimize NLLS problems,
 
 However, the more specialized packages tend to offer better performance.
 
-### Feature comparison
+#### Feature comparison
 
 Different packages and solvers offer different features. Here's a summary of the important ones:
 
@@ -65,17 +69,17 @@ Sparse auto-differentiation|:white_check_mark: | :white_check_mark:|:white_check
 - Supports sparsity: The solver can exploit sparsity within the Jacobian to optimize very large, sparse problems.
 - Sparse auto-differentiation: The solver supports auto-differentiation of a sparse Jacobian of the cost function.
 
-### Performance evaluation
+#### Performance evaluation
 
 Different solvers provide different performance on different problems, so any evaluation is subjective. Here, performance is evaluated on unconstrained, unrobustified problems, some small and dense, others larger and sparse. Only solvers able to optimize all problems are included. Performance is evaluated by the time taken to optimize the cost function. [This script](https://gist.github.com/ojwoodford/789e85197b18dcddb349e1f695bffc31) was used to evaluate the algorithms, on an Apple M1 Pro CPU. Except where timings are omitted, solvers converged to the global optimum.
 
-#### Small, dense problems
+##### Small, dense problems
 
 @@im-100
 ![](/assets/nlls_dense.svg)
 @@
 
-#### Medium sized, sparse problems
+##### Medium sized, sparse problems
 
 @@im-100
 ![](/assets/nlls_sparse.svg)

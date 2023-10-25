@@ -1,4 +1,6 @@
 # Plotting
+This section is not yet well written. See [this](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io/issues/25) issue for thoughts on reworking this section.
+
 Julia has a large number of available plotting libraries. They differ in a number of way, but the most important difference relate to native Julia vs wrapper, speed, interactivity, output file formats, animations, and more. There are so many packages that it will not make sense to compare each package to each other package, so this section mainly focuses on providing a description of each package.
 
 \toc
