@@ -14,6 +14,6 @@ A newer package for working with units is [DynamicQuantities.jl](https://github.
 > DynamicQuantities defines a simple statically-typed Quantity type for Julia. Physical dimensions are stored as a value, as opposed to a parametric type, as in Unitful.jl. This can greatly improve both runtime performance, by avoiding type instabilities, and startup time, as it avoids overspecializing methods.
 
 ## UnitSystems.jl
-While it is not reccomended above previously mentioned alternatives, there is also [UnitSystems](https://github.com/chakravala/UnitSystems.jl). The author can not speak to it's ability.
+While it is not recommended above previously mentioned alternatives, there is also [UnitSystems](https://github.com/chakravala/UnitSystems.jl). The author can not speak to it's ability.
 
 This section is not yet written well. If you have used or developed Julia packages in this domain, we would love your help! Please visit the ["Contributing" section](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io#contributing) of the [repository that hosts this website](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io) for information on contributions.
