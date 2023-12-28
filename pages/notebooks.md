@@ -1,5 +1,5 @@
 # Notebooks
-Notebooks are a type of [Integrated Development Enviroment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment), and 
+Notebooks are a type of [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment), and 
 are particularly useful for sharing and showing computations.  
 
 Relevant packages: [Pluto.jl](https://github.com/fonsp/Pluto.jl), [IJulia.jl](https://github.com/JuliaLang/IJulia.jl), [Neptune.jl](https://github.com/compleathorseplayer/Neptune.jl)
