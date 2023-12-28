@@ -7,7 +7,7 @@ Welcome to the repository for Julia Package Comparisons! This repository hosts a
 ## The future of this project
 This project is currently a one-person project. The future hope is that the users and developers of the packages being compared will improve and add content to the webpage, in an organic way that mirrors the Julia Package ecosystem. I am currently looking for more maintainers to add and review pull requests, so please contact me if you are interested!
 
-## The problem to be adressed by this project
+## The problem to be addressed by this project
 The Julia Package ecosystem is organic. This means that situations like the ones below occur all the time:
 * A new package is registered. It uses a technically superior algorithm to achieve a goal that an existing package solves, but is less tested.
 * There are five or more different packages that do the same thing in different ways (e.g. automatic differentiation).
@@ -25,9 +25,9 @@ Currently, users will have to do one or more of the following to choose between 
 
 The solutions above take increasingly more effort. Doing all of them is the best way to figure out which package is right for you, but it takes too much effort for many, especially when in the middle of a project where you need a package only for a specific part. The result is likely that many users never discover all the packages that could solve their problem, and definitely do not make a systematic comparison to find the ideal one.
 
-Some packages try to alleviate this problem by having a "See also" or "Related packges" section in the bottom of their README. This is a bandaid-fix, as a) work is duplicated if each package repository has this section, and b) there are few guidelines on this section, and its style, existence and scope varies wildly.
+Some packages try to alleviate this problem by having a "See also" or "Related packages" section in the bottom of their README. This is a bandaid-fix, as a) work is duplicated if each package repository has this section, and b) there are few guidelines on this section, and its style, existence and scope varies wildly.
 
-Comparisons of packages in any package repository or in a discourse discussion are always suceptable to going out of date, as the organic package ecosystem is ever-changing. A good solution will therefore have to be updatable, and independent of any single package. A GitHub-hosted website solves this issue, as anyone can make PR's and issues as things go out of date.
+Comparisons of packages in any package repository or in a discourse discussion are always susceptible to going out of date, as the organic package ecosystem is ever-changing. A good solution will therefore have to be updatable, and independent of any single package. A GitHub-hosted website solves this issue, as anyone can make PR's and issues as things go out of date.
 
 This project aims to create a canonical and updated website that will
 1) make it easier for users to discover packages for specific problems/domains, and
