@@ -25,9 +25,14 @@ We want to make it easy for everyone, including people with little experience wi
 
 ### Host the website locally
 To instantly review any changes you make, it is useful to host the website locally.
-TODO: write guide
+Use the following command to open the generated documentation:
 
-</br>
+```bash
+# Run in the JuliaPackageComparisons.github.io directory
+julia --project=. -e 'using Franklin; serve()'
+```
+
+Your documentation changes will be automatically detected, and the generated documentation will be updated in real-time as you run the above command.
 
 ### Make changes to existing content
 TODO: write guide
