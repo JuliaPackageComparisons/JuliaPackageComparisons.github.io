@@ -252,6 +252,13 @@ td {
   padding-left: 20%;
 }
 
+.franklin-content .badge img {
+  height: auto;
+  width: auto;
+  display: inline;
+  padding-left: 0%;
+}
+
 /* ==================================================================
     KATEX
 ================================================================== */
