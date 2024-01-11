@@ -49,7 +49,6 @@ function hfun_badge(args)
   repolink = pkginfo.repolink
   docslink = pkginfo.docslink
   codecovlink = pkginfo.codecovlink
-  starlink = "$repolink/stargazers"
 
   html_docs = isnothing(docslink) ? "" : """
   <a href="$docslink/stable"><img src="https://img.shields.io/badge/docs-stable-blue.svg" alt="Stable"></a>
@@ -61,7 +60,7 @@ function hfun_badge(args)
 
   return """
   <div class="badge">
-  <a href="$starlink"><img src="https://img.shields.io/github/stars/$username/$pkgname.jl?style=social" alt="GitHub Repo stars"></a>
+  <a href="$repolink"><img src="https://img.shields.io/github/stars/$username/$pkgname.jl?style=social" alt="GitHub Repo stars"></a>
   <a href="https://juliahub.com/ui/Packages/General/$pkgname?t=2"><img src="https://juliahub.com/docs/General/$pkgname/stable/deps.svg" alt="deps"></a>
   <a href="https://pkgs.genieframework.com?packages=$pkgname"><img src="https://shields.io/endpoint?url=https://pkgs.genieframework.com/api/v1/badge/$pkgname" alt="$pkgname Downloads"></a>
   <br>
