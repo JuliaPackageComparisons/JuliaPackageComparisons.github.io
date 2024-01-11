@@ -41,7 +41,7 @@ function get_pkginfo(pkgname)
   return pkginfos[pkgname]
 end
 
-function hfun_package(args)
+function hfun_badge(args)
   pkgname = args[1]
   pkginfo = get_pkginfo(pkgname)
   username = pkginfo.username

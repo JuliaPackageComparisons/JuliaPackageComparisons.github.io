@@ -7,11 +7,11 @@ This section covers packages that provide the tools needed to create and analyze
 \toc
 
 ## ControlSystems.jl
-{{package ControlSystems}}
+{{badge ControlSystems}}
 There is a github organization called [JuliaControl](https://github.com/JuliaControl/), the star of which is [ControlSystems.jl](https://github.com/JuliaControl/ControlSystems.jl). It is a Control Systems Toolbox for Julia, and provides a lot of common functionality for working with control systems.
 
 ## ModelPredictiveControl.jl
-{{package ModelPredictiveControl}}
+{{badge ModelPredictiveControl}}
 A new and much less used/tested package is [ModelPredictiveControl.jl](https://github.com/franckgaga/ModelPredictiveControl.jl). I the author can not speak to its capabilities.
 
 ## Other

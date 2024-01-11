@@ -6,15 +6,15 @@ The different packages that implement more advanced piping functionality are lis
 \toc
 
 ## Chain.jl
-{{package Chain}}
+{{badge Chain}}
 [Chain.jl](https://github.com/jkrumbiegel/Chain.jl) is the most starred package that purely implements piping functionality. It describes itself as follows:
 > A Julia package for piping a value through a series of transformation expressions using a more convenient syntax than Julia's native piping functionality.
 
 ## Lazy.jl
-{{package Lazy}}
+{{badge Lazy}}
 Lazy.jl implements a lot of other functionality, but discussed piping in particular under [this section](https://github.com/MikeInnes/Lazy.jl#macros) of the readme
 
 ## Pipe.jl
-{{package Pipe}}
+{{badge Pipe}}
 [Pipe.jl](https://github.com/oxinabox/Pipe.jl) describes itself as follows:
 > An enhancement to julia piping syntax
