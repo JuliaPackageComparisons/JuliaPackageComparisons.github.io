@@ -26,9 +26,17 @@ This causes the following confusion.
 ### Quaternionic.jl
 [Quaternionic.jl](https://github.com/moble/Quaternionic.jl) is another Julia package for quaternions.
 
-* The type `Quaternionic.Quaternion` is much different from `Base.Complex`.
-* For example, `Quaternionic.Quaternion{T}` does not require `T <: Real`, and this package can handle [biquaternions](https://en.wikipedia.org/wiki/Biquaternion).
-* This package exports `imx`, `imy`, and `imz`. (Similar to `Base.im`)
+* This package exports `AbstractQuaternion` as well as three concrete subtypes: `Quaternion` for arbitrary quaternions, `Rotor` for quaternions with unit magnitude, and `QuatVec` for quaternions with zero scalar part (corresponding to ordinary three-vectors).  These allows specializations for faster and/or more precise results in those special cases.
+* Each of the types parametrizes the type `T` of its components, as in`Quaternionic.Quaternion{T}`, but does *not* require `T <: Real`.  As a result, this package can handle [biquaternions](https://en.wikipedia.org/wiki/Biquaternion) for example.
+* This package exports `imx`, `imy`, and `imz` (similar to `Base.im`), and their unicode counterparts `𝐢`, `𝐣`, and `𝐤`.
+* Special care is taken to ensure that functions such as `log`, `exp`, `sqrt`, etc., are accurate and smooth near singularities and branch cuts, and to ensure that they are differentiable at those points.  In particular [`ChainRules`](https://github.com/JuliaDiff/ChainRules.jl) and [`ForwardDiff`](https://github.com/JuliaDiff/ForwardDiff.jl) are explicitly supported.
+* Methods are directly included to permit transformation to and from various representations of rotations, such as Euler angles, spherical coordinates, axis-angle, and rotation-matrix representations.
+* Several functions are included to find the optimal rotation to align two sets of points, or the optimal rotor to align two sets of rotors, and to measure distances between quaternions or rotors.
+* This package also enables various ways of dealing with quaternion-valued functions of time, including
+  * Linear interpolation, or `slerp`
+  * Quadratic interpolation, or `squad`
+  * Conversion to *and from* angular velocity as a function of time
+  * Conversion to the "minimal-rotation" frame
 * The arguments for `Quaternionic.Quaternion` is ordered in $w+xi+yj+zk$.
 
 ## Packages that define their own Quaternions
