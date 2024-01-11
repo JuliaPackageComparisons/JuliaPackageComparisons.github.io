@@ -21,7 +21,6 @@ This is for consistency with `Base.Complex`'s $x+iy$ order.
 * The arguments for `Quaternions.Quaternion` is ordered in $w+xi+yj+zk$.
 
 Historically, this package was not actively maintained before 2022.
-This causes the following confusion.
 
 ### Quaternionic.jl
 [Quaternionic.jl](https://github.com/moble/Quaternionic.jl) is another Julia package for quaternions.
