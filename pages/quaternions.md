@@ -6,7 +6,7 @@ Many softwares such as [SciPy](https://docs.scipy.org/doc/scipy/reference/genera
 One reason for that is that the order in [swizzling](https://en.wikipedia.org/wiki/Swizzling_(computer_graphics)) is `xyzw`.
 
 However, most Julia packages use $w+xi+yj+zk$ order.
-This is for consistency with `Base.Complex`'s $x+iy$ order.
+This is for consistency with `Base.Complex`'s $x+yi$ order.
 
 \toc
 
