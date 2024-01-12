@@ -1,14 +1,8 @@
 # Agent Based Modelling (ABM)
 
-Julia has an extensive suite of various packages targeting various applications for **agent based modelling**. These are:
+Julia has an extensive suite of various packages targeting various applications for **agent based modelling**.
 
-- Agents.jl
-- Vahana.jl
-- MEDYAN.jl
-- CellBasedModels.jl
-- EasyABM.jl
-
-which we summarize in the following sections.
+\toc
 
 ## Agents.jl
 {{badge Agents}}
