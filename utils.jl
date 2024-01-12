@@ -41,6 +41,10 @@ const PKGINFOS = Dict([
   # "MEDYAN" => PkgInfo(pkgname="MEDYAN", username="medyan-dev"),
   "CellBasedModels" => PkgInfo(pkgname="CellBasedModels", username="dsb-lab", branch="master", codecovlink=nothing),
   "EasyABM" => PkgInfo(pkgname="EasyABM", username="RenuSolanki"),
+  "Quaternions" => PkgInfo(pkgname="Quaternions", username="JuliaGeometry"),
+  "Quaternionic" => PkgInfo(pkgname="Quaternionic", username="moble"),
+  "ReferenceFrameRotations" => PkgInfo(pkgname="ReferenceFrameRotations", username="JuliaSpace", branch="master"),
+  "Grassmann" => PkgInfo(pkgname="Grassmann", username="chakravala", branch="master"),
 ])
 
 function hfun_badge(args)
