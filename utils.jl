@@ -36,6 +36,11 @@ const PKGINFOS = Dict([
   "Gnuplot" => PkgInfo(pkgname="GnuPlot", username="gcalderone", branch="master"),
   "ControlSystems" => PkgInfo(pkgname="ControlSystems", username="JuliaControl", branch="master"),
   "ModelPredictiveControl" => PkgInfo(pkgname="ModelPredictiveControl", username="franckgaga"),
+  "Agents" => PkgInfo(pkgname="Agents", username="JuliaDynamics"),
+  "Vahana" => PkgInfo(pkgname="Vahana", username="s-fuerst", codecovlink=nothing),
+  # "MEDYAN" => PkgInfo(pkgname="MEDYAN", username="medyan-dev"),
+  "CellBasedModels" => PkgInfo(pkgname="CellBasedModels", username="dsb-lab", branch="master", codecovlink=nothing),
+  "EasyABM" => PkgInfo(pkgname="EasyABM", username="RenuSolanki"),
 ])
 
 function hfun_badge(args)
