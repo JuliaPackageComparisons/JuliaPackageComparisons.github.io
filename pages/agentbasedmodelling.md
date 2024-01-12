@@ -18,6 +18,8 @@ it has been heavily optimized for performance as well. Some of its key features 
 
 Agents.jl is also extended by some domain-specific frameworks such as MicrobeAgents.jl.
 
+- [Agents.jl: a performant and feature-full agent-based modeling software of minimal code complexity](https://journals.sagepub.com/doi/10.1177/00375497211068820)
+
 ## Vahana.jl
 {{badge Vahana}}
 Vahana.jl is an ABM framework tailored for the development of large-scale agent-based models, based on a synchronous graph dynamical system approach. One of its notable strengths lies in its parallel execution capabilities, making it suitable for supercomputer clusters and for handling large datasets or agent populations (an aspect for which there are few alternatives even outside the Julia community). Therefore, a major focus of Vahana's development has been on CPU performance and a small memory footprint. Furthermore, Vahana is optimized for representing complex network structures, making it a good choice for network-centric models.
@@ -36,6 +38,8 @@ Mechanochemical Dynamics of Active Networks (MEDYAN) is an efficient and scalabl
 
 When fully released, MEDYAN.jl's source code will be downloadable for scientific use, but it probably won't be on GitHub or in the general registry. What is likely is that components of MEDYAN.jl that might be useful as stand-alone packages will be separated and published on GitHub [medyan-dev organization](https://github.com/medyan-dev).
 
+- [MEDYAN.jl: Agent-based modeling of active matter and whole cells | Nathan Zimmerberg | JuliaCon 2023](https://www.youtube.com/watch?v=0WU7xs3aY4A)
+
 ## CellBasedModels.jl
 {{badge CellBasedModels}}
 CellBasedModels.jl is an ABM package that has in mind its application to continuum space ABMs. Its main target is to solve physical models that are, at least partially, defined in terms of differential equations.
@@ -51,3 +55,5 @@ There are plans to in the future merge/port GPU functionalities of CellBasedMode
 ## EasyABM.jl
 {{badge EasyABM}}
 EasyABM.jl is general purpose ABM framework with a philosophy/style that is more oriented towards NetLogo and tries to offer a simple approach to ABMs for people without experience in Julia, at the expense of performance, flexibility, and total number of features.
+
+- [EasyABM: a lightweight and easy to use heterogeneous agent-based modelling tool written in Julia](https://arxiv.org/abs/2207.02107)
