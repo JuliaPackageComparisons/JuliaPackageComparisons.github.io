@@ -16,8 +16,6 @@ it has been heavily optimized for performance as well. Some of its key features 
 4. Straightforwardly allows simulations on Open Street Maps
 5. Allows both traditional discrete-time ABM simulations as well as continuous time "event queue based" ABM simulations.
 
-More about Agents.jl can be found in its documentation: https://JuliaDynamics.github.io/Agents.jl/stable
-
 Agents.jl is also extended by some domain-specific frameworks such as MicrobeAgents.jl.
 
 ## Vahana.jl
@@ -28,16 +26,15 @@ On the downside, while Vahana supports spatial information, it is limited to dis
 
 You can learn more about Vahana.jl in:
 
-- [Its announcement post](https://discourse.julialang.org/t/ann-vahana-jl-framework-for-large-scale-agent-based-models/102024)
-- [Its online documentation](https://s-fuerst.github.io/Vahana.jl/stable/)
-- [Its JuliaCon introduction video](https://www.youtube.com/watch?v=-318ec-kCBM)
+- [[ANN] Vahana.jl - Framework for large-scale agent-based models](https://discourse.julialang.org/t/ann-vahana-jl-framework-for-large-scale-agent-based-models/102024)
+- [Vahana.jl - A Framework for Large-Scale Agent-Based Models | Steffen Fürst | JuliaCon 2023](https://www.youtube.com/watch?v=-318ec-kCBM)
 
 ## MEDYAN.jl
 <!-- MEDYAN.jl is not released yet! -->
 <!-- {{badge MEDYAN}} -->
-Mechanochemical Dynamics of Active Networks (MEDYAN) is an efficient and scalable computational model for mechanochemical simulations of active matter networks. Our goal is to be able to simulate both the mechanics and chemistry of the cytoskeleton in a whole cell at the minute time scale while still keeping track of the stochastic chemistry of individual proteins. MEDYAN.jl is not released yet and is still a work in progress but there are currently some basic tutorials here: https://medyan.org/julia-docs/dev/tutorials/1install.html
+Mechanochemical Dynamics of Active Networks (MEDYAN) is an efficient and scalable computational model for mechanochemical simulations of active matter networks. Our goal is to be able to simulate both the mechanics and chemistry of the cytoskeleton in a whole cell at the minute time scale while still keeping track of the stochastic chemistry of individual proteins. MEDYAN.jl is not released yet and is still a work in progress but there are currently [some basic tutorials](https://medyan.org/julia-docs/dev/tutorials/1install.html).
 
-When fully released, MEDYAN.jl's source code will be downloadable for scientific use, but it probably won't be on GitHub or in the general registry. What is likely is that components of MEDYAN.jl that might be useful as stand-alone packages will be separated and published on GitHub here https://github.com/medyan-dev.
+When fully released, MEDYAN.jl's source code will be downloadable for scientific use, but it probably won't be on GitHub or in the general registry. What is likely is that components of MEDYAN.jl that might be useful as stand-alone packages will be separated and published on GitHub [medyan-dev organization](https://github.com/medyan-dev).
 
 ## CellBasedModels.jl
 {{badge CellBasedModels}}
@@ -51,9 +48,6 @@ Characteristics:
 
 There are plans to in the future merge/port GPU functionalities of CellBasedModels.jl with Agents.jl.
 
-More about CellBasedModels.jl can be found in its documentation: https://docs.juliahub.com/General/CellBasedModels/stable/.
-
 ## EasyABM.jl
 {{badge EasyABM}}
 EasyABM.jl is general purpose ABM framework with a philosophy/style that is more oriented towards NetLogo and tries to offer a simple approach to ABMs for people without experience in Julia, at the expense of performance, flexibility, and total number of features.
-More about it can be found in its documentation: https://renusolanki.github.io/EasyABM.jl/dev/
