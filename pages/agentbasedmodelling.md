@@ -3,7 +3,7 @@
 Julia has an extensive suite of various packages targeting various applications for **agent based modelling**. These are:
 
 - Agents.jl
-- Vanaha.jl
+- Vahana.jl
 - MEDYAN.jl
 - CellBasedModels.jl
 - EasyABM.jl
@@ -32,7 +32,7 @@ Vahana.jl is an ABM framework tailored for the development of large-scale agent-
 
 On the downside, while Vahana supports spatial information, it is limited to discrete n-dimensional rasters, and it is less suitable for simulations where agents need to move extensively within these spaces. The requirement to express models as graphs is unconventional and may require a paradigm shift for those accustomed to more traditional agent-based modeling approaches. In addition, some ABMs, e.g., such as those where only a single agent can occupy a cell in a grid and can move (as in the Schelling model), are not easy to formulate in a parallel version at all.
 
-You can learn more about Vanaha.jl in:
+You can learn more about Vahana.jl in:
 
 - [Its announcement post](https://discourse.julialang.org/t/ann-vahana-jl-framework-for-large-scale-agent-based-models/102024)
 - [Its online documentation](https://s-fuerst.github.io/Vahana.jl/stable/)
