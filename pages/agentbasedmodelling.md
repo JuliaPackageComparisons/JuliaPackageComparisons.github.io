@@ -16,13 +16,15 @@ Agents.jl is a pure-Julia general purpose framework for ABM. It is currently the
 Although its main focus is providing a framework for fast prototyping and flexibility in generating and then altering the ABM, 
 it has been heavily optimized for performance as well. Some of its key features can be summarized as:
 
-1. It is fast (faster than MASON, NetLogo, or Mesa or other general purpose alternatives, although other more specialized Julia-based frameworks in this list can outperform Agents.jl)
+1. It is fast (faster than MASON, NetLogo, or Mesa or any other general purpose alternative we have compared it with)
 2. It is simple: has a short learning curve and requires writing minimal code when compared to other general purpose alternatives
 3. Has an extensive interface of thousands of out-of-the box possible agent actions
 4. Straightforwardly allows simulations on Open Street Maps
 5. Allows both traditional discrete-time ABM simulations as well as continuous time "event queue based" ABM simulations.
 
 More about Agents.jl can be found in its documentation: https://JuliaDynamics.github.io/Agents.jl/stable
+
+Agents.jl is also extended by some domain-specific frameworks such as MicrobeAgents.jl.
 
 ## Vanaha.jl
 
@@ -58,5 +60,5 @@ More about CellBasedModels.jl can be found in its documentation: https://docs.ju
 
 ## EasyABM.jl
 
-EasyABM.jl is general purpose ABM framework with a philosophy/style that is more oriented towards NetLogo and tries to offer a simple approach to ABMs for people without experience in Julia, at the expense of performance and flexibility.
+EasyABM.jl is general purpose ABM framework with a philosophy/style that is more oriented towards NetLogo and tries to offer a simple approach to ABMs for people without experience in Julia, at the expense of performance, flexibility, and total number of features.
 More about it can be found in its documentation: https://renusolanki.github.io/EasyABM.jl/dev/
