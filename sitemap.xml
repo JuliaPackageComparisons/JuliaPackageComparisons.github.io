@@ -68,13 +68,19 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>pages/multithreading/index.html</loc>
+    <loc>pages/bspline/index.html</loc>
     <lastmod>2024-01-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>pages/machine_learning_datasets/index.html</loc>
+    <lastmod>2024-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/multithreading/index.html</loc>
     <lastmod>2024-01-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
