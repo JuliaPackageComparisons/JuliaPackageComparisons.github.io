@@ -6,13 +6,14 @@ Many softwares such as [SciPy](https://docs.scipy.org/doc/scipy/reference/genera
 One reason for that is that the order in [swizzling](https://en.wikipedia.org/wiki/Swizzling_(computer_graphics)) is `xyzw`.
 
 However, most Julia packages use $w+xi+yj+zk$ order.
-This is for consistency with `Base.Complex`'s $x+iy$ order.
+This is for consistency with `Base.Complex`'s $x+yi$ order.
 
 \toc
 
 ## Packages for Quaternions
 
 ### Quaternions.jl
+{{badge Quaternions}}
 [Quaternions.jl](https://github.com/JuliaGeometry/Quaternions.jl) is the most popular Julia package for quaternions.
 
 * This package implements `Quaternions.Quaternion` which is much similar to `Base.Complex`.
@@ -23,6 +24,7 @@ This is for consistency with `Base.Complex`'s $x+iy$ order.
 Historically, this package was not actively maintained before 2022.
 
 ### Quaternionic.jl
+{{badge Quaternionic}}
 [Quaternionic.jl](https://github.com/moble/Quaternionic.jl) is another Julia package for quaternions.
 
 * This package exports `AbstractQuaternion` as well as three concrete subtypes: `Quaternion` for arbitrary quaternions, `Rotor` for quaternions with unit magnitude, and `QuatVec` for quaternions with zero scalar part (corresponding to ordinary three-vectors).  These allows specializations for faster and/or more precise results in those special cases.
@@ -41,15 +43,18 @@ Historically, this package was not actively maintained before 2022.
 ## Packages that define their own Quaternions
 
 ### Makie.jl
+{{badge Makie}}
 [Makie.jl](https://github.com/MakieOrg/Makie.jl) has its own `Quaternion` type, but this should be replaced with `Quaternions.Quaternion`.
 Please check comment in [Makie.jl/src/utilities/quaternions.jl](https://github.com/MakieOrg/Makie.jl/blob/f2970dcd77bc16f311f8bb3226ef7d716395b369/src/utilities/quaternions.jl#L1-L5).
 Note that `Makie.Quaternion` uses $xi+yj+zk+w$ order.
 
 ### ReferenceFrameRotations.jl
+{{badge ReferenceFrameRotations}}
 [ReferenceFrameRotations.jl](https://github.com/JuliaSpace/ReferenceFrameRotations.jl) also has its own `Quaternion` type.
 There was an [issue#25](https://github.com/JuliaSpace/ReferenceFrameRotations.jl/issues/25) to be compatible with Quaternions.jl.
 
 ### Grassmann.jl
+{{badge Grassmann}}
 [Grassmann.jl](https://github.com/chakravala/Grassmann.jl) does not implement `Quaternion` as a struct, but quaternions are realized as an alias `Grassmann.Quaternion (alias for Spinor{V, T, 4} where {V, T})`.
 
 ## Related discourse posts
