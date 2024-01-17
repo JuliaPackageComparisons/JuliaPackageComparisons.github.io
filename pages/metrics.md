@@ -1,3 +1,4 @@
+# Metrics
 A metric can refer to many things, but a fitting description (from [wikipedia](https://en.wikipedia.org/wiki/Metric)) goes as follows: 
 > An adjective indicating relation to measurement in general, or a noun describing a specific type of measurement
 
@@ -10,7 +11,7 @@ Below is a list of packages that implement metrics.
 - [BetaML.jl](https://github.com/sylvaticus/BetaML.jl)
 - [ClinicalTrialUtilities.jl](https://github.com/PharmCat/ClinicalTrialUtilities.jl)
 - [Distances.jl](https://github.com/JuliaStats/Distances.jl)
-- [FastAI.jl/](https://github.com/FluxML/FastAI.jl/)
+- [FastAI.jl](https://github.com/FluxML/FastAI.jl/)
 - [EvalMetrics.jl](https://github.com/VaclavMacha/EvalMetrics.jl)
 - [KernelMethods.jl](https://github.com/sadit/KernelMethods.jl)
 - [KnetMetrics.jl](https://github.com/KnetML/KnetMetrics.jl)
