@@ -1,3 +1,7 @@
++++
+title = "Piping"
++++
+
 # Piping
 [Wikipedia](https://en.wikipedia.org/wiki/Pipeline_(software)) describes a software pipeline as a "chain of processing elements, arranged so that the output of each element is the input of the next". Julia has [native piping functionality](https://docs.julialang.org/en/v1/manual/functions/#Function-composition-and-piping) in the `|>` operator, allowing `f(g(x))` to be written as `x |> g |> f`. However, once you want to do mode advanced operations like using multi-argument functions, the core functionality is lacking. A [pull-request](https://github.com/JuliaLang/julia/pull/24990) was created to address this in 2017, but progress has halted. Instead, there is now a number of different packages that implement advanced piping, in slightly different flavours.
 

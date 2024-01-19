@@ -1,3 +1,7 @@
++++
+title = "Linear Solvers"
++++
+
 # Linear Solvers
 This section will be split into two categories; Numerical linear solvers, and symbolic linear solvers.
 

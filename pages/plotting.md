@@ -1,3 +1,7 @@
++++
+title = "Plotting"
++++
+
 # Plotting
 This section is not yet well written. See [this](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io/issues/25) issue for thoughts on reworking this section.
 

@@ -1,3 +1,7 @@
++++
+title = "Control Systems"
++++
+
 # Control Systems
 [Wikipedia](https://en.wikipedia.org/wiki/Control_system) states the following:
 > A control system manages, commands, directs, or regulates the behavior of other devices or systems using control loops.

@@ -1,3 +1,7 @@
++++
+title = "Units"
++++
+
 # Units
 Attaching physical units directly to numbers allows things such as automatic unit conversions, and automatic unit checking. There are several packages that add such functionality to Julia.
 

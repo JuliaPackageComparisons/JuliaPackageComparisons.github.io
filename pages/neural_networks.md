@@ -1,3 +1,7 @@
++++
+title = "Neural Networks"
++++
+
 # Neural Networks
 Relevant packages: Flux.jl, Lux.jl, GradValley.jl
 

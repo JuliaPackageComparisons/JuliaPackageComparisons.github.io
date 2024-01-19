@@ -1,3 +1,7 @@
++++
+title = "Triangulations and Tessellations"
++++
+
 # Triangulations and Tessellations
 
 Two common methods for partitioning space into individual elements are [_triangulations_](https://en.wikipedia.org/wiki/Point-set_triangulation) and [_tessellations_](https://en.wikipedia.org/wiki/Voronoi_diagram). This section is dedicated to packages that implement such methods.
