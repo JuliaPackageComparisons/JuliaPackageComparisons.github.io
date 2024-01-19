@@ -12,10 +12,10 @@
     </div>
     <label for="show-menu" class="show-menu">MENU</label>
     <input type="checkbox" id="show-menu" role="button">
-    <form id="lunrSearchForm" name="lunrSearchForm" action="/search/index.html" method="get">
-      <input class="search-input" name="q" placeholder="Enter search term" type="text">
-    </form>
     <div class="menu" id="side-menu">
+      <form id="lunrSearchForm" name="lunrSearchForm" action="/search/index.html" method="get">
+        <input class="search-input" name="q" placeholder="Enter search term" type="text">
+      </form>
       <ul class="menu-list">
         <li class="menu-list-item {{ispage index}}active{{end}}"><a href="/" class="menu-list-link {{ispage index}}active{{end}}">Home</a>
         <li class="menu-list-item {{ispage pages/agentbasedmodelling/*}}active{{end}}"><a href="/pages/agentbasedmodelling/" class="menu-list-link {{ispage pages/agentbasedmodelling}}active{{end}}">Agent Based Modelling</a>
