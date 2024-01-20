@@ -1,3 +1,7 @@
++++
+title = "Loop acceleration"
++++
+
 # Loop acceleration
 Relevant Packages: LoopVectorization.jl, ThreadsX.jl, FLoops.jl, Folds.jl, FoldsThreads.jl
 

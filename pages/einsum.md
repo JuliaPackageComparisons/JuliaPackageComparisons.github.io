@@ -1,3 +1,7 @@
++++
+title = "Einsum"
++++
+
 # Einsum
 In linear algebra and mathematical physics, there is a notational convention called [Einstein Notation](https://en.wikipedia.org/wiki/Einstein_notation). The python package numpy implements a function called [einsum](https://numpy.org/doc/stable/reference/generated/numpy.einsum.html), which is the first hit when googling the term. Several Julia packages exists that implement einsum functionality.
 \toc

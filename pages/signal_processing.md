@@ -1,3 +1,7 @@
++++
+title = "Signal Processing"
++++
+
 # Signal Processing
 ## General packages
 DSP.jl, SignalsBase.jl, SampledSignals.jl, SignalAnalysis.jl

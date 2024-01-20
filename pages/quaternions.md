@@ -1,3 +1,7 @@
++++
+title = "Quaternions"
++++
+
 # Quaternions
 [Quaternions](https://en.wikipedia.org/wiki/Quaternion) are best known for their suitability as representations of 3D rotational orientation.
 They can also be viewed as an extension of complex numbers.

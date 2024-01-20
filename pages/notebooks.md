@@ -1,3 +1,7 @@
++++
+title = "Notebooks"
++++
+
 # Notebooks
 Notebooks are a type of [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment), and 
 are particularly useful for sharing and showing computations.  

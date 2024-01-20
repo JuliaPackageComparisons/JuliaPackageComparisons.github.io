@@ -1,3 +1,7 @@
++++
+title = "Probabilistic Programming"
++++
+
 # Probabilistic Programming
 Turing.jl, Gen.jl, SOSS.jl, KissABC.jl, RxInfer.jl
 

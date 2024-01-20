@@ -1,3 +1,7 @@
++++
+title = "Differentiation"
++++
+
 # Differentiation
 There is a large number of Julia packages that provide differentiation functionality. The 3 main types of differentiation are symbolic, numerical, and automatic. Particularly automatic differentiation is a field in which there is a lot of research, and therefore a lot of new and experimental packages.
 

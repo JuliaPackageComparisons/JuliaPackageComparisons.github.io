@@ -1,3 +1,7 @@
++++
+title = "Nonlinear Solvers"
++++
+
 # Nonlinear Solvers
 This section is still missing a lot of content. If you have used or developed Julia packages in this domain, we would love your help! Please visit the ["Contributing" section](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io#contributing) of the [repository that hosts this website](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io) for information on contributions.
 **Table of contents:**

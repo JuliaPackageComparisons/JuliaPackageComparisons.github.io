@@ -1,6 +1,10 @@
-# Agent Based Modelling (ABM)
++++
+title = "Agent Based Modelling"
++++
 
-Julia has an extensive suite of various packages targeting various applications for **agent based modelling**.
+# Agent Based Modelling
+
+Julia has an extensive suite of various packages targeting various applications for [agent based modelling (ABM)](https://en.wikipedia.org/wiki/Agent-based_model).
 
 \toc
 

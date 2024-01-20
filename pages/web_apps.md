@@ -1,3 +1,7 @@
++++
+title = "Web Apps"
++++
+
 # Web Apps
 A web app is an interactive website. There are several Julia packages that help in the creation of web apps that run Julia as the backend language.
 

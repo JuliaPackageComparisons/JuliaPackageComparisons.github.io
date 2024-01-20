@@ -1,3 +1,7 @@
++++
+title = "DataFrames"
++++
+
 # Dataframes
 Relevant packages: [DataFrames.jl](https://github.com/JuliaData/DataFrames.jl), [InMemoryDatasets.jl](https://github.com/sl-solution/InMemoryDatasets.jl), [JuliaDB.jl](https://github.com/JuliaData/JuliaDB.jl)
 
