@@ -4,3 +4,6 @@ __site/
 node_modules/
 package-lock.json
 Manifest.toml
+
+# This file will be created by running `using Franklin; lunr()`
+_libs/lunr/lunr_index.js
