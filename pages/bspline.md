@@ -21,3 +21,6 @@ There are several Julia packages for [B-spline](https://en.wikipedia.org/wiki/B-
 
 ### NURBS.jl
 {{badge NURBS}}
+
+## Star History
+{{star_history BSplines BasicBSpline BSplineKit NURBS}}
