@@ -109,6 +109,20 @@ function hfun_badge(args)
   """
 end
 
+function hfun_star_history(args)
+  pkgnames = args
+  pkginfos = [PKGINFOS[pkgname] for pkgname in pkgnames]
+  repolinks = [pkginfo.repolink for pkginfo in pkginfos]
+  repos = [chopprefix(repolink, "https://github.com/") for repolink in repolinks]
+  join(repos, "&amp;")
+  """
+  <p>
+  <a href="https://star-history.com/#$(join(repos, "&amp;"))&amp;Date"><img src="https://api.star-history.com/svg?repos=$(join(repos, ","))&amp;type=Date" alt="Star History Chart">
+  </a>
+  </p>
+  """
+end
+
 function hfun_bar(vname)
   val = Meta.parse(vname[1])
   return round(sqrt(val), digits=2)
