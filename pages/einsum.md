@@ -20,3 +20,19 @@ There is also [Einsum.jl](https://github.com/ahwillia/Einsum.jl).
 {{badge OMEinsum}}
 Finally, there is [OMEinsum.jl](https://github.com/under-Peter/OMEinsum.jl):
 > This is a repository for the Google Summer of Code project on Differentiable Tensor Networks. It implements one function that both computer scientists and physicists love, the Einstein summation
+
+## TensorOperations.jl
+{{badge TensorOperations}}
+
+## TensorCast.jl
+{{badge TensorCast}}
+
+## ArrayMeta.jl
+{{badge ArrayMeta}}
+
+ArrayMeta.jl exists, but the package is not maintained and registered.
+
+## Tortilla.jl
+Tortilla.jl was announced in JuliaCon2018, but the package is not public yet.
+
+* [For Loops 2.0: Index Notation and the Future of Tensor Compilers | Willow Ahrens | JuliaCon 2018](https://www.youtube.com/watch?v=Rp7sTl9oPNI)
