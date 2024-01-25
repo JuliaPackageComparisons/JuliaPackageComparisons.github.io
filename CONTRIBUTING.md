@@ -23,16 +23,19 @@ We want to make it easy for everyone, including people with little experience wi
 
 </br>
 
-### Host the website locally
-To instantly review any changes you make, it is useful to host the website locally.
-Use the following command to open the generated documentation:
+### Make changes and view them instantly
+To instantly review any changes you make, it is useful to host the website locally. Whenever you propose changes to a GitHub project, it is a good idea to "Fork" the project. Log in to your GitHub acount, and go to [the repository](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io). Next to the stars (close to top right), you can see a "Fork" button. Press it, and you should have a GitHub-hosted version of the webpage that you can freely edit.
 
-```bash
-# Run in the JuliaPackageComparisons.github.io directory
-julia --project=. -e 'using Franklin; serve()'
+To preview your changes, you need to clone your new fork locally (essentially downloading it). In a shell (terminal), run the following command (with `you_username` replaced)
+```
+git clone https://github.com/your_username/JuliaPackageComparisons.github.io
 ```
 
-Your documentation changes will be automatically detected, and the generated documentation will be updated in real-time as you run the above command.
+This created a new folder inside whatever folder you were in called "JuliaPackageComparisons.github.io". If you enter that folder (`cd JuliaPackageComparisons.github.io`), you can now open a locally hosted version of the webpage as follows:
+```bash
+julia --project=. -e 'using Pkg; Pkg.instantiate(); using Franklin; serve()'
+```
+You default browser should open a new tab at `http://localhost:8000/`, showing the locally hosted page. Changes you make to the content will be automatically detected, and the generated page will be updated in real-time as you run the above command. After having made the changes you want, you can commit you changes, push them to github, and then use the GitHub web page to open up a pull-request to make you changes in the original repository. Relevant git commands are `git commit` and `git push`, but if that is also new to you, you should probably google how to use git (a version control system) and GitHub (a website and hosting service) first.
 
 ### Make changes to existing content
 TODO: write guide
