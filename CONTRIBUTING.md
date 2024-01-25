@@ -24,11 +24,13 @@ We want to make it easy for everyone, including people with little experience wi
 </br>
 
 ### Make changes and view them instantly
-To instantly review any changes you make, it is useful to host the website locally. Whenever you propose changes to a GitHub project, it is a good idea to "Fork" the project. Log in to your GitHub acount, and go to [the repository](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io). Next to the stars (close to top right), you can see a "Fork" button. Press it, and you should have a GitHub-hosted version of the webpage that you can freely edit.
+To instantly review any changes you make, it is useful to host the website locally. Whenever you propose changes to a GitHub project, it is a good idea to "Fork" the project. Log in to your GitHub acount, and go to [the repository](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io). Next to the stars (close to top right), you can see a "Fork" button. Press it, and you should have a GitHub-hosted version of the webpage that you can freely edit. 
+
+It is always a good idea to make a new branch to make changes to, for cleen book-keeping. I find it easiest via the menu on your newly created fork. Just above where the files and folders appear, to the left, you should see a little branch, and "main". Click it, type in a name that indicated what changes you want to make, and create the branch.
 
 To preview your changes, you need to clone your new fork locally (essentially downloading it). In a shell (terminal), run the following command (with `you_username` replaced)
 ```
-git clone https://github.com/your_username/JuliaPackageComparisons.github.io
+git clone --single-branch --branch your_branch_name https://github.com/your_username/JuliaPackageComparisons.github.io
 ```
 
 This created a new folder inside whatever folder you were in called "JuliaPackageComparisons.github.io". If you enter that folder (`cd JuliaPackageComparisons.github.io`), you can now open a locally hosted version of the webpage as follows:
