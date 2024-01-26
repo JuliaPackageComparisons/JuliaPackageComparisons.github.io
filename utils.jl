@@ -116,10 +116,10 @@ function hfun_star_history(args)
   repos = [chopprefix(repolink, "https://github.com/") for repolink in repolinks]
   join(repos, "&amp;")
   """
-  <p>
+  <div class="star-history">
   <a href="https://star-history.com/#$(join(repos, "&amp;"))&amp;Date"><img src="https://api.star-history.com/svg?repos=$(join(repos, ","))&amp;type=Date" alt="Star History Chart">
   </a>
-  </p>
+  </div>
   """
 end
 

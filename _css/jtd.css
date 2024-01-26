@@ -632,6 +632,11 @@ td {
   padding-left: 0%;
 }
 
+.franklin-content .star-history img {
+  width: 90%;
+  text-align: center;
+  padding-left: 5%;
+}
 
 /* ==================================================================
     KATEX
