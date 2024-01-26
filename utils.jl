@@ -6,12 +6,17 @@
   repolink = "https://github.com/$username/$pkgname.jl"
   docslink = "https://$username.github.io/$pkgname.jl"
   codecovlink = "https://codecov.io/gh/$username/$pkgname.jl"
+  registered = true
 end
 
 const PKGINFOS = Dict([
   "Tullio" => PkgInfo(pkgname="Tullio", username="mcabbott", branch="master", docslink=nothing),
   "Einsum" => PkgInfo(pkgname="Einsum", username="ahwillia", branch="master", docslink=nothing, codecovlink=nothing),
   "OMEinsum" => PkgInfo(pkgname="OMEinsum", username="under-Peter", branch="master"),
+  "TensorOperations" => PkgInfo(pkgname="TensorOperations", username="Jutho", branch="master"),
+  "TensorCast" => PkgInfo(pkgname="TensorCast", username="mcabbott", branch="master"),
+  "ArrayMeta" => PkgInfo(pkgname="ArrayMeta", username="shashi", branch="master", docslink=nothing, codecovlink=nothing, registered=false),
+  # "Tortilla" => PkgInfo(pkgname="Tortilla", username="willow-ahrens"),
   "Chain" => PkgInfo(pkgname="Chain", username="jkrumbiegel", branch="master", docslink=nothing, codecovlink=nothing),
   "Lazy" => PkgInfo(pkgname="Lazy", username="MikeInnes", branch="master", docslink=nothing, codecovlink=nothing),
   "Pipe" => PkgInfo(pkgname="Pipe", username="oxinabox", branch="master", docslink=nothing, codecovlink=nothing),
@@ -59,6 +64,7 @@ function hfun_badge(args)
   repolink = pkginfo.repolink
   docslink = pkginfo.docslink
   codecovlink = pkginfo.codecovlink
+  registered = pkginfo.registered
 
   html_docs = isnothing(docslink) ? "" : """
   <a href="$docslink/stable"><img src="https://img.shields.io/badge/docs-stable-blue.svg" alt="Stable"></a>
@@ -67,16 +73,25 @@ function hfun_badge(args)
   html_codecov = isnothing(codecovlink) ? "" : """
   <a href="$codecovlink"><img src="$codecovlink/branch/$branch/graph/badge.svg" alt="Coverage"></a>
   """
+  html_deps = !registered ? "" : """
+  <a href="https://juliahub.com/ui/Packages/General/$pkgname?t=2"><img src="https://juliahub.com/docs/General/$pkgname/stable/deps.svg" alt="deps"></a>
+  """
+  html_downloads = !registered ? "" : """
+  <a href="https://pkgs.genieframework.com?packages=$pkgname"><img src="https://shields.io/endpoint?url=https://pkgs.genieframework.com/api/v1/badge/$pkgname" alt="$pkgname Downloads"></a>
+  """
+  html_ver = !registered ? "" : """
+  <a href="https://juliahub.com/ui/Packages/General/$pkgname"><img src="https://juliahub.com/docs/General/$pkgname/stable/version.svg" alt="version"></a>
+  """
 
   return """
   <div class="badge">
   <a href="$repolink"><img src="https://img.shields.io/github/stars/$username/$pkgname.jl?style=social" alt="GitHub Repo stars"></a>
-  <a href="https://juliahub.com/ui/Packages/General/$pkgname?t=2"><img src="https://juliahub.com/docs/General/$pkgname/stable/deps.svg" alt="deps"></a>
-  <a href="https://pkgs.genieframework.com?packages=$pkgname"><img src="https://shields.io/endpoint?url=https://pkgs.genieframework.com/api/v1/badge/$pkgname" alt="$pkgname Downloads"></a>
+  $html_deps
+  $html_downloads
   <br>
   $html_docs
   <a href="$repolink/commits/$branch/"><img src="https://img.shields.io/github/last-commit/$username/$pkgname.jl/$branch" alt="GitHub last commit (branch)"></a>
-  <a href="https://juliahub.com/ui/Packages/General/$pkgname"><img src="https://juliahub.com/docs/General/$pkgname/stable/version.svg" alt="version"></a>
+  $html_ver
   $html_codecov
   </div>
   """
