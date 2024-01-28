@@ -40,7 +40,7 @@ jobs:
       with:
         ssh-key: ${{ secrets.PREVIEW }}
         branch: gh-pages
-        folder: __site
+        folder: docs/__site
         target-folder: PR${{ github.event.number }}
         repository-name: JuliaPackageComparisons/preview
     - name: Create comment
