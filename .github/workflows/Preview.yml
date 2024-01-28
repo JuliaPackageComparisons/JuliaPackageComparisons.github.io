@@ -25,7 +25,7 @@ jobs:
         version: '1'
     - name: Build
       run: julia --project=docs -e '
-            cd("docs")
+            cd("docs");
             using Pkg; Pkg.activate("."); Pkg.instantiate();
             using NodeJS;
             run(`$(npm_cmd()) install lunr`);
