@@ -13,11 +13,14 @@ There are several Julia packages for [B-spline](https://en.wikipedia.org/wiki/B-
 ### BSplines.jl
 {{badge BSplines}}
 
-### BSplineKit.jl
-{{badge BSplineKit}}
-
 ### BasicBSpline.jl
 {{badge BasicBSpline}}
 
+### BSplineKit.jl
+{{badge BSplineKit}}
+
 ### NURBS.jl
 {{badge NURBS}}
+
+## Star History
+{{star_history BSplines BasicBSpline BSplineKit NURBS}}
