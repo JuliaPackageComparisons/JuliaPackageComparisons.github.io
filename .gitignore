@@ -1,9 +1,10 @@
-__site/
 .DS_Store
 .vscode
-node_modules/
-package-lock.json
-Manifest.toml
+
+docs/__site/
+docs/node_modules/
+docs/package-lock.json
+docs/Manifest.toml
 
 # This file will be created by running `using Franklin; lunr()`
-_libs/lunr/lunr_index.js
+docs/_libs/lunr/lunr_index.js
