@@ -6,6 +6,8 @@ Add here global page variables to use throughout your website.
 author = "The Julia Community"
 mintoclevel = 2
 
+# prepath = "preview/PR"
+
 # Add here files or directories that should be ignored by Franklin, otherwise
 # these files might be copied and, if markdown, processed by Franklin which
 # you might not want. Indicate directories by ending the name with a `/`.
