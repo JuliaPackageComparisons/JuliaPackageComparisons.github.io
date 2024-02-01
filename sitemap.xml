@@ -2,194 +2,188 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-    <loc>pages/einsum/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/nonlinear_solvers/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/interoperability/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/neural_networks/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/triangulations_or_tessellations/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>pages/signal_processing/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/piping/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/static_websites/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/notebooks/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/linear_solvers/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>search/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/bspline/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/graphs/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/machine_learning_datasets/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/multithreading/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/saving_files/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/machine_learning/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/web_apps/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/uncertainty_propagation/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/probabilistic_programming/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/agentbasedmodelling/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/metrics/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/control_systems/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/differentiation/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/dataframes/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
+    <lastmod>2024-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/redefinable_structs/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>CONTRIBUTING/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>pages/plotting/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
+    <lastmod>2024-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>pages/quaternions/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
+    <lastmod>2024-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>pages/units/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
+    <loc>pages/saving_files/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/differentiation/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/linear_solvers/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/triangulations_or_tessellations/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/agentbasedmodelling/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/nonlinear_solvers/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/bspline/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/neural_networks/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/plotting/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/probabilistic_programming/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/web_apps/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/control_systems/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>search/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/dataframes/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>pages/loop_acceleration/index.html</loc>
-    <lastmod>2024-01-28</lastmod>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/multithreading/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/redefinable_structs/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/machine_learning/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/metrics/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/static_websites/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/units/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/uncertainty_propagation/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/einsum/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/notebooks/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/graphs/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/interoperability/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/machine_learning_datasets/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>pages/piping/index.html</loc>
+    <lastmod>2024-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
