@@ -66,6 +66,9 @@ const PKGINFOS = Dict([
   "Triangle" => PkgInfo(pkgname="Triangle", username="cvdlab", branch="master", docslink=nothing),
   "TetGen" => PkgInfo(pkgname="TetGen", username="JuliaGeometry", branch="master"),
   "GMT" => PkgInfo(pkgname="GMT", username="GenericMappingTools", branch="master"),
+  "PkgTemplates" => PkgInfo(pkgname="PkgTemplates", username="JuliaCI", branch="master"),
+  "PkgSkeleton" => PkgInfo(pkgname="PkgSkeleton", username="tpapp", branch="master"),
+  "Pkg" => PkgInfo(pkgname="Pkg", username="JuliaLang", branch="master"),
 ])
 
 function hfun_badge(args)
