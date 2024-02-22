@@ -2,7 +2,7 @@
 title = "Merge multiple types into one"
 +++
 
-These packages helps to avoid Union-splitting performance drawbacks by merging multiple types into one.
+These packages help to avoid Union-splitting performance drawbacks by merging multiple types into one.
 
 \toc
 
