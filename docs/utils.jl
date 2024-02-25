@@ -138,6 +138,48 @@ function hfun_star_history(args)
   """
 end
 
+function hfun_metasection(args)
+  dir_metasection = args[1]
+  name_metasection = args[2]
+  names_section = readdir(dir_metasection)
+  path_current = locvar("fd_rpath")
+  if occursin(dir_metasection, path_current)
+    class_active = " active"
+  else
+    class_active = ""
+  end
+  if "index.md" in names_section
+    href = "/$dir_metasection/"
+  else
+    href = "/$dir_metasection/$(splitext(names_section[1])[1])/"
+  end
+  script_html = """
+  <li class="menu-list-item$class_active"><a href="$href" class="menu-list-link$class_active">$name_metasection</a>
+    <ul class="menu-list-child-list">
+  """
+  regex = r"title = \"(.*?)\""
+  for name in names_section
+    name == "index.md" && continue
+    path = joinpath(dir_metasection, name)
+    string_md = read(path, String)
+    title = match(regex, string_md).captures[1]
+    href = '/' * chopsuffix(path, ".md")
+    if path == path_current
+      class = "menu-list-link active"
+    else
+      class = "menu-list-link"
+    end
+    script_html *= """
+        <li class="menu-list-item"><a href="$href" class="$class">$title</a></li>
+    """
+  end
+  script_html *= """
+    </ul>
+  </li>
+  """
+  return script_html
+end
+
 function hfun_bar(vname)
   val = Meta.parse(vname[1])
   return round(sqrt(val), digits=2)
