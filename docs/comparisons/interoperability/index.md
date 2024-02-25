@@ -8,5 +8,5 @@ While Julia is great, it is not the only programming language around. This secti
 
 There are some organizations for inteoperabilities in Julia:
 
-* ["JuliaInterop"](https://github.com/JuliaInterop)
-* ["JuliaPy"](https://github.com/JuliaPy)
+* [JuliaInterop](https://github.com/JuliaInterop)
+* [JuliaPy](https://github.com/JuliaPy)
