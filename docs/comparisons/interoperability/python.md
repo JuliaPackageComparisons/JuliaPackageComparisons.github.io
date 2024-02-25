@@ -3,9 +3,6 @@ title = "Python"
 +++
 
 # Python
-While Julia is great, it is not the only programming language around. This section will compare packages that allow [interoperability](https://en.wikipedia.org/wiki/Interoperability) between Julia and other programming languages. This typically means calling Julia from another language, or calling another language from Julia.
-
-Many of the packages listed in this section are part of the github organization ["JuliaInterop"](https://github.com/JuliaInterop).
 
 \toc
 
@@ -17,7 +14,7 @@ Many of the packages listed in this section are part of the github organization 
 ### PythonCall.jl
 {{badge PythonCall}}
 
-PythonCall.jl descrives the difference from PyCall.jl in their README.
+PythonCall.jl describes the differences from PyCall.jl in its README.
 
 >## What about PyCall?
 >
