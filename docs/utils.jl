@@ -73,6 +73,8 @@ const PKGINFOS = Dict([
   "PkgTemplates" => PkgInfo(pkgname="PkgTemplates", username="JuliaCI", branch="master"),
   "PkgSkeleton" => PkgInfo(pkgname="PkgSkeleton", username="tpapp", branch="master"),
   "Pkg" => PkgInfo(pkgname="Pkg", username="JuliaLang", branch="master"),
+  "PyCall" => PkgInfo(pkgname="PyCall", username="JuliaPy", branch="master"),
+  "PythonCall" => PkgInfo(pkgname="PythonCall", username="JuliaPy"),
 ])
 
 function hfun_badge(args)
