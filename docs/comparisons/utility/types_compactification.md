@@ -1,5 +1,5 @@
 +++
-title = "Merge multiple types into one"
+title = "Types compactification"
 +++
 
 These packages help to avoid Union-splitting performance drawbacks by merging multiple types into one.
