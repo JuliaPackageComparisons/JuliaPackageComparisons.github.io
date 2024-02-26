@@ -87,8 +87,8 @@ All of these are pretty good. You have a lot of options. In the end, pick the on
 * Pros: Has good examples in the docs. Nice extra tools for maps.
 * Cons: Missing some standard plot types, limited integrations with other Julia packages.
 
-### GnuPlot.jl
+### Gnuplot.jl
 {{badge Gnuplot}}
-[GnuPlot.jl](https://github.com/gcalderone/GnuPlot.jl) uses gnuplot under the hood.
+[Gnuplot.jl](https://github.com/gcalderone/Gnuplot.jl) uses gnuplot under the hood.
 * Pros: Instant startup, has some interesting data science integrations for things like named datasets, very complete set of plots
 * Cons: Not the most complete documentation, requires Linux with gnuplot.
