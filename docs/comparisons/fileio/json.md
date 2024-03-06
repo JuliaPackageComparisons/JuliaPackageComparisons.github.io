@@ -14,6 +14,10 @@ title = "JSON"
 * Use BSON.jl for [Binary JSON](https://bsonspec.org/).
 * Use JSONRPC.jl for [JSON-RPC 2.0](https://www.jsonrpc.org/specification).
 
+A quote from the later linked release-announcement for JSON3.jl helps us understand why there are so many packages:
+> Let’s cut right to the chase and answer the elephant questions in the proverbial discourse room: why do we need another JSON package in Julia? what does it offer distinct from what JSON.jl, JSON2.jl, or LazyJSON.jl offer? why spend time and effort developing something that’s “already solved”?
+> JSON3.jl was born from the spark of three separate ideas, and a vision that they could come together to make the best, most performant, simple, yet powerful JSON integration for Julia possible. It also exists as a way to “prove out” these ideas before trying to potentially upstream improvements into a more canonically named package like JSON.jl. I fully believe the package is ready for full-time use and reliance, but similar to JSON2.jl, it exists as a way to try out a different JSON integration API to potentially make things better, faster, easier.
+
 ## Packages
 ### JSON.jl
 {{badge JSON}}
