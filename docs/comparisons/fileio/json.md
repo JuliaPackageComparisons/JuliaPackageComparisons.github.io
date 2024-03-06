@@ -12,7 +12,7 @@ title = "JSON"
   * JSON3.jl has faster implementation.
   * JSON.jl has long history. If you need to load JSON on old Julia versions (e.g. v1.0), JSON.jl will be suitable.
 * Use BSON.jl for [Binary JSON](https://bsonspec.org/).
-* Use JSONRPC.jl for [JSON_RPC 2.0](https://www.jsonrpc.org/specification).
+* Use JSONRPC.jl for [JSON-RPC 2.0](https://www.jsonrpc.org/specification).
 
 ## Packages
 ### JSON.jl
