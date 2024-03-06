@@ -8,7 +8,7 @@ It will contain conventions for how things are normally done, and guides on how 
 ## Style Conventions
 There are many different ways to write the same content.
 
-- The page could be intended for reading from start to finnish, or more like a loop-up.
+- The page could be intended for reading from start to finnish, or more like a look-up.
 - The page could be formal and impersonal in language, or more verbal in style.
 - A page could start with a summary, have a table of contents, or use lists and tables.
 
