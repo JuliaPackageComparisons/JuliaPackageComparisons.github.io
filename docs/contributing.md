@@ -1,10 +1,6 @@
 # Contributing
 Thanks for showing interest in contributing to Julia Package Comparisons! This file is intended to inform people who want to contribute on how to do it. It will contain conventions for how things are normally done, and guides on how to do specific things.
 
-</br>
-</br>
-</br>
-
 ## Style Conventions
 There are many different ways to write the same content. 
 - The page could be intended for reading from start to finnish, or more like a loop-up.
@@ -15,13 +11,8 @@ A consistent style makes the pages easier to read and possibly write, and helps 
 
 Therefore, there are currently no style conventions. Experiment freely, and do whatever you feel best compares the packages, keeping in mind that new users will benefit the most from this resource. If a superior style emerges, it may become the conventional style.
 
-</br>
-</br>
-
 ## Guides
 We want to make it easy for everyone, including people with little experience with github, to contribute. To make this true, this section will contain guides on how to contribute in different ways for absolute beginners.
-
-</br>
 
 ### Make changes and view them instantly
 To instantly review any changes you make, it is useful to host the website locally. Whenever you propose changes to a GitHub project, it is a good idea to "Fork" the project. Log in to your GitHub acount, and go to [the repository](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io). Next to the stars (close to top right), you can see a "Fork" button. Press it, and you should have a GitHub-hosted version of the webpage that you can freely edit. 
@@ -41,8 +32,6 @@ You default browser should open a new tab at `http://localhost:8000/`, showing t
 
 ### Make changes to existing content
 TODO: write guide
-
-</br>
 
 ### Making a Section
 To make a section, a two things need to be done. A markdown file containing the section will have to be created inside the "pages" folder. The filename should use underscores for spaces, have only lowercase letters, and match the title of the section as well as possible. Start the file content with `# Section title`.
