@@ -89,24 +89,20 @@ The `PkgInfo` struct has seven fields, and can be defined with kwargs:
     * Package name without `.jl` suffix.
 * `username`
     * Username (or organization name) of GitHub repository.
-* `branch` (optional)
+* `branch` (optional, default: `"main"`)
     * Default branch name
-    * Default: `"main"`
-* `repolink` (optional)
+* `repolink` (optional, default: `"https://github.com/$username/$pkgname.jl"`)
     * URL to the repository.
-    * Default: `"https://github.com/$username/$pkgname.jl"`
-* `docslink` (optional)
+    * Set URL explicitly if the package is maintained in monorepo. (e.g. [RecipesBase.jl](https://github.com/JuliaPlots/Plots.jl/tree/master/RecipesBase))
+* `docslink` (optional, default: `"https://$username.github.io/$pkgname.jl"`)
     * URL to the documentation.
-    * Default: `"https://$username.github.io/$pkgname.jl"`
     * Set `nothing` if the package does not have documentation.
     * Note that `$docslink/dev` and `$docslink/stable` will be used in the documentation.
-* `codecovlink` (optional)
+* `codecovlink` (optional, default: `"https://codecov.io/gh/$username/$pkgname.jl"`)
     * URL to codecov page.
-    * Default: `"https://codecov.io/gh/$username/$pkgname.jl"`
     * Set `nothing` if the repository does not use CodeCov.
-* `registered` (optional)
+* `registered` (optional, default: `true`)
     * Flag for whether the package is registered.
-    * Default: `true`
 
 ### Create a new meta-section
 TODO: write guide more
