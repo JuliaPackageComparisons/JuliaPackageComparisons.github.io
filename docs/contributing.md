@@ -59,7 +59,7 @@ Relevant git commands are `git commit` and `git push`, but if that is also new t
 ### Update existing content
 TODO: write guide
 
-### Create a new Section
+### Create a new section
 To make a section `<new_section>`, a two things need to be done.
 
 * Add `docs/comparisons/<meta_section>/<new_section>.md` file.
@@ -108,3 +108,10 @@ The `PkgInfo` struct has seven fields, and can be defined with kwargs:
 * `registered` (optional)
     * Flag for whether the package is registered.
     * Default: `true`
+
+### Create a new meta-section
+TODO: write guide more
+
+* Create a new directory `docs/comparisons/<new_meta_section>`.
+* Create a new section `docs/comparisons/<new_meta_section>/<new_section>`.
+* Update `docs/_layout/pgwrap.html` with `<new_meta_section>`.
