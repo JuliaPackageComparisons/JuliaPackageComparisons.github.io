@@ -60,10 +60,9 @@ Relevant git commands are `git commit` and `git push`, but if that is also new t
 TODO: write guide
 
 ### Create a new section
-To make a section `<new_section>`, a two things need to be done.
-
-* Add `docs/comparisons/<meta_section>/<new_section>.md` file.
-* Update package list `PKGINFOS` in `docs/utils.jl`.
+To make a section `<new_section>`, two things need to be done:
+1)  Add `docs/comparisons/<meta_section>/<new_section>.md` file.
+2)  Update package list `PKGINFOS` in `docs/utils.jl`.
 
 [PR#79](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io/pull/79) (adding JSON section) will be a good reference to add a new section.
 
