@@ -75,6 +75,13 @@ const PKGINFOS = [
   PkgInfo(pkgname="Pkg", username="JuliaLang", branch="master"),
   PkgInfo(pkgname="PyCall", username="JuliaPy", branch="master"),
   PkgInfo(pkgname="PythonCall", username="JuliaPy"),
+  PkgInfo(pkgname="JSON", username="JuliaIO", branch="master"),
+  PkgInfo(pkgname="JSON2", username="quinnj", branch="master"),
+  PkgInfo(pkgname="JSON3", username="quinnj"),
+  PkgInfo(pkgname="JSONBase", username="quinnj", registered=false),
+  PkgInfo(pkgname="LazyJSON", username="JuliaCloud"),
+  PkgInfo(pkgname="BSON", username="JuliaIO"),
+  PkgInfo(pkgname="JSONRPC", username="julia-vscode"),
 ]
 
 function get_pkginfo(pkgname)
