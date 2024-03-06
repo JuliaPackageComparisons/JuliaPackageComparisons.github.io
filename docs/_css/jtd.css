@@ -132,10 +132,10 @@ img {
 }
 
 hr {
-  height: 1px;
+  height: 2px;
   padding: 0;
-  margin: 2rem 0;
-  background-color: #eeebee;
+  margin: 0.4rem 0;
+  background-color: #eeeeee;
   border: 0;
 }
 
