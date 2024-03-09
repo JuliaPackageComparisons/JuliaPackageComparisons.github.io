@@ -41,6 +41,8 @@ const PKGINFOS = [
   PkgInfo(pkgname="Gnuplot", username="gcalderone", branch="master"),
   PkgInfo(pkgname="ControlSystems", username="JuliaControl", branch="master"),
   PkgInfo(pkgname="ModelPredictiveControl", username="franckgaga"),
+  PkgInfo(pkgname="WaterLily", username="weymouth", branch="master"),
+  PkgInfo(pkgname="Oceananigans", username="CliMA"),
   PkgInfo(pkgname="BSplines", username="sostock", branch="master"),
   PkgInfo(pkgname="BSplineKit", username="jipolanco", branch="master"),
   PkgInfo(pkgname="BasicBSpline", username="hyrodium"),
