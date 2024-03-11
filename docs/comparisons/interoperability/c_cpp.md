@@ -7,9 +7,9 @@ title = "C & C++"
 \toc
 
 ## Introduction
-C and C++ are cornerstone languages in software. While Julia and C/C++ occpy quite different places in the landscape of programming langugages, C/C++ is ubiquitous enough that interop can be important. Furthermore, Julia aims to exist in the domain of high-performance computing, which is a domain historically dominated by C/C++. There is therefore also conciderable overlap.
+C and C++ are cornerstone languages in software. While there is conciderable difference between the purposes of Julia and C/C++, they are both important languages in high-performance computing. Importantly, a lot of high-performance software is written in C/C++, so instead of reinventing the wheel it often makes more sense to call such well optimized and tested libraries from other programming languages such as Julia. Furthermore, C/C++ is ubiquitous. It is therefore a good idea to be able to call C/C++ from Julia. As Julia matures, with best-in-class packages such as [DifferentialEquations.jl](https://github.com/SciML/DifferentialEquations.jl), it is also of increasing importance to be able to call Julia from C/C++.
 
-Julia base has conciderable support for C, as detailed in the [manual page "Calling C and Fortran Code"](https://docs.julialang.org/en/v1/manual/calling-c-and-fortran-code/). The C interop functionality in Julia base is likely to be the most stable, and it is reasonably well documented. But if you find the API lacking, or want to call C++, you will have to use one of the packages listed below.
+Julia base has conciderable support for C, as detailed in the manual page ["Calling C and Fortran Code"](https://docs.julialang.org/en/v1/manual/calling-c-and-fortran-code/). The C interop functionality in Julia base is likely to be the most stable, and it is reasonably well documented. But if you find the API lacking, or want to call C++, you will have to use one of the packages listed below.
 
 ## Packages
 
