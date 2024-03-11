@@ -24,6 +24,17 @@ If a superior style emerges, it may become the conventional style.
 We want to make it easy for everyone, including people with little experience with github, to contribute.
 To make this true, this section will contain guides on how to contribute in different ways for absolute beginners.
 
+### Modify existing content
+If you just want to contribute some knowledge/time in writing content for the pages, but you do know know how to create/restructure pages, this is the place for you. This (very brief) guide is about how to modify existing content, to e.g. rewrite or add paragraph. This is not the only way to modify content, but it is the easiest.
+
+When visiting any page, such as the [home page](https://juliapackagecomparisons.github.io/), there will be a "Page source" link in the top right:
+![image](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io/assets/61620837/4af9d61a-ddc5-4124-89df-049968ec64b4)
+
+If you click it, you will be taken to a github view of the file content. In it, there is a little edit button:
+![image](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io/assets/61620837/0a5be125-d487-4737-854e-3dcdd7614317)
+
+If you click it, you can change the page however you like. From there, you can "Commit changes...", which should guide you through the process of creating a branch, and creating a Pull Request. Once that Pull Request is merged, you changes will go live on the actual webpage!
+
 ### Build docs locally
 To instantly review any changes you make, it is useful to host the website locally.
 Whenever you propose changes to a GitHub project, it is a good idea to "Fork" the project.
