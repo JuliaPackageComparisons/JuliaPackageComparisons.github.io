@@ -6,6 +6,11 @@ title = "C & C++"
 
 \toc
 
+## Introduction
+C and C++ are cornerstone languages in software. While Julia and C/C++ occpy quite different places in the landscape of programming langugages, C/C++ is ubiquitous enough that interop can be important. Furthermore, Julia aims to exist in the domain of high-performance computing, which is a domain historically dominated by C/C++. There is therefore also conciderable overlap.
+
+Julia base has conciderable support for C, as detailed in the [manual page "Calling C and Fortran Code"](https://docs.julialang.org/en/v1/manual/calling-c-and-fortran-code/). The C interop functionality in Julia base is likely to be the most stable, and it is reasonably well documented. But if you find the API lacking, or want to call C++, you will have to use one of the packages listed below.
+
 ## Packages
 
 ### Clang.jl
@@ -18,6 +23,11 @@ title = "C & C++"
 {{badge Cxx}}
 
 >The Julia C++ Foreign Function Interface (FFI) and REPL.
+
+Despite Cxx.jl being part of the JuliaInterop organization, and both an established and much starred package, the README contains the following warning:  
+"Please, note that Cxx.jl only works (out of the box) currently with Julia 1.1.x to 1.3.x, i.e. with no currently supported Julia, while those versions can still be downloaded at Julialang.org."  
+
+You read that right - what may appear like the main package for C++ interop does not work with Julia version > `1.3`. It therefore appears that using Cxx.jl is not the best path for most users. I, the current author of this page, do unfortunately now have experience with the alternative packages below, and I am therefore unable to make a generic reccomendation. If you know better, please sumbit a PR and share your knowledge!
 
 ### CxxWrap.jl
 {{badge CxxWrap}}
@@ -32,7 +42,7 @@ title = "C & C++"
 
 ### jluna
 
-There is also [jluna](https://github.com/Clemapfel/jluna).
+There is also [jluna](https://github.com/Clemapfel/jluna), a younger project.
 From its README:
 
 >Julia is a beautiful language, it is well-designed, and well-documented. Julia's C-API is also well-designed, less beautiful, and much less... documented.
