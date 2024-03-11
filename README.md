@@ -36,4 +36,4 @@ This project aims to create a canonical and updated website that will
 ## Contributing
 This website is created by the users and developers of packages. That includes you! If you see something misleading or wrong, or if you have something to add, please create an [issue](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io/issues/new) or pull request for this repository.
 
-More detail on the specifics on how to contribute, including guides for beginners, is available in ["CONTRIBUTING.md"](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io/blob/main/CONTRIBUTING.md).
+More detail on the specifics on how to contribute, including guides for beginners, is available in ["docs/CONTRIBUTING.md"](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io/blob/main/CONTRIBUTING.md).
