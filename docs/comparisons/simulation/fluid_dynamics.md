@@ -10,7 +10,7 @@ title = "Fluid dynamics"
 In order to simulate the motion of fluids (liquids and gasses), one has to solve the [Navier Stokes Differential Equation](https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations). Solving those equations numerically, in a way that is both performant and accurate, is a difficult problem. While this is possible to do "manually" by using a package like [DifferentialEquations.jl](https://docs.sciml.ai/DiffEqDocs/stable/), there are higher-level alternatives that are tailored specifically for fluid simulations. It is generally reccomended to use such higher-level alternatives, when high performance and accuracy is the goal (as opposed to e.g. learning/teaching).
 
 ## Packages
-There are Julia packages for fluid simulations. Based on a superficial impression, they both seem very good. However, this page sorely lacks input from someone who has used one (or either!) of the packages. If you know anything about what it is like to use them, please concider submitting a pull request. A guide to help you through the process can be found [here](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io/blob/main/docs/contributing.md#modify-existing-content)
+There are two Julia packages for fluid simulations, which at first glance both appear seem very good. However, this page sorely lacks input from someone who has used one (or either!) of the packages. If you know anything about what it is like to use them, please concider submitting a pull request. A guide to help you through the process can be found [here](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io/blob/main/docs/contributing.md#modify-existing-content)
 
 ### Oceananigans.jl
 {{badge Oceananigans}}
