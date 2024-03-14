@@ -82,6 +82,21 @@ const PKGINFOS = [
   PkgInfo(pkgname="LazyJSON", username="JuliaCloud", branch="master", docslink=nothing),
   PkgInfo(pkgname="BSON", username="JuliaIO", branch="master", docslink=nothing),
   PkgInfo(pkgname="JSONRPC", username="julia-vscode", branch="master", docslink=nothing),
+  PkgInfo(pkgname="JSONRPC", username="julia-vscode", branch="master", docslink=nothing),
+  PkgInfo(pkgname="PropCheck", username="Seelengrab", branch="master"),
+  PkgInfo(pkgname="Supposition", username="Seelengrab", branch="master"),
+  PkgInfo(pkgname="ProfileView", username="timholy", branch="master"),
+  PkgInfo(pkgname="ProfileVega", username="davidanthoff", branch="master"),
+  PkgInfo(pkgname="StatProfilerHTML", username="tkluck", branch="master"),
+  PkgInfo(pkgname="ProfileSVG", username="kimikage", branch="master"),
+  PkgInfo(pkgname="PProf", username="JuliaPerf", branch="master"),
+  PkgInfo(pkgname="ProfileCanvas", username="pfitzseb", branch="master"),
+  PkgInfo(pkgname="BenchmarkTools", username="JuliaCI", branch="master"),
+  PkgInfo(pkgname="Chairmarks", username="LilithHafner", branch="master"),
+  PkgInfo(pkgname="PkgBenchmark", username="JuliaCI", branch="master"),
+  PkgInfo(pkgname="BenchmarkCI", username="tkf", branch="master"),
+  PkgInfo(pkgname="AirspeedVelocity", username="MilesCranmer", branch="master"),
+  PkgInfo(pkgname="PkgJogger", username="awadell1", branch="master"),
 ]
 
 function get_pkginfo(pkgname)
