@@ -85,6 +85,7 @@ const PKGINFOS = [
   PkgInfo(pkgname="JSONRPC", username="julia-vscode", branch="master", docslink=nothing),
   PkgInfo(pkgname="PropCheck", username="Seelengrab", branch="master"),
   PkgInfo(pkgname="Supposition", username="Seelengrab", branch="master"),
+  PkgInfo(pkgname="JCheck", username="ps-pat", branch="master"),
   PkgInfo(pkgname="ProfileView", username="timholy", branch="master"),
   PkgInfo(pkgname="ProfileVega", username="davidanthoff", branch="master"),
   PkgInfo(pkgname="StatProfilerHTML", username="tkluck", branch="master"),

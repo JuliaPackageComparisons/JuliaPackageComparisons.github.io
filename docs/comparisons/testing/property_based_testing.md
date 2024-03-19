@@ -13,7 +13,7 @@ There are two main packages in this domain: [PropCheck.jl](#propcheckjl), and th
 
 Supposition.jl is heavily inspired by the python library [Hypothesis](https://hypothesis.readthedocs.io/en/latest/), whereas PropCheck.jl is inspired by the Haskell library Hedgehog. For those interested in the differences beyond the surface level, the package author recommends [this comparison blogpost between QuickCheck, Hedgehog and Hypothesis](https://seelengrab.github.io/articles/The%20properties%20of%20QuickCheck,%20Hedgehog%20and%20Hypothesis/) as a starting point.
 
-{{star_history PropCheck Supposition}}
+{{star_history PropCheck Supposition JCheck}}
 ## Packages
 
 ### PropCheck.jl
@@ -23,6 +23,10 @@ PropCheck is the original package for Property Based Testing, and is therefore m
 ### Supposition.jl
 {{badge Supposition}}
 Supposition.jl is very new, and has not yet proven itself. However, as the maker of the package has also created the battle-tested PropCheck, experience from that project has without a doubt gone into making Supposition, meaning that it is likely more stable and well-though out than the package age suggests. 
+
+### JCheck.jl
+{{badge JCheck}}
+This package is mentioned for completeness. It appears to be a functional package and thereby a valid alternative, but it no longer appears maintained. Given the age, starts and activity of [PropCheck](#propcheckjl), and that it's developer also made [Supposition.jl](#suppositionjl), it seems likely that this package is overall worse for most users.
 
 ## Related Posts
 - [Supposition.jl release announcement](https://discourse.julialang.org/t/ann-supposition-jl/111338).
