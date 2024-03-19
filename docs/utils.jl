@@ -82,6 +82,8 @@ const PKGINFOS = [
   PkgInfo(pkgname="LazyJSON", username="JuliaCloud", branch="master", docslink=nothing),
   PkgInfo(pkgname="BSON", username="JuliaIO", branch="master", docslink=nothing),
   PkgInfo(pkgname="JSONRPC", username="julia-vscode", branch="master", docslink=nothing),
+  PkgInfo(pkgname="Franklin", username="tlienart", branch="master"),
+  PkgInfo(pkgname="StaticWebPages", username="Humans-of-Julia", branch="master"),
 ]
 
 function get_pkginfo(pkgname)
