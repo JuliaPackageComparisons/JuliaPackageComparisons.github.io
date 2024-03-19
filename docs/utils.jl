@@ -84,6 +84,12 @@ const PKGINFOS = [
   PkgInfo(pkgname="JSONRPC", username="julia-vscode", branch="master", docslink=nothing),
   PkgInfo(pkgname="Franklin", username="tlienart", branch="master"),
   PkgInfo(pkgname="StaticWebPages", username="Humans-of-Julia", branch="master"),
+  PkgInfo(pkgname="DataFrames", username="JuliaData", branch="master"),
+  PkgInfo(pkgname="InMemoryDatasets", username="sl-solution", branch="master"),
+  PkgInfo(pkgname="JuliaDB", username="JuliaData", branch="master"),
+  PkgInfo(pkgname="Tidier", username="TidierOrg", branch="master"),
+  PkgInfo(pkgname="DTables", username="JuliaParallel", branch="master"),
+
 ]
 
 function get_pkginfo(pkgname)
