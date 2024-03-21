@@ -19,7 +19,7 @@ BenchmarkTools is is widely used, and beloved by the Julia community, who cares 
 
 ### Chairmarks
 {{badge Chairmarks}}
-Chairmarks.jl is a relatively new benchmarking package, which makes the following claim in it's [documentation](https://chairmarks.lilithhafner.com/v1.2.0/): "Chairmarks measures performance hundreds of times faster than BenchmarkTools without compromising on accuracy". So that is the upside. The downside is that it is not yet battle-tested. If want to run your benchmarks faster, then Chairmarks might be very interesting. This is particularly relevant for [packages that measure the runtime of other packages](#packages-that-measure-runtime-of-packages).
+Chairmarks.jl is a relatively new benchmarking package, which makes the following claim in it's [documentation](https://chairmarks.lilithhafner.com/stable/): "Chairmarks measures performance hundreds of times faster than BenchmarkTools without compromising on accuracy". So that is the upside. The downside is that it is not yet battle-tested. If want to run your benchmarks faster, then Chairmarks might be very interesting. This is particularly relevant for [packages that measure the runtime of other packages](#packages-that-measure-runtime-of-packages).
 
 ## Packages that measure runtime of packages
 It is often interesting to see how the runtime changes between each commit to a package, to ensure that changes intended to add features or improve readability or correctness, do not accidentally cause runtime regression. Below are a list of packages that provide utilities for this, which generally build on the packages shown above.
