@@ -82,7 +82,6 @@ const PKGINFOS = [
     PkgInfo(pkgname="LazyJSON", username="JuliaCloud", branch="master", docslink=nothing),
     PkgInfo(pkgname="BSON", username="JuliaIO", branch="master", docslink=nothing),
     PkgInfo(pkgname="JSONRPC", username="julia-vscode", branch="master", docslink=nothing),
-    PkgInfo(pkgname="JSONRPC", username="julia-vscode", branch="master", docslink=nothing),
     PkgInfo(pkgname="PropCheck", username="Seelengrab", branch="master"),
     PkgInfo(pkgname="Supposition", username="Seelengrab", branch="master"),
     PkgInfo(pkgname="JCheck", username="ps-pat", branch="master"),
@@ -101,7 +100,9 @@ const PKGINFOS = [
     PkgInfo(pkgname="FactCheck", username="JuliaAttic", branch="master", docslink=nothing),
     PkgInfo(pkgname="Spec", username="zenna", branch="master"),
     PkgInfo(pkgname="TestTools", username="velexi-research", branch="master"),
-
+    PkgInfo(pkgname="IntervalSets", username="JuliaMath", branch="master"),
+    PkgInfo(pkgname="Intervals", username="invenia", branch="master"),
+    PkgInfo(pkgname="IntervalArithmetic", username="JuliaIntervals", branch="master"),
 ]
 
 function get_pkginfo(pkgname)

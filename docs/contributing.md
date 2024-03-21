@@ -1,7 +1,7 @@
 # Contributing
 Thanks for showing interest in contributing to Julia Package Comparisons!
 This page is intended to inform people who want to contribute on how to do it.
-It will contain conventions for how things are normally done, and guides on how to do specific things.
+It will contain conventions for how things are normally done, and guides on how to do specific things. Most people who end up here will probably be most interested in [this guide](#modify-existing-content) on how to modify existing content.
 
 \toc
 
