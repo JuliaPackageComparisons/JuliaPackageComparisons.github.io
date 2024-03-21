@@ -146,13 +146,19 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>comparisons/simulation/control_systems/index.html</loc>
+    <loc>comparisons/interoperability/c_cpp/index.html</loc>
     <lastmod>2024-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>comparisons/data_structure/dataframes/index.html</loc>
+    <lastmod>2024-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>comparisons/simulation/control_systems/index.html</loc>
     <lastmod>2024-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
