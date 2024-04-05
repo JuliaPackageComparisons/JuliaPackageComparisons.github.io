@@ -110,6 +110,13 @@ const PKGINFOS = [
     PkgInfo(pkgname="JuliaDB", username="JuliaData", branch="master"),
     PkgInfo(pkgname="Tidier", username="TidierOrg", branch="master"),
     PkgInfo(pkgname="DTables", username="JuliaParallel", branch="master"),
+    PkgInfo(pkgname="WaterLily", username="weymouth", branch="master"),
+    PkgInfo(pkgname="Oceananigans", username="CliMA", branch="main"),
+    PkgInfo(pkgname="Clang", username="JuliaInterop", branch="master"),
+    PkgInfo(pkgname="CBinding", username="analytech-solutions", branch="master"),
+    PkgInfo(pkgname="Cxx", username="JuliaInterop", branch="master"),
+    PkgInfo(pkgname="CxxWrap", username="JuliaInterop", docslink=nothing),
+    PkgInfo(pkgname="PerfChecker", username="JuliaConstraints", docslink=nothing),
 ]
 
 function get_pkginfo(pkgname)

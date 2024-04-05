@@ -12,7 +12,7 @@ The different packages that implement more advanced piping functionality are lis
 ## Packages
 ### Chain.jl
 {{badge Chain}}
-[Chain.jl](https://github.com/jkrumbiegel/Chain.jl) is the most starred package that purely implements piping functionality. It describes itself as follows:
+[Chain.jl](https://github.com/jkrumbiegel/Chain.jl) is the most starred package that _purely_ implements piping functionality. It describes itself as follows:
 > A Julia package for piping a value through a series of transformation expressions using a more convenient syntax than Julia's native piping functionality.
 
 ### Lazy.jl
