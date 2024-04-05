@@ -109,6 +109,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="CBinding", username="analytech-solutions", branch="master"),
     PkgInfo(pkgname="Cxx", username="JuliaInterop", branch="master"),
     PkgInfo(pkgname="CxxWrap", username="JuliaInterop", docslink=nothing),
+    PkgInfo(pkgname="PerfChecker", username="JuliaConstraints", docslink=nothing),
 ]
 
 function get_pkginfo(pkgname)
