@@ -103,6 +103,12 @@ const PKGINFOS = [
     PkgInfo(pkgname="IntervalSets", username="JuliaMath", branch="master"),
     PkgInfo(pkgname="Intervals", username="invenia", branch="master"),
     PkgInfo(pkgname="IntervalArithmetic", username="JuliaIntervals", branch="master"),
+    PkgInfo(pkgname="WaterLily", username="weymouth", branch="master"),
+    PkgInfo(pkgname="Oceananigans", username="CliMA", branch="main"),
+    PkgInfo(pkgname="Clang", username="JuliaInterop", branch="master"),
+    PkgInfo(pkgname="CBinding", username="analytech-solutions", branch="master"),
+    PkgInfo(pkgname="Cxx", username="JuliaInterop", branch="master"),
+    PkgInfo(pkgname="CxxWrap", username="JuliaInterop", docslink=nothing),
 ]
 
 function get_pkginfo(pkgname)
