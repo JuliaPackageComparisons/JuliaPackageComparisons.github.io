@@ -38,6 +38,9 @@ It is often interesting to see how the runtime changes between each commit to a 
 ### PkgJogger
 {{badge PkgJogger}}
 
+### PerfChecker
+{{badge PerfChecker}}
+
 ## Useful Links
 - A lot of good discussion about why making a new package, initial bugs with Chairmarks, and general dicusssion on benchmarking can be found in the [release announcement of Chairmarks](https://discourse.julialang.org/t/chairmarks-jl/111096/3).
 
