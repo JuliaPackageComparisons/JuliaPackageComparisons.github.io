@@ -8,6 +8,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>comparisons/dataio/fileio/index.html</loc>
+    <lastmod>2024-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>comparisons/machine_learning/machine_learning_datasets/index.html</loc>
     <lastmod>2024-04-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -15,6 +21,12 @@
 </url>
 <url>
     <loc>comparisons/testing/profiling/index.html</loc>
+    <lastmod>2024-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>comparisons/dataio/analogio/index.html</loc>
     <lastmod>2024-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -33,12 +45,6 @@
 </url>
 <url>
     <loc>comparisons/testing/about_testing/index.html</loc>
-    <lastmod>2024-04-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>comparisons/fileio/saving_files/index.html</loc>
     <lastmod>2024-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -128,6 +134,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>comparisons/dataio/index.html</loc>
+    <lastmod>2024-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>comparisons/math/intervals/index.html</loc>
     <lastmod>2024-04-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -153,6 +165,12 @@
 </url>
 <url>
     <loc>comparisons/utility/redefinable_structs/index.html</loc>
+    <lastmod>2024-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>comparisons/dataio/networkio/index.html</loc>
     <lastmod>2024-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -207,12 +225,6 @@
 </url>
 <url>
     <loc>comparisons/web/index.html</loc>
-    <lastmod>2024-04-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>comparisons/fileio/json/index.html</loc>
     <lastmod>2024-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
