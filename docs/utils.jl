@@ -117,6 +117,32 @@ const PKGINFOS = [
     PkgInfo(pkgname="Cxx", username="JuliaInterop", branch="master"),
     PkgInfo(pkgname="CxxWrap", username="JuliaInterop", docslink=nothing),
     PkgInfo(pkgname="PerfChecker", username="JuliaConstraints", docslink=nothing),
+    PkgInfo(pkgname="NIDAQ", username="JaneliaSciComp", branch="master", docslink=nothing),
+    PkgInfo(pkgname="LabJack", username="wsphillips", branch="master", docslink=nothing),
+    PkgInfo(pkgname="RedPitayaDAQServer", username="tknopp", branch="master", repolink="https://github.com/tknopp/RedPitayaDAQServer"),
+    PkgInfo(pkgname="DashDaq", username="plotly", branch="master", docslink=nothing),
+    PkgInfo(pkgname="PiGPIO", username="JuliaBerry", branch="master"),
+    PkgInfo(pkgname="BaremetalPi", username="ronisbr", branch="master", docslink=nothing),
+    PkgInfo(pkgname="CSV", username="JuliaData"),
+    PkgInfo(pkgname="XLSX", username="felipenoris", branch="master"),
+    PkgInfo(pkgname="Arrow", username="apache", repolink="https://github.com/apache/arrow-julia", docslink="https://arrow.apache.org/julia/"),
+    # PkgInfo(pkgname="Parquet2", username="ExpandingMan"),  # GitLab hosted!
+    PkgInfo(pkgname="Parquet", username="JuliaIO", branch="master"),
+    PkgInfo(pkgname="MAT", username="JuliaIO", branch="master"),
+    PkgInfo(pkgname="Taro", username="aviks", branch="master"),
+    PkgInfo(pkgname="FileIO", username="JuliaIO", branch="master", docslink="https://juliaio.github.io/FileIO.jl/"),
+    PkgInfo(pkgname="ImageIO", username="JuliaIO", branch="master", docslink=nothing),
+    PkgInfo(pkgname="ExcelReaders", username="queryverse", branch="master", docslink=nothing),
+    PkgInfo(pkgname="ExcelFiles", username="queryverse", branch="master", docslink=nothing),
+    PkgInfo(pkgname="JLD", username="JuliaIO", branch="master", docslink=nothing),
+    PkgInfo(pkgname="JLD2", username="JuliaIO", branch="master", docslink=nothing),
+    PkgInfo(pkgname="LightBSON", username="ancapdev", branch="master", docslink=nothing),
+    PkgInfo(pkgname="DelimitedFiles", username="JuliaData", docslink="http://delimitedfiles.juliadata.org/dev/"),
+    PkgInfo(pkgname="CSVFiles", username="queryverse", branch="master", docslink=nothing),
+    PkgInfo(pkgname="ChunkedCSV", username="RelationalAI", docslink=nothing),
+    PkgInfo(pkgname="TableReader", username="bicycle1885 "),
+    PkgInfo(pkgname="DLMReader", username="sl-solution"),
+    PkgInfo(pkgname="ReadWriteDlm2", username="strickek", docslink=nothing),
 ]
 
 function get_pkginfo(pkgname)
@@ -152,9 +178,10 @@ function hfun_badge(args)
   <a href="https://juliahub.com/ui/Packages/General/$pkgname"><img src="https://juliahub.com/docs/General/$pkgname/stable/version.svg" alt="version"></a>
   """
 
+  # <a href="$repolink"><img src="https://img.shields.io/github/stars/$username/$pkgname.jl?style=social" alt="GitHub Repo stars"></a>
   return """
   <div class="badge">
-  <a href="$repolink"><img src="https://img.shields.io/github/stars/$username/$pkgname.jl?style=social" alt="GitHub Repo stars"></a>
+  <a href="$repolink"><img src="https://img.shields.io/github/stars/$(repolink[begin+length("https://github.com/"):end])?style=social" alt="GitHub Repo stars"></a>
   $html_deps
   $html_downloads
   <br>
