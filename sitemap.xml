@@ -38,12 +38,6 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>comparisons/data_structure/graphs/index.html</loc>
-    <lastmod>2024-04-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>comparisons/fileio/saving_files/index.html</loc>
     <lastmod>2024-04-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -122,12 +116,6 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>comparisons/data_structure/dataframes/index.html</loc>
-    <lastmod>2024-04-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>comparisons/testing/property_based_testing/index.html</loc>
     <lastmod>2024-04-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -147,6 +135,12 @@
 </url>
 <url>
     <loc>comparisons/simulation/fluid_dynamics/index.html</loc>
+    <lastmod>2024-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>comparisons/data_structures/graphs/index.html</loc>
     <lastmod>2024-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -206,6 +200,18 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>comparisons/data_structures/dataframes/index.html</loc>
+    <lastmod>2024-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>comparisons/web/index.html</loc>
+    <lastmod>2024-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>comparisons/fileio/json/index.html</loc>
     <lastmod>2024-04-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -243,6 +249,12 @@
 </url>
 <url>
     <loc>comparisons/performance_enhancement/loop_acceleration/index.html</loc>
+    <lastmod>2024-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>comparisons/data_structures/index.html</loc>
     <lastmod>2024-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
