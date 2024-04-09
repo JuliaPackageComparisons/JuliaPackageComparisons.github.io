@@ -143,6 +143,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="TableReader", username="bicycle1885", branch="master"),
     PkgInfo(pkgname="DLMReader", username="sl-solution"),
     PkgInfo(pkgname="ReadWriteDlm2", username="strickek", docslink=nothing),
+    PkgInfo(pkgname="uCSV", username="cjprybol", branch="master", ),
 ]
 
 function get_pkginfo(pkgname)

@@ -77,7 +77,7 @@ The most starred file I/O package of all is CSV.jl. It is well established and t
 
 See also [FileIO.jl](#fileiojl), which can also read delimited files.
 
-{{star_history CSV DelimitedFiles CSVFiles ChunkedCSV TableReader DLMReader ReadWriteDlm2}}
+{{star_history CSV DelimitedFiles CSVFiles ChunkedCSV TableReader DLMReader ReadWriteDlm2 uCSV}}
 
 #### CSV.jl
 {{badge CSV}}
@@ -105,6 +105,10 @@ While this package has a very impressive [release announcement](https://discours
 #### ReadWriteDlm2.jl
 {{badge ReadWriteDlm2}}
 > ReadWriteDlm2 functions `readdlm2()`,` writedlm2()`, `readcsv2()` and `writecsv2()` are similar to those of [DelimitedFiles.jl](#delimitedfilesjl), but with additional support for Dates formats, Complex, Rational, Missing types and special decimal marks. ReadWriteDlm2 supports the Tables.jl interface.
+
+#### uCSV.jl
+{{badge uCSV}}
+> A Julia package for reading and writing delimited-text; µ in size, ∞ in flexibility
 
 ### Arrow.jl
 {{badge Arrow}}
