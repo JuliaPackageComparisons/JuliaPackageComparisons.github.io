@@ -85,7 +85,7 @@ julia> quatvalues(s+2i+3j+4k)
 ```
 
 As a result of the framework of geometric algebra implemented in `Grassmann`, vector algebra and quaternion algebra are compatible in a unified formalism.
-Given a quaternion operator `R` and a vector `x` the operator can be applied with either the `R>>>x` (evaluated as `R*x*reverse(R)` operator) or `x⊘R` (evaluated as `reverse(R)*x*involute(R)` operator) to transform vectors with quaternions.
+Given a quaternion operator `R` and a vector `x` the operator can be applied with either the `R>>>x` (evaluated as `R*x*conj(R)` operator) or `x⊘R` (evaluated as `conj(R)*x*R` operator) to transform vectors with quaternions.
 
 ```Julia
 julia> v1 ⊘ exp(π*i/2)
