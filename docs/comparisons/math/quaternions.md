@@ -61,6 +61,48 @@ There was an [issue#25](https://github.com/JuliaSpace/ReferenceFrameRotations.jl
 {{badge Grassmann}}
 [Grassmann.jl](https://github.com/chakravala/Grassmann.jl) does not implement `Quaternion` as a struct, but quaternions are realized as an alias `Grassmann.Quaternion (alias for Spinor{V, T, 4} where {V, T})`.
 
+While a quaternion is an even grade element, in `Grassmann` the exterior algebra basis of 3 independent dimensions is used to represent tensors in a combinatorial way.
+There are several ways to assign `i,j,k` with `Grassmann` elements, perhaps the standard would be `i = v12`, `j = -v13`, `k = v23` (although this is not a unique choice).
+Since `j` and `v13` have opposite sign in this notation, the `quatvalues` method is exported to output the coefficients with the convention `s,i,j,k` with the sign convention mentioned for convenience.
+The basis elements `v12,v13,v23` are sparse and do not assign a full 4 value quaternion unless combined with algebra, which is not confined to only quaternion algebra here.
+
+```Julia
+julia> using Grassmann; basis"3"
+(⟨×××⟩, v, v₁, v₂, v₃, v₁₂, v₁₃, v₂₃, v₁₂₃)
+
+julia> s,i,j,k = v,v12,-v13,v23
+(v, v₁₂, -1v₁₃, v₂₃)
+
+julia> i*j == k
+true
+
+julia> quatvalues(s+2i+3j+4k)
+4-element StaticVectors.Values{4, Int64} with indices SOneTo(4):
+ 1
+ 2
+ 3
+ 4
+```
+
+As a result of the framework of geometric algebra implemented in `Grassmann`, vector algebra and quaternion algebra are compatible in a unified formalism.
+Given a quaternion operator `R` and a vector `x` the operator can be applied with either the `>>>` (evaluated as `R*x*reverse(R)` operator) or `⊘` (evaluated as `reverse(R)*x*involute(R)` operator) to transform vectors with quaternions.
+
+```Julia
+julia> v1 ⊘ exp(π*i/2)
+-1.0v₁ + 1.2246467991473532e-16v₂ + 0.0v₃
+
+julia> v1 ⊘ exp(π*i/4)
+2.220446049250313e-16v₁ + 1.0v₂ + 0.0v₃
+
+julia> v1 ⊘ exp(π*i/8)
+0.7071067811865475v₁ + 0.7071067811865476v₂ + 0.0v₃
+
+julia> (v1+v2+v3) ⊘ exp(π*i/8+j*π/3)
+-0.1577202379738252v₁ + 1.6085211528719414v₂ - 0.6227230743251773v₃
+```
+
+A rotation matrix could be obtained from the input of `v1,v2,v3` into the operator.
+
 ## Related discourse posts
 * [Taking Quaternions Seriously](https://discourse.julialang.org/t/taking-quaternions-seriously/44834)
 * [[ANN] Quaternions.jl v0.7.0](https://discourse.julialang.org/t/ann-quaternions-jl-v0-7-0/91368)
