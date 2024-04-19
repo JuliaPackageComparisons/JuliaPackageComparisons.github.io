@@ -13,7 +13,7 @@ Attaching physical units directly to numbers allows things such as automatic uni
 The most mature package for working with units is [Unitful.jl](https://github.com/PainterQubits/Unitful.jl). Is handles a wide variety of units, unit conversion, and unit checking. It describes it's goals as follows:
 > Unitful is a Julia package for physical units. We want to support not only SI units but also any other unit system. We also want to minimize or in some cases eliminate the run-time penalty of units. There should be facilities for dimensional analysis. All of this should integrate easily with the usual mathematical operations and collections that are found in Julia base.
 
-There is a rich ecosystem around Unitful that implements things such as plotting recipes, and specific units for specific fields.
+There is a rich ecosystem around Unitful. There is [UnitfulRecipes.jl](https://github.com/jw3126/UnitfulRecipes.jl) that provides Plots.jl recipes for Unitful.jl. There are also a number of packages that extent Unitful.jl into specific fields: [UnitfulMoles.jl](https://github.com/rafaqz/UnitfulMoles.jl), [UnitfulAtomic.jl](https://github.com/sostock/UnitfulAtomic.jl), [UnitfulAstro.jl](https://github.com/JuliaAstro/UnitfulAstro.jl), [NaturallyUnitful.jl](https://github.com/MasonProtter/NaturallyUnitful.jl), and [UnitfulUS.jl](https://github.com/PainterQubits/UnitfulUS.jl).
 
 ## DynamicQuantities.jl
 {{badge DynamicQuantities}}
