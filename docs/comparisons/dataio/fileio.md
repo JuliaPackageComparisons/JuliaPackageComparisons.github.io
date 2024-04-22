@@ -14,7 +14,7 @@ There are many file formats, and they are good for different things. Some format
 
 ## Overview
 Because most packages work for different files, they are not in direct competition, and a comparison does not make much sense. It is more appropriate to compare options that all operate on the same file type, or with the same purpose. With that said, here is a comparison of all the packages on this page:
-{{ star_history FileIO ImageIO CSV Arrow Parquet MAT XLSX JSON JSON2 JSON3 JSONBase LazyJSON BSON LightBSON JSONRPC JLD2 JLD}}
+{{ star_history FileIO ImageIO CSV Arrow Parquet MAT XLSX JSON JSON2 JSON3 JSONBase LazyJSON BSON LightBSON JSONRPC JLD2 JLD JLSO JDF Serde}}
 
 ## Packages
 There are three types of subsections under "Packages":
@@ -36,27 +36,24 @@ Images can be loaded with [FileIO.jl](#file-io). However, there are two other al
 #### ImageIO.jl
 {{badge ImageIO}}
 
-### Saving Arbitrary Julia Objects
-If it often useful to save variables stored in your julia session, and be able to redefine them in a new julia session. For example if one of the variables is the result of a long-running computation. There several packages that are good for this specific use case. The general recommendation is **JLD2.jl**.
+### Saving Arbitrary Julia Objects (Serializatoin)
+If it often useful to save variables stored in your julia session, and to be able to redefine them in a new julia session. For example if one of the variables is the result of a long-running computation. There several packages that are good for this specific use case. The general recommendation is **JLD2.jl**.
 
 All options listed in this subsection support saving and loading just about anything you throw at it: Numbers, arrays, functions, even user-defined structs. This is generally done by saving a dictionary, where the keys are usually the variable name, and the values are the thing being saved:
+
 ```julia
-julia> using FileIO  # FileIO uses JLD2 under the hood, given a .jld2 filename
+julia> using JLD2
 
 julia> my_func(x) = x^2
 my_func (generic function with 1 method)
 
 julia> save("test.jld2", Dict(["my_func"=>my_func]))
 
-julia> loaded_func = load("test.jld2")
-Dict{String, Any} with 1 entry:
-  "my_func" => my_func
-
-julia> loaded_func["my_func"](3)  # Computes 3^2
-9
+julia> loaded_func = load("test.jld2")["my_func"]; loaded_func(4)
+16  # Computed 4^2
 ```
 
-{{star_history JLD2 JLD BSON}}
+{{star_history JLD2 JLD JLSO BSON Serde}}
 
 See also [FileIO.jl](#fileiojl), which can also save arbitrary julia objects by calling the listed packages internally.
 
@@ -64,9 +61,30 @@ See also [FileIO.jl](#fileiojl), which can also save arbitrary julia objects by 
 {{badge JLD2}}
 At at initial glance, the difference between JLD2 and JLD comes down to the fact that JLD2 is "without any dependency on the HDF5 C library".
 
+JLD2 allows the user to save all variables in the current module's global scope using the syntax `@save filename`.
+
 #### JLD.jl
 {{badge JLD}}
 The original package for saving arbitrary julia objects. It seems like new users should prefer to use JLD2, and that this is mostly a legacy package.
+
+#### JLSO.jl
+> Julia Serialized Object (JLSO) file format for storing checkpoint data. 
+```julia
+julia> using JLSO, Dates
+
+julia> JLSO.save("breakfast.jlso", :food => "☕️🥓🍳", :cost => 11.95, :time => Time(9, 0))
+
+julia> loaded = JLSO.load("breakfast.jlso")
+Dict{Symbol,Any} with 3 entries:
+  :cost => 11.95
+  :food => "☕️🥓🍳"
+  :time => 09:00:00
+```
+
+#### Serde.jl
+> Serde is a Julia library for (de)serializing data to/from various formats. The library offers a simple and concise API for defining custom (de)serialization behavior for user-defined types.
+
+Inspired by the serde.rs Rust library, it supports (de)serialization of the following data formats: JSON, TOML, XML, YAML, CSV, Query. Support for MsgPack and BSON is planned.
 
 ### CSV and other delimited files
 CSV stands for comma seperated values, and comma is the most common delimiter in delimited files. Other common options include tab and semicolon. All delimited files are human readable, and use plain text encoding. This can make them especially easy to write, and read directly as plain text. The main drawback is that such delimited files are not the fastest nor the smallest option for working with data.
@@ -215,5 +233,15 @@ From its README:
 * [Should I still be using JSON.jl?](https://discourse.julialang.org/t/should-i-still-be-using-json-jl/50809)
 * [So many JSON libraries; which should I use? (reddit)](https://www.reddit.com/r/Julia/comments/ni7dgk/so_many_json_libraries_which_should_i_use/)
 
+### JDF.jl
+JDF is a DataFrames serialization format with the following goals:
+- Fast save and load times
+- Compressed storage on disk
+- Enable disk-based data manipulation (not yet achieved)
+- Supports machine learning workloads, e.g. mini-batch, sampling (not yet achieved)
 
+JDF.jl is the Julia package for all things related to JDF.
+
+
+## Disclaimer
 This section could use some love. If you have used or developed Julia packages in this domain, we would love your help! Please visit the ["Contributing" section](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io#contributing) of the [repository that hosts this website](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io) for information on how to contribute.

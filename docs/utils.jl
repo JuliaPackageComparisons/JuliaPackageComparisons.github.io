@@ -144,6 +144,10 @@ const PKGINFOS = [
     PkgInfo(pkgname="DLMReader", username="sl-solution"),
     PkgInfo(pkgname="ReadWriteDlm2", username="strickek", docslink=nothing),
     PkgInfo(pkgname="uCSV", username="cjprybol", branch="master", ),
+    PkgInfo(pkgname="JLSO", username="invenia", branch="master", ),
+    PkgInfo(pkgname="JDF", username="xiaodaigh", docslink=nothing),
+    PkgInfo(pkgname="Serde", username="bhftbootcamp", branch="master"),
+    # PkgInfo(pkgname="LopShelve", username="machkouroke", docslink="https://lopuniverse.me/LopShelve.jl/"),
 ]
 
 function get_pkginfo(pkgname)
