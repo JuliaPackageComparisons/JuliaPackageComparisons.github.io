@@ -36,7 +36,7 @@ Images can be loaded with [FileIO.jl](#file-io). However, there are two other al
 #### ImageIO.jl
 {{badge ImageIO}}
 
-### Saving Arbitrary Julia Objects (Serializatoin)
+### Saving Arbitrary Julia Objects (Serialization)
 If it often useful to save variables stored in your julia session, and to be able to redefine them in a new julia session. For example if one of the variables is the result of a long-running computation. There several packages that are good for this specific use case. The general recommendation is **JLD2.jl**.
 
 All options listed in this subsection support saving and loading just about anything you throw at it: Numbers, arrays, functions, even user-defined structs. This is generally done by saving a dictionary, where the keys are usually the variable name, and the values are the thing being saved:
