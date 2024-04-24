@@ -61,47 +61,25 @@ There was an [issue#25](https://github.com/JuliaSpace/ReferenceFrameRotations.jl
 {{badge Grassmann}}
 [Grassmann.jl](https://github.com/chakravala/Grassmann.jl) does not implement `Quaternion` as a struct, but quaternions are realized as an alias `Grassmann.Quaternion (alias for Spinor{V, T, 4} where {V, T})`.
 
-While a quaternion is an even grade element, in `Grassmann` the exterior algebra basis of 3 independent dimensions is used to represent tensors in a combinatorial way.
+Quaternion algebra exists as a specialized sub-algebra within a more general `Grassmann` geometric algebra, where the goal is to seamleessly transition between quaternion abstractions and further combinatorial generalizations.
 There are several ways to assign `i,j,k` with `Grassmann` elements, perhaps the standard would be `i = v12`, `j = -v13`, `k = v23` (although this is not a unique choice).
-Since `j` and `v13` have opposite sign in this notation, the `quatvalues` method is exported to output the coefficients with the convention `s,i,j,k` with the sign convention mentioned for convenience.
-The basis elements `v12,v13,v23` are sparse and do not assign a full 4 value quaternion unless combined with algebra, which is not confined to only quaternion algebra here.
+Since `j` and `v13` have opposite sign in this notation, the `quatvalues` method is exported to output the coefficients with the sign convention of `s,i,j,k`.
+* assign `Grassmann` elements for quaternion usage: `using Grassmann; basis"3"`
+* combinatorial basis: `v, v₁, v₂, v₃, v₁₂, v₁₃, v₂₃, v₁₂₃` or `v, v1, v2, v3, v12, v13, v23, v123`
+* assign quaternion basis: `s, i, j, k = v, v12, -v13, v23` could be a standard choice
+* `quatvalues(::Quaternion)` returns the coefficient values according to the `s, i, j, k` standard
+* `quaternion(s,i,j,k)` returns the `Grassmann` quaternion from the `s, i, j, k` standard
 
+Converting a quaternion operator `R` on a three dimensional vector to a matrix (with the `x⊘R` evaluation)  can be done with `Matrix(operator(R))` for convenience.
 ```Julia
-julia> using Grassmann; basis"3"
-(⟨×××⟩, v, v₁, v₂, v₃, v₁₂, v₁₃, v₂₃, v₁₂₃)
-
-julia> s,i,j,k = v,v12,-v13,v23
-(v, v₁₂, -1v₁₃, v₂₃)
-
-julia> i*j == k
-true
-
-julia> quatvalues(s+2i+3j+4k)
-4-element StaticVectors.Values{4, Int64} with indices SOneTo(4):
- 1
- 2
- 3
- 4
+julia> Matrix(operator(exp(v12*π/8)))
+3×3 Matrix{Float64}:
+ 0.707107  -0.707107  0.0
+ 0.707107   0.707107  0.0
+ 0.0        0.0       1.0
 ```
-
 As a result of the framework of geometric algebra implemented in `Grassmann`, vector algebra and quaternion algebra are compatible in a unified formalism.
 Given a quaternion operator `R` and a vector `x` the operator can be applied with either the `R>>>x` (evaluated as `R*x*conj(R)` operator) or `x⊘R` (evaluated as `conj(R)*x*R` operator) to transform vectors with quaternions.
-
-```Julia
-julia> v1 ⊘ exp(π*i/2)
--1.0v₁ + 1.2246467991473532e-16v₂ + 0.0v₃
-
-julia> v1 ⊘ exp(π*i/4)
-2.220446049250313e-16v₁ + 1.0v₂ + 0.0v₃
-
-julia> v1 ⊘ exp(π*i/8)
-0.7071067811865475v₁ + 0.7071067811865476v₂ + 0.0v₃
-
-julia> (v1+v2+v3) ⊘ exp(π*i/8+j*π/3)
--0.1577202379738252v₁ + 1.6085211528719414v₂ - 0.6227230743251773v₃
-```
-
-A rotation matrix could be obtained from the input of `v1,v2,v3` into the operator.
 
 ## Related discourse posts
 * [Taking Quaternions Seriously](https://discourse.julialang.org/t/taking-quaternions-seriously/44834)
