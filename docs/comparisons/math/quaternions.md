@@ -67,9 +67,9 @@ Quaternion algebra exists as a specialized sub-algebra within a more general `Gr
 There are several ways to assign `i,j,k` with `Grassmann` elements, perhaps the standard would be `i = v12`, `j = -v13`, `k = v23` (although this is not a unique choice).
 Since `j` and `v13` have opposite sign in this notation, the `quatvalues` method is exported to output the coefficients with the sign convention of `s,i,j,k`.
 * assign `Grassmann` elements for quaternion usage: `using Grassmann; basis"3"`
-* combinatorial basis: `v, v₁, v₂, v₃, v₁₂, v₁₃, v₂₃, v₁₂₃` or `v, v1, v2, v3, v12, v13, v23, v123`
+* basis: `v, v₁, v₂, v₃, v₁₂, v₁₃, v₂₃, v₁₂₃` or `v, v1, v2, v3, v12, v13, v23, v123`
 * assign quaternion basis: `s, i, j, k = v, v12, -v13, v23` could be a standard choice
-* `quatvalues(::Quaternion)` returns the coefficient values according to the `s, i, j, k` standard
+* `quatvalues(::Quaternion)` returns the coefficient values according to `s, i, j, k`
 * `quaternion(s,i,j,k)` returns the `Grassmann` quaternion from the `s, i, j, k` standard
 
 As a result of the framework of geometric algebra implemented in `Grassmann`, vector algebra and quaternion algebra are compatible in a unified formalism.
