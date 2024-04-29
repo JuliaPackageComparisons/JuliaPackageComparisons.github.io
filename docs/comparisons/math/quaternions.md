@@ -61,7 +61,9 @@ There was an [issue#25](https://github.com/JuliaSpace/ReferenceFrameRotations.jl
 {{badge Grassmann}}
 [Grassmann.jl](https://github.com/chakravala/Grassmann.jl) does not implement `Quaternion` as a struct, but quaternions are realized as an alias `Grassmann.Quaternion (alias for Spinor{V, T, 4} where {V, T})`.
 
-Comparison of quaternions in the context of `Grassmann` to other quaternion implementations is characterized by syntax design differences to fit into a larger mathematical formalism. Differences such as performance or edge cases can always be smoothed out, while syntax and design choices are fundamentally different.
+Comparison of quaternions in the context of `Grassmann` to other quaternion implementations is characterized by syntax design differences to fit into a larger mathematical formalism.
+Differences such as performance or edge cases can always be smoothed out, while syntax and design choices are fundamentally different.
+With `Grassmann` geometric algebra it is possible to achieve much more out of quaternions due to the immediate access to its fully general mathematical formalism.
 
 Quaternion algebra exists as a specialized sub-algebra within a more general `Grassmann` geometric algebra, where the goal is to seamlessly transition between quaternion abstractions and further combinatorial generalizations.
 There are several ways to assign `i,j,k` with `Grassmann` elements, perhaps the standard would be `i = v12`, `j = -v13`, `k = v23` (although this is not a unique choice).
@@ -75,6 +77,10 @@ Since `j` and `v13` have opposite sign in this notation, the `quatvalues` method
 As a result of the framework of geometric algebra implemented in `Grassmann`, vector algebra and quaternion algebra are compatible in a unified formalism.
 Given a quaternion operator `R` and a vector `x` the operator can be applied with either the `R>>>x` (evaluated as `R*x*conj(R)` operator) or `x⊘R` (evaluated as `conj(R)*x*R` operator) to transform vectors with quaternions.
 Converting a quaternion operator `R` on a three dimensional vector to a matrix (with the `x⊘R` evaluation)  can be done with `Matrix(operator(R))` for convenience.
+
+In the traditional quaternion packages there is only access to a very limited mathematical scope, which is similar to being color blind or unable to see more colors.
+This developer (for example), will feel a loss of color vision to downgrade from `Grassmann` to a more limited quaternion formalism, so the comparison is similar to choosing between being color blind or not.
+Of course, programming using a much more genreal and sophisticated mathematical formalism involves an increased level of cognition, which perhaps not everyone may be immediately willing to extend awareness or compatibility to.
 
 ## Related discourse posts
 * [Taking Quaternions Seriously](https://discourse.julialang.org/t/taking-quaternions-seriously/44834)
