@@ -78,9 +78,9 @@ As a result of the framework of geometric algebra implemented in `Grassmann`, ve
 Given a quaternion operator `R` and a vector `x` the operator can be applied with either the `R>>>x` (evaluated as `R*x*conj(R)` operator) or `x⊘R` (evaluated as `conj(R)*x*R` operator) to transform vectors with quaternions.
 Converting a quaternion operator `R` on a three dimensional vector to a matrix (with the `x⊘R` evaluation)  can be done with `Matrix(operator(R))` for convenience.
 
-In the traditional quaternion packages there is only access to a very limited mathematical scope, which is similar to being color blind or unable to see more colors.
-This developer (for example), will feel a loss of color vision to downgrade from `Grassmann` to a more limited quaternion formalism, so the comparison is similar to choosing between being color blind or not.
-Of course, programming using a much more genreal and sophisticated mathematical formalism involves an increased level of cognition, which perhaps not everyone may be immediately willing to extend awareness or compatibility to.
+In the traditional quaternion packages there is only access to a very limited mathematical scope, which is similar to black and white images instead of full color.
+This developer (for example), will feel a loss of mathematical expressibility when downgrading from `Grassmann` to a more limited quaternion formalism, so the comparison is similar to choosing between black and white or full color image technology.
+Of course, programming using a more general and sophisticated mathematical formalism involves an increased level of cognition, which perhaps not everyone may be immediately willing to extend awareness or compatibility to.
 
 ## Related discourse posts
 * [Taking Quaternions Seriously](https://discourse.julialang.org/t/taking-quaternions-seriously/44834)
