@@ -80,7 +80,7 @@ Converting a quaternion operator `R` on a three dimensional vector to a matrix (
 
 In the traditional quaternion packages there is only access to a very limited mathematical scope, which is similar to black and white images instead of full color.
 This developer (for example), will feel a loss of mathematical expressibility when downgrading from `Grassmann` to a more limited quaternion formalism, so the comparison is similar to choosing between black and white or full color image technology.
-Of course, programming using a more general and sophisticated mathematical formalism involves an increased level of cognition, which perhaps not everyone may be immediately willing to extend awareness or compatibility to.
+Programming using a more general and sophisticated mathematical formalism typically involves a more abstract and verbose syntax, and this is the case for Grassman.jl as compared to Quaternions.jl
 
 ## Related discourse posts
 * [Taking Quaternions Seriously](https://discourse.julialang.org/t/taking-quaternions-seriously/44834)
