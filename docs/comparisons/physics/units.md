@@ -24,6 +24,7 @@ A newer package for working with units is [DynamicQuantities.jl](https://github.
 ## UnitSystems.jl
 {{badge UnitSystems}}
 
-While it is not recommended above previously mentioned alternatives, there is also [UnitSystems](https://github.com/chakravala/UnitSystems.jl). The author can not speak to it's ability.
+Quick minimalist [UnitSystems.jl](https://github.com/chakravala/UnitSystems.jl) which is the more complete and scientifically sophisticated implementation with deep scientific nuance. Loads very fast but does not provide a `Quantity` type, which is in an optional package [Similitude.jl](https://github.com/chakravala/Similitude.jl).
+> A `UnitSystem` is a consistent set of dimensional values selected to accomodate a particular use case standardization. It is possible to convert derived physical quantities from any `UnitSystem` specification into any other using accurate values. Eleven fundamental constants are used to govern a specific unit system consistent scaling. These are the constants `boltzmann`, `planckreduced`, `lightspeed`, `vacuumpermeability`, `electronmass`, `molarmass`, `luminousefficacy`, `angle`, `rationalization`, `lorentz`, and `gravity`. Different choices of natural units or physical measurements result in a variety of unit systems for many purposes.
 
 This section is not yet written well. If you have used or developed Julia packages in this domain, we would love your help! Please visit the ["Contributing" section](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io#contributing) of the [repository that hosts this website](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io) for information on contributions.
