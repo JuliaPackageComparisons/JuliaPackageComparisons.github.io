@@ -78,8 +78,8 @@ As a result of the framework of geometric algebra implemented in `Grassmann`, ve
 Given a quaternion operator `R` and a vector `x` the operator can be applied with either the `R>>>x` (evaluated as `R*x*conj(R)` operator) or `x⊘R` (evaluated as `conj(R)*x*R` operator) to transform vectors with quaternions.
 Converting a quaternion operator `R` on a three dimensional vector to a matrix (with the `x⊘R` evaluation)  can be done with `Matrix(operator(R))` for convenience.
 
-In the traditional quaternion packages there is only access to a very limited mathematical scope, which is similar to black and white images instead of full color.
-This developer (for example), will feel a loss of mathematical expressibility when downgrading from `Grassmann` to a more limited quaternion formalism, so the comparison is similar to choosing between black and white or full color image technology.
+In the traditional quaternion packages there is only access to a limited mathematical scope constrained to rotations in three dimensions, while in `Grassmann` there are rotational algebras for lower and higher dimensions and it is also natural to deal with reflection operator compositions and more.
+This developer (for example), will feel a loss of mathematical expressibility when downgrading from `Grassmann` to a more limited quaternion formalism, as `Grassmann` can express the full graded algebra structure compared to the mere sub-algebra of quaternions.
 Programming using a more general and sophisticated mathematical formalism typically involves a more abstract and verbose syntax, and this is the case for Grassman.jl as compared to Quaternions.jl
 
 ## Related discourse posts
