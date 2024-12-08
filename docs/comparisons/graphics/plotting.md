@@ -9,6 +9,28 @@ Julia has a large number of available plotting libraries. They differ in a numbe
 
 \toc
 
+## General Purpose Plotting Packages
+Plots.jl
+Below is a list of backends usable as standalone plotting packages.
+
+Makie.jl
+
+Gadfly.jl
+
+Bookeh.jl
+
+## Grammar of Graphics style libraries
+
+## Specific Plotting Domains
+
+### Notebook plotting
+
+### Terminal Plotting
+
+### Geographical plotting
+
+### 3D rendering
+
 ## Summary
 Plots.jl was for a long time the most used package for a reason. It's very flexible, integrates with the most Julia packages so you'll find it all throughout other docs, and it has many of the advantages of the other libraries through its backend system. Thus if you needed Latex output, use the pgfplots backend. If you needed a webpage, use the Plotly backend. Unicodeplots backend when you want text output. Or the GR default for the basics. With Julia v1.9 its startup time is much improved (and it's like sub second on v1.10 beta), which was its major complaint before. If you're going to use one plotting library and don't care too much about every little detail, then Plots.jl is a good one to go with. It's definitely not the best in any of the cases, animations are better in Makie, Latex is better in PGFPlotsX, etc., but it's capable everywhere.
 
