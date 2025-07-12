@@ -5,6 +5,8 @@ Welcome to the repository for Julia Package Comparisons! This repository hosts a
 ## [Website link](https://juliapackagecomparisons.github.io/)
 
 ## The future of this project
+Update as of July 2025: See [this discourse post](https://discourse.julialang.org/t/juliapackagecomparisons-is-looking-for-a-new-maintainer/130667), which is asking for a new maintainer. The post also details the history and state of the project.
+
 This project is currently a mainly developed by two people, as a side-project. The future hope is that the users and developers of the packages being compared will improve and add content to the webpage, in an organic way that mirrors the Julia Package ecosystem. I am currently looking for more maintainers to add and review pull requests, so please contact me if you are interested!
 
 ## The problem to be addressed by this project
