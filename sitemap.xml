@@ -116,6 +116,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>comparisons/physics/index.html</loc>
+    <lastmod>2025-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>comparisons/metrics/index.html</loc>
     <lastmod>2025-07-15</lastmod>
     <changefreq>monthly</changefreq>
