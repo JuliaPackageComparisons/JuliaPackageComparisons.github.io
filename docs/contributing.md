@@ -25,7 +25,7 @@ We want to make it easy for everyone, including people with little experience wi
 To make this true, this section will contain guides on how to contribute in different ways for absolute beginners.
 
 ### Modify existing content
-If you just want to contribute some knowledge/time in writing content for the pages, but you do know know how to create/restructure pages, this is the place for you. This (very brief) guide is about how to modify existing content, to e.g. rewrite or add paragraph. This is not the only way to modify content, but it is the easiest.
+If you just want to contribute some knowledge/time in writing content for the pages, but you do not know how to create/restructure pages, this is the place for you. This (very brief) guide is about how to modify existing content, to e.g. rewrite or add paragraph. This is not the only way to modify content, but it is the easiest.
 
 When visiting any page, such as the [home page](https://juliapackagecomparisons.github.io/), there will be a "Page source" link in the top right:
 ![image](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io/assets/61620837/4af9d61a-ddc5-4124-89df-049968ec64b4)
@@ -59,13 +59,29 @@ If you enter that folder (`cd JuliaPackageComparisons.github.io`), you can now o
 
 ```bash
 cd JuliaPackageComparisons.github.io/docs
-julia --project=. -e 'using Pkg; Pkg.instantiate(); using Franklin; lunr(); serve()'
+julia --project=. -e 'using Pkg; Pkg.instantiate(); using Franklin; serve()'
 ```
 
 You default browser should open a new tab at `http://localhost:8000/`, showing the locally hosted page.
 Changes you make to the content will be automatically detected, and the generated page will be updated in real-time as you run the above command.
 After having made the changes you want, you can commit you changes, push them to github, and then use the GitHub web page to open up a pull-request to make you changes in the original repository.
 Relevant git commands are `git commit` and `git push`, but if that is also new to you, you should probably google how to use git (a version control system) and GitHub (a website and hosting service) first.
+
+#### Lunr search
+To also run the `lunr` based search locally, you need to have `npm` and `nodejs` installed as well as the `npm` packages `lunr` and `cheerio`. See [Franklin.jl docs](https://franklinjl.org/extras/lunr/index.html#add_search_with_lunr):
+
+```bash
+> sudo install npm # installs 387 packages!
+> npm install lunr
+> npm install cheerio
+```
+
+Then serve the site locally with `lunr`:
+
+```bash
+cd JuliaPackageComparisons.github.io/docs
+julia --project=. -e 'using Pkg; Pkg.instantiate(); using Franklin; lunr(); serve()'
+```
 
 ### Update existing content
 TODO: write guide
