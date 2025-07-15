@@ -68,6 +68,8 @@ This is part of the [JuliaPhysics](https://github.com/JuliaPhysics) organization
 
 >A Julia package for accessing chemical elements data. 
 
+This contains (almost) all the same data as [PeriodicTable.jl](https://github.com/JuliaPhysics/PeriodicTable.jl) plus some more: https://eben60.github.io/Mendeleev.jl/elements_data_fields/.
+
 [Mendeleev.jl](https://github.com/Eben60/Mendeleev.jl) was started in 2022 by [Eben60](https://github.com/Eben60) who is also the top 3 contributor to [PeriodicTable.jl](https://github.com/JuliaPhysics/PeriodicTable.jl). It has only had few updates since 2022 and not by others  (2025-07-15).
 
 
