@@ -19,7 +19,7 @@ Several packages collect physical constants.
 >Collection of fundamental physical constants with uncertainties. It supports arbitrary-precision constants.
 
 This is part of the [JuliaPhysics](https://github.com/JuliaPhysics) organization.
-It contains data from 3 datasets (2025-07-15) each as it's own submodule: `PhysicalConstants.CODATA2014`, `PhysicalConstants.CODATA2018`, `PhysicalConstants.CODATA2022`.
+It contains data from 3 datasets[^1] each as it's own submodule: `PhysicalConstants.CODATA2014`, `PhysicalConstants.CODATA2018`, `PhysicalConstants.CODATA2022`.
 
 List of constants 24: [CODATA2022](https://juliaphysics.github.io/PhysicalConstants.jl/dev/constants/).
 
@@ -52,7 +52,7 @@ List of constants 24: [CODATA2022](https://juliaphysics.github.io/PhysicalConsta
 | WienFrequencyDisplacementLawConstant  | b′    | 5.878925757646825e10   | Hz K^-1        |
 | WienWavelengthDisplacementLawConstant | b     | 0.0028977719551851727  | K m            |
 
-[PhysicalConstants.jl](https://juliaphysics.github.io/PhysicalConstants.jl) was started in 2018 by [giordano](https://github.com/giordano). He is still the main contributor with a few commits by 6 other developers (2025-07-15).
+[PhysicalConstants.jl](https://juliaphysics.github.io/PhysicalConstants.jl) was started in 2018 by [giordano](https://github.com/giordano). He is still the main contributor with a few commits by 6 other developers[^1].
 
 ### PeriodicTable.jl
 {{badge PeriodicTable}}
@@ -60,17 +60,20 @@ List of constants 24: [CODATA2022](https://juliaphysics.github.io/PhysicalConsta
 >Periodic Table for Julians! 🔥 
 
 This is part of the [JuliaPhysics](https://github.com/JuliaPhysics) organization.
+Use this i fyou just need standard data on elements: name, appearance, atomic_mass, boil, category, color, density, discovered_by, melt, molar_heat, named_by, number, period, phase, source, spectral_img, summary, symbol, xpos, ypos, shells.
 
-[PeriodicTable.jl](https://github.com/JuliaPhysics/PeriodicTable.jl) was started in 2018 by [rahulkp220](https://github.com/rahulkp220). Since then, it has mainly been maintained by [carstenbauer](https://github.com/carstenbauer) with contributions from 9 others (2025-07-15).
+
+[PeriodicTable.jl](https://github.com/JuliaPhysics/PeriodicTable.jl) was started in 2018 by [rahulkp220](https://github.com/rahulkp220). Since then, it has mainly been maintained by [carstenbauer](https://github.com/carstenbauer) with contributions from 9 others[^1].
 
 ### Mendeleev.jl
 {{badge Mendeleev}}
 
 >A Julia package for accessing chemical elements data. 
 
-This contains (almost) all the same data as [PeriodicTable.jl](https://github.com/JuliaPhysics/PeriodicTable.jl) plus some more: https://eben60.github.io/Mendeleev.jl/elements_data_fields/.
+This contains (almost) all the same data as [PeriodicTable.jl](https://github.com/JuliaPhysics/PeriodicTable.jl) plus some more: <https://eben60.github.io/Mendeleev.jl/elements_data_fields/>. 
+Use this if you need more data on the elements.
 
-[Mendeleev.jl](https://github.com/Eben60/Mendeleev.jl) was started in 2022 by [Eben60](https://github.com/Eben60) who is also the top 3 contributor to [PeriodicTable.jl](https://github.com/JuliaPhysics/PeriodicTable.jl). It has only had few updates since 2022 and not by others  (2025-07-15).
+[Mendeleev.jl](https://github.com/Eben60/Mendeleev.jl) was started in 2022 by [Eben60](https://github.com/Eben60) who is also the top 3 contributor to [PeriodicTable.jl](https://github.com/JuliaPhysics/PeriodicTable.jl). It has only had few updates since 2022 and not by others[^1].
 
 
 ### IsotopeTable.jl
@@ -78,7 +81,7 @@ This contains (almost) all the same data as [PeriodicTable.jl](https://github.co
 
 >Table of Isotopes for Julians. Interoperable with `PeriodicTable.jl` 
 
-[IsotopeTable.jl](https://github.com/Gregstrq/IsotopeTable.jl) was started in 2022 by [Gregstrq](https://github.com/Gregstrq) and has not been updated since (2025-07-15).
+[IsotopeTable.jl](https://github.com/Gregstrq/IsotopeTable.jl) was done in 2022 by [Gregstrq](https://github.com/Gregstrq)[^1]. Use this if you need more precise isotope data.
 
 ### Unitful.jl
 {{badge Unitful}}
@@ -120,7 +123,9 @@ The unique one here is:
 * Superconducting magnetic flux quantum
 
 [Unitful.jl](https://github.com/PainterQubits/Unitful.jl) was started in 2016 by [ajkeller34](https://github.com/ajkeller34). 
-It is currently mainly maintained by [sostock](https://github.com/sostock) and has contributions from 76 developers (2025).
+It is currently mainly maintained by [sostock](https://github.com/sostock) and has contributions from 76 developers[^1].
 
 ## Star History
 {{star_history PhysicalConstants PeriodicTable Mendeleev IsotopeTable Unitful}}
+
+[^1]: By 2025-07-15.
