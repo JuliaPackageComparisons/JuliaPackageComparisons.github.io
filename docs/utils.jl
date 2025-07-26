@@ -16,6 +16,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="TensorOperations", username="Jutho", branch="master"),
     PkgInfo(pkgname="TensorCast", username="mcabbott", branch="master"),
     PkgInfo(pkgname="ArrayMeta", username="shashi", branch="master", docslink=nothing, codecovlink=nothing, registered=false),
+    PkgInfo(pkgname="Tensorial", username="KeitaNakamura", branch="main"),
     # PkgInfo(pkgname="Tortilla", username="willow-ahrens"),
     PkgInfo(pkgname="Chain", username="jkrumbiegel", branch="master", docslink=nothing, codecovlink=nothing),
     PkgInfo(pkgname="Lazy", username="MikeInnes", branch="master", docslink=nothing, codecovlink=nothing),

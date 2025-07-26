@@ -22,6 +22,18 @@ From README.md of this package:
 From README.md of this package:
 > This is a repository for the Google Summer of Code project on Differentiable Tensor Networks. It implements one function that both computer scientists and physicists love, the Einstein summation
 
+### Tensorial.jl
+{{badge Tensorial}}
+From the README of this package:
+
+> [Tensorial.jl](https://github.com/KeitaNakamura/Tensorial.jl/)  provides statically sized Tensor type that is compatible with `AbstractArray`, similar to `SArray` from [StaticArrays.jl](https://github.com/JuliaArrays/StaticArrays.jl). In addition to supporting basic AbstractArray operations, the package offers a tensorial interface and several advanced features:
+>
+> * Contraction, tensor product (⊗), and a flexible `@einsum` macro for Einstein summation convention
+> * A `@Symmetry` macro to define the tensor symmetries, eliminating unnecessary calculations
+> * Automatic differentiation via `gradient` and `hessian` functions, leveraging [ForwardDiff.jl](https://github.com/JuliaDiff/ForwardDiff.jl)
+> * Performance comparable to SArray
+
+
 ### TensorOperations.jl
 {{badge TensorOperations}}
 
@@ -39,4 +51,4 @@ Tortilla.jl was announced in JuliaCon2018, but the package is not public yet.
 * [For Loops 2.0: Index Notation and the Future of Tensor Compilers | Willow Ahrens | JuliaCon 2018](https://www.youtube.com/watch?v=Rp7sTl9oPNI)
 
 ## Star History
-{{star_history Tullio Einsum OMEinsum TensorOperations TensorCast ArrayMeta}}
+{{star_history Tullio Einsum OMEinsum TensorOperations TensorCast ArrayMeta Tensorial}}
