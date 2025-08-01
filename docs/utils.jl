@@ -26,7 +26,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="Genie", username="GenieFramework", branch="master", codecovlink=nothing),
     PkgInfo(pkgname="Oxygen", username="OxygenFramework", branch="master"),
     PkgInfo(pkgname="Bonito", username="SimonDanisch", branch="master"),
-    PkgInfo(pkgname="Mongoose", username="AbrJA", branch="main"),
+    PkgInfo(pkgname="Mongoose", username="AbrJA", branch="main", docslink="https://abrja.github.io/Mongoose.jl/dev/"),
     PkgInfo(pkgname="Plots", username="JuliaPlots", branch="master", docslink="https://docs.juliaplots.org/", codecovlink=nothing),
     PkgInfo(pkgname="Makie", username="MakieOrg", branch="master", docslink="https://docs.makie.org/", codecovlink=nothing),
     PkgInfo(pkgname="AlgebraOfGraphics", username="MakieOrg", branch="master", codecovlink=nothing),
