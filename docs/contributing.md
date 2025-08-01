@@ -124,7 +124,8 @@ The `PkgInfo` struct has seven fields, and can be defined with kwargs:
 * `docslink` (optional, default: `"https://$username.github.io/$pkgname.jl"`)
     * URL to the documentation.
     * Set `nothing` if the package does not have documentation.
-    * Note that `$docslink/dev` and `$docslink/stable` will be used in the documentation.
+    * By default both `$docslink/dev` and `$docslink/stable` will be used in the documentation.
+    * To get only a single documentation link, set a `docslink` that ends on "/". Then that URL is used as link to the docs (e.g. `docslink="https://eben60.github.io/Mendeleev.jl/"`).
 * `codecovlink` (optional, default: `"https://codecov.io/gh/$username/$pkgname.jl"`)
     * URL to codecov page.
     * Set `nothing` if the repository does not use CodeCov.
