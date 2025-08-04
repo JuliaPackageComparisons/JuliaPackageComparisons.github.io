@@ -16,6 +16,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="TensorOperations", username="Jutho", branch="master"),
     PkgInfo(pkgname="TensorCast", username="mcabbott", branch="master"),
     PkgInfo(pkgname="ArrayMeta", username="shashi", branch="master", docslink=nothing, codecovlink=nothing, registered=false),
+    PkgInfo(pkgname="Tensorial", username="KeitaNakamura", branch="main"),
     # PkgInfo(pkgname="Tortilla", username="willow-ahrens"),
     PkgInfo(pkgname="Chain", username="jkrumbiegel", branch="master", docslink=nothing, codecovlink=nothing),
     PkgInfo(pkgname="Lazy", username="MikeInnes", branch="master", docslink=nothing, codecovlink=nothing),
@@ -26,6 +27,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="Genie", username="GenieFramework", branch="master", codecovlink=nothing, docslink="https://GenieFramework.github.io/Genie.jl/dev/"),
     PkgInfo(pkgname="Oxygen", username="OxygenFramework", branch="master"),
     PkgInfo(pkgname="Bonito", username="SimonDanisch", branch="master", docslink="https://SimonDanisch.github.io/Bonito.jl/stable/"),
+    PkgInfo(pkgname="Mongoose", username="AbrJA", branch="main", docslink="https://abrja.github.io/Mongoose.jl/dev/"),
     PkgInfo(pkgname="Plots", username="JuliaPlots", branch="master", docslink="https://docs.juliaplots.org/", codecovlink=nothing),
     PkgInfo(pkgname="Makie", username="MakieOrg", branch="master", docslink="https://docs.makie.org/", codecovlink=nothing),
     PkgInfo(pkgname="AlgebraOfGraphics", username="MakieOrg", branch="master", codecovlink=nothing),
@@ -150,8 +152,10 @@ const PKGINFOS = [
     # PkgInfo(pkgname="LopShelve", username="machkouroke", docslink="https://lopuniverse.me/LopShelve.jl/"),
     PkgInfo(pkgname="PeriodicTable", username="JuliaPhysics", branch="master", docslink=nothing),
     PkgInfo(pkgname="PhysicalConstants", username="JuliaPhysics", branch="master"),
-    PkgInfo(pkgname="Mendeleev", username="Eben60", branch="main", docslink="https://eben60.github.io/Mendeleev.jl/"),
+    PkgInfo(pkgname="Mendeleev", username="Eben60", branch="main", docslink="https://eben60.github.io/Mendeleev.jl"),
     PkgInfo(pkgname="IsotopeTable", username="Gregstrq", branch="main", docslink=nothing),
+    PkgInfo(pkgname="BestieTemplate", username="JuliaBesties", branch="main"),
+    PkgInfo(pkgname="PackageMaker", username="Eben60", branch="main", docslink="https://eben60.github.io/PackageMaker.jl"),
 ]
 
 function get_pkginfo(pkgname)
