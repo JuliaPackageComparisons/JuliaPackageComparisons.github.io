@@ -12,7 +12,7 @@ The most complete one is [LinearSolve.jl](https://github.com/SciML/LinearSolve.j
 
 Specific solvers providing their own API's include [Paradiso.jl](https://github.com/JuliaSparse/Pardiso.jl), [MKL.jl](https://github.com/JuliaLinearAlgebra/MKL.jl), [BandedMatrices.jl](https://github.com/JuliaLinearAlgebra/BandedMatrices.jl), and more.
 
-See https://discourse.julialang.org/t/solving-sparse-linear-systems-fast/83071/9 
+See <https://discourse.julialang.org/t/solving-sparse-linear-systems-fast/83071/9>
 for a relevant discussion on the options for solving numerical linear equations.
 
 ## Symbolic Linear Solvers
