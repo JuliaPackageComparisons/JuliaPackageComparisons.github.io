@@ -21,12 +21,12 @@ const PKGINFOS = [
     PkgInfo(pkgname="Chain", username="jkrumbiegel", branch="master", docslink=nothing, codecovlink=nothing),
     PkgInfo(pkgname="Lazy", username="MikeInnes", branch="master", docslink=nothing, codecovlink=nothing),
     PkgInfo(pkgname="Pipe", username="oxinabox", branch="master", docslink=nothing, codecovlink=nothing),
-    PkgInfo(pkgname="Unitful", username="PainterQubits", branch="master"),
+    PkgInfo(pkgname="Unitful", username="JuliaPhysics", branch="master"),
     PkgInfo(pkgname="DynamicQuantities", username="SymbolicML", codecovlink=nothing),
     PkgInfo(pkgname="UnitSystems", username="chakravala", branch="master", docslink=nothing),
-    PkgInfo(pkgname="Genie", username="GenieFramework", branch="master", codecovlink=nothing),
+    PkgInfo(pkgname="Genie", username="GenieFramework", branch="master", codecovlink=nothing, docslink="https://GenieFramework.github.io/Genie.jl/dev/"),
     PkgInfo(pkgname="Oxygen", username="OxygenFramework", branch="master"),
-    PkgInfo(pkgname="Bonito", username="SimonDanisch", branch="master"),
+    PkgInfo(pkgname="Bonito", username="SimonDanisch", branch="master", docslink="https://SimonDanisch.github.io/Bonito.jl/stable/"),
     PkgInfo(pkgname="Mongoose", username="AbrJA", branch="main", docslink="https://abrja.github.io/Mongoose.jl/dev/"),
     PkgInfo(pkgname="Plots", username="JuliaPlots", branch="master", docslink="https://docs.juliaplots.org/", codecovlink=nothing),
     PkgInfo(pkgname="Makie", username="MakieOrg", branch="master", docslink="https://docs.makie.org/", codecovlink=nothing),
@@ -73,7 +73,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="TetGen", username="JuliaGeometry", branch="master"),
     PkgInfo(pkgname="GMT", username="GenericMappingTools", branch="master"),
     PkgInfo(pkgname="PkgTemplates", username="JuliaCI", branch="master"),
-    PkgInfo(pkgname="PkgSkeleton", username="tpapp", branch="master"),
+    PkgInfo(pkgname="PkgSkeleton", username="tpapp", branch="master", docslink=nothing),
     PkgInfo(pkgname="Pkg", username="JuliaLang", branch="master"),
     PkgInfo(pkgname="PyCall", username="JuliaPy", branch="master"),
     PkgInfo(pkgname="PythonCall", username="JuliaPy"),
@@ -174,9 +174,14 @@ function hfun_badge(args)
   codecovlink = pkginfo.codecovlink
   registered = pkginfo.registered
 
-  html_docs = isnothing(docslink) ? "" : """
-  <a href="$docslink/stable"><img src="https://img.shields.io/badge/docs-stable-blue.svg" alt="Stable"></a>
-  <a href="$docslink/dev"><img src="https://img.shields.io/badge/docs-dev-blue.svg" alt="Dev"></a>
+  docreg = r".*/([^/]+)/$"
+  isnothing(docslink) || (docmatch = match(docreg, docslink))
+  html_docs = isnothing(docslink) ? "" :
+      isnothing(docmatch) ? """
+      <a href="$docslink/stable"><img src="https://img.shields.io/badge/docs-stable-blue.svg" alt="Stable"></a>
+      <a href="$docslink/dev"><img src="https://img.shields.io/badge/docs-dev-blue.svg" alt="Dev"></a>
+      """ : """
+  <a href="$docslink"><img src="https://img.shields.io/badge/docs-$(docmatch[1])-blue.svg" alt="Doc"></a>
   """
   html_codecov = isnothing(codecovlink) ? "" : """
   <a href="$codecovlink"><img src="$codecovlink/branch/$branch/graph/badge.svg" alt="Coverage"></a>
