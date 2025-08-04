@@ -151,8 +151,10 @@ const PKGINFOS = [
     # PkgInfo(pkgname="LopShelve", username="machkouroke", docslink="https://lopuniverse.me/LopShelve.jl/"),
     PkgInfo(pkgname="PeriodicTable", username="JuliaPhysics", branch="master", docslink=nothing),
     PkgInfo(pkgname="PhysicalConstants", username="JuliaPhysics", branch="master"),
-    PkgInfo(pkgname="Mendeleev", username="Eben60", branch="main", docslink="https://eben60.github.io/Mendeleev.jl/"),
+    PkgInfo(pkgname="Mendeleev", username="Eben60", branch="main", docslink="https://eben60.github.io/Mendeleev.jl"),
     PkgInfo(pkgname="IsotopeTable", username="Gregstrq", branch="main", docslink=nothing),
+    PkgInfo(pkgname="BestieTemplate", username="JuliaBesties", branch="main"),
+    PkgInfo(pkgname="PackageMaker", username="Eben60", branch="main", docslink="https://eben60.github.io/PackageMaker.jl"),
 ]
 
 function get_pkginfo(pkgname)
