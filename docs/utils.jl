@@ -156,6 +156,10 @@ const PKGINFOS = [
     PkgInfo(pkgname="IsotopeTable", username="Gregstrq", branch="main", docslink=nothing),
     PkgInfo(pkgname="BestieTemplate", username="JuliaBesties", branch="main"),
     PkgInfo(pkgname="PackageMaker", username="Eben60", branch="main", docslink="https://eben60.github.io/PackageMaker.jl"),
+    PkgInfo(pkgname="IJulia", username="JuliaLang", branch="master"),
+    PkgInfo(pkgname="Pluto", username="fonsp", branch="main", docslink="https://plutojl.org/"),
+    PkgInfo(pkgname="Neptune", username="compleathorseplayer", branch="master", docslink=nothing),
+    PkgInfo(pkgname="BonitoBook", username="SimonDanisch", branch="main", docslink="https://bonitobook.org/website/"),
 ]
 
 function get_pkginfo(pkgname)
