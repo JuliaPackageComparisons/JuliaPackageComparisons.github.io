@@ -74,7 +74,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="GMT", username="GenericMappingTools", branch="master"),
     PkgInfo(pkgname="PkgTemplates", username="JuliaCI", branch="master"),
     PkgInfo(pkgname="PkgSkeleton", username="tpapp", branch="master", docslink=nothing),
-    PkgInfo(pkgname="Pkg", username="JuliaLang", branch="master"),
+    PkgInfo(pkgname="Pkg", username="JuliaLang", branch="master", docslink="https://pkgdocs.julialang.org/dev/"),
     PkgInfo(pkgname="PyCall", username="JuliaPy", branch="master"),
     PkgInfo(pkgname="PythonCall", username="JuliaPy"),
     PkgInfo(pkgname="JSON", username="JuliaIO", branch="master", docslink=nothing),
