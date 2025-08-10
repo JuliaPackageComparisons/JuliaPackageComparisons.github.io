@@ -22,7 +22,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="Lazy", username="MikeInnes", branch="master", docslink=nothing, codecovlink=nothing),
     PkgInfo(pkgname="Pipe", username="oxinabox", branch="master", docslink=nothing, codecovlink=nothing),
     PkgInfo(pkgname="Unitful", username="JuliaPhysics", branch="master"),
-    PkgInfo(pkgname="DynamicQuantities", username="SymbolicML", codecovlink=nothing),
+    PkgInfo(pkgname="DynamicQuantities", username="SymbolicML", codecovlink=nothing, docslink="https://ai.damtp.cam.ac.uk/dynamicquantities/dev/"),
     PkgInfo(pkgname="UnitSystems", username="chakravala", branch="master", docslink=nothing),
     PkgInfo(pkgname="Genie", username="GenieFramework", branch="master", codecovlink=nothing, docslink="https://GenieFramework.github.io/Genie.jl/dev/"),
     PkgInfo(pkgname="Oxygen", username="OxygenFramework", branch="master"),
