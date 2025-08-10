@@ -42,7 +42,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="GMT", username="GenericMappingTools", branch="master"),
     PkgInfo(pkgname="Gnuplot", username="gcalderone", branch="master"),
     PkgInfo(pkgname="ControlSystems", username="JuliaControl", branch="master"),
-    PkgInfo(pkgname="ModelPredictiveControl", username="franckgaga"),
+    PkgInfo(pkgname="ModelPredictiveControl", username="JuliaControl"),
     PkgInfo(pkgname="BSplines", username="sostock", branch="master"),
     PkgInfo(pkgname="BSplineKit", username="jipolanco", branch="master"),
     PkgInfo(pkgname="BasicBSpline", username="hyrodium"),
