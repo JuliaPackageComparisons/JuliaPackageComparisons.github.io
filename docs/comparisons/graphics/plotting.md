@@ -77,7 +77,7 @@ All of these are pretty good. You have a lot of options. In the end, pick the on
 
 ### Gaston.jl
 {{badge Gaston}}
-[Gaston.jl](https://mbaz.github.io/Gaston.jl/v0.10.0/) a front-end to gnuplot.
+[Gaston.jl](https://github.com/mbaz/Gaston.jl) a front-end to gnuplot.
 * Fast startup.
 * Pretty basic, lacking flexibility and integrations with Julia packages. Requires gnuplot so limitations on where it can be installed.
 
