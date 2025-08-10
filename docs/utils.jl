@@ -54,7 +54,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="EasyABM", username="RenuSolanki"),
     PkgInfo(pkgname="MixedStructTypes", username="JuliaDynamics", docslink="https://juliadynamics.github.io/LightSumTypes.jl/stable/"),
     PkgInfo(pkgname="LightSumTypes", username="JuliaDynamics", docslink="https://juliadynamics.github.io/LightSumTypes.jl/stable/"),
-    PkgInfo(pkgname="SumTypes", username="MasonProtter", branch="master"),
+    PkgInfo(pkgname="SumTypes", username="MasonProtter", branch="master", docslink=nothing),
     PkgInfo(pkgname="Unityper", username="YingboMa", branch="master"),
     PkgInfo(pkgname="Expronicon", username="Roger-luo"),
     PkgInfo(pkgname="Quaternions", username="JuliaGeometry"),
