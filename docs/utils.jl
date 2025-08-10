@@ -60,7 +60,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="Quaternionic", username="moble"),
     PkgInfo(pkgname="ReferenceFrameRotations", username="JuliaSpace", branch="master"),
     PkgInfo(pkgname="Grassmann", username="chakravala", branch="master"),
-    PkgInfo(pkgname="DelaunayTriangulation", username="DanielVandH"),
+    PkgInfo(pkgname="DelaunayTriangulation", username="JuliaGeometry"),
     PkgInfo(pkgname="VoronoiDelaunay", username="JuliaGeometry", branch="master", docslink=nothing),
     PkgInfo(pkgname="VoronoiCells", username="JuliaGeometry", branch="master", docslink=nothing),
     PkgInfo(pkgname="Delaunay", username="eschnett", branch="master", codecovlink=nothing, docslink=nothing),
