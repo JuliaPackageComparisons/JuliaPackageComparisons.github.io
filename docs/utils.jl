@@ -131,7 +131,7 @@ const PKGINFOS = [
     # PkgInfo(pkgname="Parquet2", username="ExpandingMan"),  # GitLab hosted!
     PkgInfo(pkgname="Parquet", username="JuliaIO", branch="master", docslink=nothing),
     PkgInfo(pkgname="MAT", username="JuliaIO", branch="master"),
-    PkgInfo(pkgname="Taro", username="aviks", branch="master"),
+    PkgInfo(pkgname="Taro", username="aviks", branch="master", docslink="https://aviks.github.io/Taro.jl/"),
     PkgInfo(pkgname="FileIO", username="JuliaIO", branch="master", docslink="https://juliaio.github.io/FileIO.jl/"),
     PkgInfo(pkgname="ImageIO", username="JuliaIO", branch="master", docslink=nothing),
     PkgInfo(pkgname="ExcelReaders", username="queryverse", branch="master", docslink=nothing),
