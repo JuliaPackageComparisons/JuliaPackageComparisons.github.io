@@ -105,7 +105,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="IntervalSets", username="JuliaMath", branch="master"),
     PkgInfo(pkgname="Intervals", username="invenia", branch="master"),
     PkgInfo(pkgname="IntervalArithmetic", username="JuliaIntervals", branch="master"),
-    PkgInfo(pkgname="Franklin", username="tlienart", branch="master"),
+    PkgInfo(pkgname="Franklin", username="tlienart", branch="master", docslink="https://franklinjl.org/"),
     PkgInfo(pkgname="StaticWebPages", username="Humans-of-Julia", branch="master"),
     PkgInfo(pkgname="DataFrames", username="JuliaData"),
     PkgInfo(pkgname="InMemoryDatasets", username="sl-solution", branch="master"),
