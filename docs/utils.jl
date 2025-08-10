@@ -89,7 +89,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="JCheck", username="ps-pat", docslink="https://jcheck.patrickfournier.ca/dev/"),
     PkgInfo(pkgname="ProfileView", username="timholy", branch="master", docslink=nothing),
     PkgInfo(pkgname="ProfileVega", username="davidanthoff", branch="master"),
-    PkgInfo(pkgname="StatProfilerHTML", username="tkluck", branch="master"),
+    PkgInfo(pkgname="StatProfilerHTML", username="tkluck", branch="master", docslink=nothing),
     PkgInfo(pkgname="ProfileSVG", username="kimikage", branch="master"),
     PkgInfo(pkgname="PProf", username="JuliaPerf", docslink=nothing),
     PkgInfo(pkgname="ProfileCanvas", username="pfitzseb"),
