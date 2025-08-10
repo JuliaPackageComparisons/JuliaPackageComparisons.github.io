@@ -76,7 +76,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="PkgTemplates", username="JuliaCI", branch="master"),
     PkgInfo(pkgname="PkgSkeleton", username="tpapp", branch="master", docslink=nothing),
     PkgInfo(pkgname="Pkg", username="JuliaLang", branch="master", docslink="https://pkgdocs.julialang.org/dev/"),
-    PkgInfo(pkgname="PyCall", username="JuliaPy", branch="master"),
+    PkgInfo(pkgname="PyCall", username="JuliaPy", branch="master", docslink=nothing),
     PkgInfo(pkgname="PythonCall", username="JuliaPy"),
     PkgInfo(pkgname="JSON", username="JuliaIO", branch="master", docslink=nothing),
     PkgInfo(pkgname="JSON2", username="quinnj", branch="master", docslink=nothing),
