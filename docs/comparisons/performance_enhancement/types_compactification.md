@@ -9,6 +9,10 @@ These packages help to avoid Union-splitting performance drawbacks by merging mu
 ## MixedStructTypes.jl
 {{badge MixedStructTypes}}
 
+This is now called [LightSumTypes.jl](https://github.com/JuliaDynamics/LightSumTypes.jl)
+
+{{badge LightSumTypes}}
+
 ## SumTypes.jl
 {{badge SumTypes}}
 
@@ -17,3 +21,6 @@ These packages help to avoid Union-splitting performance drawbacks by merging mu
 
 ## Expronicon.jl (with ADT.@adt)
 {{badge Expronicon}}
+
+## Star History
+{{star_history MixedStructTypes LightSumTypes SumTypes Unityper Expronicon}}
