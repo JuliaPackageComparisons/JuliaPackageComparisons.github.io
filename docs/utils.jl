@@ -38,7 +38,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="GR", username="jheinen", branch="master", docslink=nothing),
     PkgInfo(pkgname="PGFPlotsX", username="kristofferc", branch="master"),
     PkgInfo(pkgname="UnicodePlots", username="JuliaPlots", docslink=nothing),
-    PkgInfo(pkgname="Gaston", username="mbaz", branch="master", codecovlink=nothing),
+    PkgInfo(pkgname="Gaston", username="mbaz", branch="master", codecovlink=nothing, docslink="https://mbaz.github.io/Gaston.jl/v2/"),
     PkgInfo(pkgname="GMT", username="GenericMappingTools", branch="master"),
     PkgInfo(pkgname="Gnuplot", username="gcalderone", branch="master"),
     PkgInfo(pkgname="ControlSystems", username="JuliaControl", branch="master"),
