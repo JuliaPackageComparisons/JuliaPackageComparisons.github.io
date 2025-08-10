@@ -56,7 +56,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="LightSumTypes", username="JuliaDynamics", docslink="https://juliadynamics.github.io/LightSumTypes.jl/stable/"),
     PkgInfo(pkgname="SumTypes", username="MasonProtter", branch="master", docslink=nothing),
     PkgInfo(pkgname="Unityper", username="YingboMa", branch="master"),
-    PkgInfo(pkgname="Expronicon", username="Roger-luo"),
+    PkgInfo(pkgname="Expronicon", username="Roger-luo", docslink="https://expronicon.rogerluo.dev/"),
     PkgInfo(pkgname="Quaternions", username="JuliaGeometry"),
     PkgInfo(pkgname="Quaternionic", username="moble"),
     PkgInfo(pkgname="ReferenceFrameRotations", username="JuliaSpace", branch="master"),
