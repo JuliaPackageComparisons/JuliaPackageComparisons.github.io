@@ -100,7 +100,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="AirspeedVelocity", username="MilesCranmer", branch="master"),
     PkgInfo(pkgname="PkgJogger", username="awadell1"),
     PkgInfo(pkgname="FactCheck", username="JuliaAttic", branch="master", docslink=nothing),
-    PkgInfo(pkgname="Spec", username="zenna", branch="master"),
+    PkgInfo(pkgname="Spec", username="zenna", branch="master", docslink=nothing),
     PkgInfo(pkgname="TestTools", username="velexi-research"),
     PkgInfo(pkgname="IntervalSets", username="JuliaMath", branch="master"),
     PkgInfo(pkgname="Intervals", username="invenia", branch="master"),
@@ -157,7 +157,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="BestieTemplate", username="JuliaBesties", branch="main"),
     PkgInfo(pkgname="PackageMaker", username="Eben60", branch="main", docslink="https://eben60.github.io/PackageMaker.jl/"),
     PkgInfo(pkgname="IJulia", username="JuliaLang", branch="master"),
-    PkgInfo(pkgname="Pluto", username="fonsp", branch="main", docslink="https://plutojl.org/"),
+    PkgInfo(pkgname="Pluto", username="fonsp", branch="main", docslink="https://plutojl.org/", codecovlink=nothing),
     PkgInfo(pkgname="Neptune", username="compleathorseplayer", branch="master", docslink=nothing),
     PkgInfo(pkgname="BonitoBook", username="SimonDanisch", branch="main", docslink="https://bonitobook.org/website/"),
 ]
