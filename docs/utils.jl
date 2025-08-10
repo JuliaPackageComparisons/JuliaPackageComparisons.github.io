@@ -92,7 +92,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="StatProfilerHTML", username="tkluck", branch="master", docslink=nothing),
     PkgInfo(pkgname="ProfileSVG", username="kimikage", branch="master"),
     PkgInfo(pkgname="PProf", username="JuliaPerf", docslink=nothing),
-    PkgInfo(pkgname="ProfileCanvas", username="pfitzseb"),
+    PkgInfo(pkgname="ProfileCanvas", username="pfitzseb", docslink=nothing),
     PkgInfo(pkgname="BenchmarkTools", username="JuliaCI", branch="master"),
     PkgInfo(pkgname="Chairmarks", username="LilithHafner"),
     PkgInfo(pkgname="PkgBenchmark", username="JuliaCI", branch="master"),
