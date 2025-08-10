@@ -6,9 +6,6 @@ title = "Notebooks"
 Notebooks are a type of [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment) accessed through the web-browser, where code at text are interleaved.
 They are particularly useful for sharing and showing computations.
 
-## Star History
-{{star_history IJulia Pluto Neptune BonitoBook}}
-
 
 ## Jupyter (IJulia)
 {{badge IJulia}}
@@ -42,6 +39,8 @@ An other difference is that cells in Pluto only contain a single line of code.
 
 Many people are very happy with the Pluto model, where the state is always consistent (as in a spreadsheet), where others prefer the linar execution model of Jupyter notebooks where you often need to restart the kernel and run from the top to make sure all is consistent.
 
+You can test Pluto in the browser without installing it at <https://binder.plutojl.org/>.
+
 The author of Pluto.jl gave a talk ([YouTube link](https://youtu.be/Rg3r3gG4nQo?feature=shared)) at JupyterCon 2023, which is a good demonstration of how to use Pluto.jl.
 
 
@@ -68,8 +67,6 @@ BonitoBook is a Julia-native interactive notebook system built on [Bonito.jl](ht
 
 ### License
 Note that BonitoBook is not under a free license, but the [PolyForm Noncommercial License](https://github.com/SimonDanisch/BonitoBook.jl/blob/main/LICENSE).
-
-Relevant packages: [Pluto.jl](https://github.com/fonsp/Pluto.jl), [IJulia.jl](https://github.com/JuliaLang/IJulia.jl), [Neptune.jl](https://github.com/compleathorseplayer/Neptune.jl)
 
 ## Quarto
 > Open-source scientific and technical publishing system built on Pandoc. 
@@ -119,6 +116,10 @@ What is [Positron](https://positron.posit.co/)?
 - An extensible, polyglot tool for writing code and exploring data
 - A familiar environment for reproducible authoring and publishing
 
+# Star History
+{{star_history IJulia Pluto Neptune BonitoBook}}
 
-[^1]: https://en.wikipedia.org/wiki/Project_Jupyter
+
+
+[^1]: <https://en.wikipedia.org/wiki/Project_Jupyter>
 [^2]: [Julia in Colab](https://discourse.julialang.org/t/julia-in-colab/126600).
