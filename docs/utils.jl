@@ -129,7 +129,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="XLSX", username="felipenoris", branch="master"),
     PkgInfo(pkgname="Arrow", username="apache", repolink="https://github.com/apache/arrow-julia", docslink="https://arrow.apache.org/julia/"),
     # PkgInfo(pkgname="Parquet2", username="ExpandingMan"),  # GitLab hosted!
-    PkgInfo(pkgname="Parquet", username="JuliaIO", branch="master"),
+    PkgInfo(pkgname="Parquet", username="JuliaIO", branch="master", docslink=nothing),
     PkgInfo(pkgname="MAT", username="JuliaIO", branch="master"),
     PkgInfo(pkgname="Taro", username="aviks", branch="master"),
     PkgInfo(pkgname="FileIO", username="JuliaIO", branch="master", docslink="https://juliaio.github.io/FileIO.jl/"),
