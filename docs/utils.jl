@@ -91,7 +91,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="ProfileVega", username="davidanthoff", branch="master"),
     PkgInfo(pkgname="StatProfilerHTML", username="tkluck", branch="master"),
     PkgInfo(pkgname="ProfileSVG", username="kimikage", branch="master"),
-    PkgInfo(pkgname="PProf", username="JuliaPerf"),
+    PkgInfo(pkgname="PProf", username="JuliaPerf", docslink=nothing),
     PkgInfo(pkgname="ProfileCanvas", username="pfitzseb"),
     PkgInfo(pkgname="BenchmarkTools", username="JuliaCI", branch="master"),
     PkgInfo(pkgname="Chairmarks", username="LilithHafner"),
