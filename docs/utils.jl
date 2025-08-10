@@ -113,7 +113,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="Tidier", username="TidierOrg"),
     PkgInfo(pkgname="DTables", username="JuliaParallel"),
     PkgInfo(pkgname="WaterLily", username="weymouth", branch="master"),
-    PkgInfo(pkgname="Oceananigans", username="CliMA", branch="main"),
+    PkgInfo(pkgname="Oceananigans", username="CliMA", branch="main", docslink="https://clima.github.io/OceananigansDocumentation/stable/"),
     PkgInfo(pkgname="Clang", username="JuliaInterop", branch="master"),
     PkgInfo(pkgname="CBinding", username="analytech-solutions", branch="master"),
     PkgInfo(pkgname="Cxx", username="JuliaInterop", branch="master"),
