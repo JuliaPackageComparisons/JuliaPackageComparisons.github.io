@@ -112,7 +112,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="JuliaDB", username="JuliaData"),
     PkgInfo(pkgname="Tidier", username="TidierOrg"),
     PkgInfo(pkgname="DTables", username="JuliaParallel"),
-    PkgInfo(pkgname="WaterLily", username="weymouth", branch="master"),
+    PkgInfo(pkgname="WaterLily", username="weymouth", branch="master", docslink="https://waterlily-jl.github.io/WaterLily.jl/dev/"),
     PkgInfo(pkgname="Oceananigans", username="CliMA", branch="main", docslink="https://clima.github.io/OceananigansDocumentation/stable/"),
     PkgInfo(pkgname="Clang", username="JuliaInterop", branch="master"),
     PkgInfo(pkgname="CBinding", username="analytech-solutions", branch="master"),
