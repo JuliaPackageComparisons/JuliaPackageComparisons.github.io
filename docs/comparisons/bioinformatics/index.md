@@ -3,23 +3,9 @@ title = "Bioinformatics"
 +++
 
 # Bioinformatics
+@@badge ![BioJulia](https://avatars.githubusercontent.com/u/6486271?s=100&v=4) @@
 
 The [BioJulia](https://github.com/biojulia) organization collects a lot of great packages related to bioinformatics.
-
-## Bio.jl is Deprecated
-
-Note that the [Bio.jl](https://github.com/BioJulia/Bio.jl) package is deprecated.
-In [this blogpost](https://biojulia.dev/posts/biojl/), the main developer of Bio.jl, describes where the functionality has gone:
-
-
-* Bio.Seq became [BioSequences.jl](https://github.com/BioJulia/BioSequences.jl/)
-* Bio.Align became [BioAlignments.jl](https://github.com/BioJulia/BioAlignments.jl/)
-* Bio.Intervals became [GenomicFeatures.jl](https://github.com/BioJulia/GenomicFeatures.jl/)
-* Bio.Structure became [BioStructures.jl](https://github.com/BioJulia/BioStructures.jl/)
-* Bio.Var became [GeneticVariation.jl](https://github.com/BioJulia/GeneticVariation.jl/)
-* Bio.Phylo became [Phylogenies.jl](https://github.com/BioJulia/Phylogenies.jl/)
-* Bio.Services became [BioServices.jl](https://github.com/BioJulia/BioServices.jl/)
-* Bio.Tools became [BioTools.jl](https://github.com/BioJulia/BioTools.jl/) (now archived)
 
 # File Parsers
 
@@ -211,5 +197,51 @@ In particular, it eases the analysis of coevoling position in an MSA using **Mut
 MI-derived scores are good predictors of inter-residue contacts in a protein structure and functional sites in proteins [2,3].
 To allow such analysis, MIToS also implements several useful tools for working with protein structures, such as those available in the **Protein Data Bank (PDB)** or predicted by AlphaFold 2.
 
+## XSim.jl
+{{badge XSim}}
+> Simulate sequence data and complicated pedigree structures 
+[XSim.jl](https://github.com/reworkhow/XSim.jl)
+
+From the package README:
+
+XSim is a fast and user-friendly tool to simulate sequence data and complicated pedigree structures.
+
+Features
+
+* An efficient CPOS algorithm
+* Using founders that are characterized by real genome sequence data
+* Complicated pedigree structures among descendants
+
+## GeneFinder.jl
+{{badge GeneFinder}}
+> A Gene Finder framework for Julia.
+
+[GeneFinder.jl](https://github.com/camilogarciabotero/GeneFinder.jl) is a species-agnostic, algorithm extensible, sequence-anonymous (genome, metagenomes) *gene finder* library framework for the Julia Language.
+
+From the package README:
+
+The `GeneFinder` package aims to be a versatile module that enables the application of different gene finding algorithms to the `BioSequence` type, by providing a common interface and a flexible data structure to store the predicted ORFI or genes. The package is designed to be easily extensible, allowing users to implement their own algorithms and integrate them into the framework.
+
+This package is currently under development and is not yet ready for production use. The API is subject to change.
+
+
 # Star History
-{{star_history BioSequences BioAlignments GenomicFeatures BioStructures GeneticVariation Phylogenies GenomeGraphs BioServices NCBIBlast FASTX XAM PairwiseMappingFormat ProteinSecondaryStructures BioMakie MIToS}}
+{{star_history BioSequences BioAlignments BioStructures GeneticVariation  GenomeGraphs FASTX XAM BioMakie MIToS}}
+
+{{star_history GenomicFeatures GenomicAnnotations Phylogenies NCBIBlast BioServices  PairwiseMappingFormat ProteinSecondaryStructures GeneFinder XSim}}
+
+
+# Bio.jl is Deprecated
+
+Note that the [Bio.jl](https://github.com/BioJulia/Bio.jl) package is deprecated.
+In [this blogpost](https://biojulia.dev/posts/biojl/), the main developer of Bio.jl, describes where the functionalities have gone:
+
+
+* Bio.Seq became [BioSequences.jl](https://github.com/BioJulia/BioSequences.jl/)
+* Bio.Align became [BioAlignments.jl](https://github.com/BioJulia/BioAlignments.jl/)
+* Bio.Intervals became [GenomicFeatures.jl](https://github.com/BioJulia/GenomicFeatures.jl/)
+* Bio.Structure became [BioStructures.jl](https://github.com/BioJulia/BioStructures.jl/)
+* Bio.Var became [GeneticVariation.jl](https://github.com/BioJulia/GeneticVariation.jl/)
+* Bio.Phylo became [Phylogenies.jl](https://github.com/BioJulia/Phylogenies.jl/)
+* Bio.Services became [BioServices.jl](https://github.com/BioJulia/BioServices.jl/)
+* Bio.Tools became [BioTools.jl](https://github.com/BioJulia/BioTools.jl/) (now archived)
