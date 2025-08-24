@@ -26,40 +26,23 @@ In [this blogpost](https://biojulia.dev/posts/biojl/), the main developer of Bio
 An important task in bioinformatics is parsing files in various standard formats.
 Here we list some file formats and packages with parsers:
 
-* [FASTA](https://en.wikipedia.org/wiki/FASTA_format) (.fas, .fasta, .fa): DNA or protein sequences without annotations
-  - [FASTX](https://github.com/BioJulia/FASTX.jl)
-* [FASTQ](https://en.wikipedia.org/wiki/FASTQ_format) (.fq, .fastq): DNA sequences with quality information
-  - [FASTX](https://github.com/BioJulia/FASTX.jl)
-* [GENBANK](https://en.wikipedia.org/wiki/GenBank) (.gb, .gbk): DNA or protein sequences with annotations
-  - [GenomicAnnotations.jl](https://github.com/BioJulia/GenomicAnnotations.jl)
-* EMBL (.embl): DNA or protein sequences with annotations
-  - [GenomicAnnotations.jl](https://github.com/BioJulia/GenomicAnnotations.jl)
-* GFF3, GFF2/GTF (.gff): Annotated genomes
-  - [GenomicAnnotations.jl](https://github.com/BioJulia/GenomicAnnotations.jl)
-* [SAM](https://en.wikipedia.org/wiki/SAM_(file_format)) (.sam): Aligned DNA sequences (typically from read mapping). Text based.
-  - [XAM.jl](https://github.com/BioJulia/XAM.jl)
-* [BAM](https://en.wikipedia.org/wiki/BAM_(file_format)) (.bam): Aligned DNA sequences (typically from read mapping). Binary.
-  - [XAM.jl](https://github.com/BioJulia/XAM.jl)
-* PDB (.pdb): Protein 3D structure.
-  - [BioStructures.jl](https://github.com/BioJulia/BioStructures.jl)
-  - [MIToS](https://github.com/diegozea/MIToS.jl)
-* [mmCIF](https://en.wikipedia.org/wiki/Macromolecular_Crystallographic_Information_File): Macromolecular Crystallographic Information File (mmCIF) also known as PDBx/mmCIF is a standard text file format for representing macromolecular structure data
-  - [BioStructures.jl](https://github.com/BioJulia/BioStructures.jl)
-  - [MIToS](https://github.com/diegozea/MIToS.jl)
-* [MMTF](https://github.com/rcsb/mmtf): MacroMolecular Transmission Format (MMTF) is a binary encoding of biological structures. 
-  - [BioStructures.jl](https://github.com/BioJulia/BioStructures.jl)
-* [DSSP](https://github.com/PDB-REDO/dssp) Protein Secondary Structure
-  - [ProteinSecondaryStructures.jl](https://github.com/BioJulia/ProteinSecondaryStructures.jl)
-* [STRIDE](https://webclu.bio.wzw.tum.de/stride/) Protein Secondary Structure
-  - [ProteinSecondaryStructures.jl](https://github.com/BioJulia/ProteinSecondaryStructures.jl)
-* [PAF](https://github.com/slimsuite/pafscaff) (.paf) Pairwise mApping Format.
-  - [PairwiseMappingFormat.jl](https://github.com/BioJulia/PairwiseMappingFormat.jl)
-* [Stockholm][https://en.wikipedia.org/wiki/Stockholm_format] (.sto, .stk, .stockholm): Stockholm format is a multiple sequence alignment format used by Pfam, Rfam and Dfam
-  - [MIToS.jl](https://github.com/diegozea/MIToS.jl)
-* [A3M](https://en.wikipedia.org/wiki/FASTA_format) A2M/A3M are a family of FASTA-derived formats used for sequence alignments
-  - [MIToS.jl](https://github.com/diegozea/MIToS.jl)
-* [PIR](https://www.bioinformatics.nl/tools/crab_pir.html) Multiple sequence alignment format
-  - [MIToS.jl](https://github.com/diegozea/MIToS.jl)
+| Format                                                                                  | Extensions             | Description                                                                                                                                                     | Packages                                                                                                        |
+|-----------------------------------------------------------------------------------------|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| [FASTA](https://en.wikipedia.org/wiki/FASTA_format)                                     | .fas, .fasta, .fa      | DNA or protein sequences without annotations                                                                                                                    | [FASTX](https://github.com/BioJulia/FASTX.jl)                                                                   |
+| [FASTQ](https://en.wikipedia.org/wiki/FASTQ_format)                                     | .fq, .fastq            | DNA sequences with quality information                                                                                                                          | [FASTX](https://github.com/BioJulia/FASTX.jl)                                                                   |
+| [GENBANK](https://en.wikipedia.org/wiki/GenBank)                                        | .gb, .gbk              | DNA or protein sequences with annotations                                                                                                                       | [GenomicAnnotations.jl](https://github.com/BioJulia/GenomicAnnotations.jl)                                      |
+| EMBL                                                                                    | .embl                  | DNA or protein sequences with annotations                                                                                                                       | [GenomicAnnotations.jl](https://github.com/BioJulia/GenomicAnnotations.jl)                                      |
+| [SAM](https://en.wikipedia.org/wiki/SAM_(file_format))                                  | .sam                   | Aligned DNA sequences (typically from read mapping). Text based.                                                                                                | [XAM.jl](https://github.com/BioJulia/XAM.jl)                                                                    |
+| [BAM](https://en.wikipedia.org/wiki/BAM_(file_format))                                  | .bam                   | Aligned DNA sequences (typically from read mapping). Binary.                                                                                                    | [XAM.jl](https://github.com/BioJulia/XAM.jl)                                                                    |
+| [PDB](https://en.wikipedia.org/wiki/Protein_Data_Bank_(file_format))                                                                                     | .pdb                   | Protein 3D structure.                                                                                                                                           | [BioStructures.jl](https://github.com/BioJulia/BioStructures.jl), [MIToS](https://github.com/diegozea/MIToS.jl) |
+| [mmCIF](https://en.wikipedia.org/wiki/Macromolecular_Crystallographic_Information_File) |                        | Macromolecular Crystallographic Information File (mmCIF) also known as PDBx/mmCIF is a standard text file format for representing macromolecular structure data | [BioStructures.jl](https://github.com/BioJulia/BioStructures.jl), [MIToS](https://github.com/diegozea/MIToS.jl) |
+| [MMTF](https://github.com/rcsb/mmtf)                                                    |                        | MacroMolecular Transmission Format (MMTF) is a binary encoding of biological structures.                                                                        | [BioStructures.jl](https://github.com/BioJulia/BioStructures.jl)                                                |
+| [DSSP](https://github.com/PDB-REDO/dssp)                                                |                        | Protein Secondary Structure                                                                                                                                     | [ProteinSecondaryStructures.jl](https://github.com/BioJulia/ProteinSecondaryStructures.jl)                      |
+| [STRIDE](https://webclu.bio.wzw.tum.de/stride/)                                         |                        | Protein Secondary Structure                                                                                                                                     | [ProteinSecondaryStructures.jl](https://github.com/BioJulia/ProteinSecondaryStructures.jl)                      |
+| [PAF](https://github.com/slimsuite/pafscaff)                                            | .paf                   | Pairwise mApping Format.                                                                                                                                        | [PairwiseMappingFormat.jl](https://github.com/BioJulia/PairwiseMappingFormat.jl)                                |
+| [Stockholm](https://en.wikipedia.org/wiki/Stockholm_format)                             | .sto, .stk, .stockholm | Stockholm format is a multiple sequence alignment format used by Pfam, Rfam and Dfam                                                                            | [MIToS.jl](https://github.com/diegozea/MIToS.jl)                                                                |
+| [A3M](https://en.wikipedia.org/wiki/FASTA_format)                                       | .fas                   | A2M/A3M are a family of FASTA-derived formats used for sequence alignments                                                                                      | [MIToS.jl](https://github.com/diegozea/MIToS.jl)                                                                |
+| [PIR](https://www.bioinformatics.nl/tools/crab_pir.html)                                | .pir                   | Multiple sequence alignment format                                                                                                                              | [MIToS.jl](https://github.com/diegozea/MIToS.jl)                                                                |
 
 # Data Structures
 
