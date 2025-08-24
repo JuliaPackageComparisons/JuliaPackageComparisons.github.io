@@ -176,6 +176,8 @@ const PKGINFOS = [
     PkgInfo(pkgname="ProteinSecondaryStructures", username="BioJulia", branch="master"),
     PkgInfo(pkgname="BioMakie", username="BioJulia", branch="master", docslink="https://biojulia.dev/BioMakie.jl/dev/"),
     PkgInfo(pkgname="MIToS", username="diegozea", branch="master"),
+    PkgInfo(pkgname="GeneFinder", username="camilogarciabotero", branch="main"), 
+    PkgInfo(pkgname="XSim", username="reworkhow", branch="master", docslink="https://reworkhow.github.io/XSim.jl/"), 
     
 ]
 
