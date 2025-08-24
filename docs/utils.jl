@@ -160,6 +160,23 @@ const PKGINFOS = [
     PkgInfo(pkgname="Pluto", username="fonsp", branch="main", docslink="https://plutojl.org/", codecovlink=nothing),
     PkgInfo(pkgname="Neptune", username="compleathorseplayer", branch="master", docslink=nothing),
     PkgInfo(pkgname="BonitoBook", username="SimonDanisch", branch="main", docslink="https://bonitobook.org/website/"),
+    PkgInfo(pkgname="BioSequences", username="BioJulia", branch="master"),
+    PkgInfo(pkgname="BioAlignments", username="BioJulia", branch="master"),
+    PkgInfo(pkgname="GenomicFeatures", username="BioJulia", branch="master"),
+    PkgInfo(pkgname="GenomicAnnotations", username="BioJulia", branch="master"),
+    PkgInfo(pkgname="BioStructures", username="BioJulia", branch="master"),
+    PkgInfo(pkgname="GeneticVariation", username="BioJulia", branch="master"),
+    PkgInfo(pkgname="Phylogenies", username="BioJulia", branch="master"),
+    PkgInfo(pkgname="GenomeGraphs", username="BioJulia", branch="master"),
+    PkgInfo(pkgname="BioServices", username="BioJulia", branch="master"),
+    PkgInfo(pkgname="NCBIBlast", username="BioJulia", branch="master", docslink=nothing),
+    PkgInfo(pkgname="FASTX", username="BioJulia", branch="master"),
+    PkgInfo(pkgname="XAM", username="BioJulia", branch="master"),
+    PkgInfo(pkgname="PairwiseMappingFormat", username="BioJulia", branch="master"),
+    PkgInfo(pkgname="ProteinSecondaryStructures", username="BioJulia", branch="master"),
+    PkgInfo(pkgname="BioMakie", username="BioJulia", branch="master", docslink="https://biojulia.dev/BioMakie.jl/dev/"),
+    PkgInfo(pkgname="MIToS", username="diegozea", branch="master"),
+    
 ]
 
 function get_pkginfo(pkgname)
