@@ -147,6 +147,7 @@ const PKGINFOS = [
     PkgInfo(pkgname="JLSO", username="invenia", branch="master", ),
     PkgInfo(pkgname="JDF", username="xiaodaigh", docslink=nothing),
     PkgInfo(pkgname="Serde", username="bhftbootcamp", branch="master"),
+    PkgInfo(pkgname="LowLevelFEM", username="perebalazs", branch="master", docslink="https://perebalazs.github.io/LowLevelFEM.jl/stable/", repolink="https://github.com/perebalazs/LowLevelFEM.jl"),
     # PkgInfo(pkgname="LopShelve", username="machkouroke", docslink="https://lopuniverse.me/LopShelve.jl/"),
 ]
 
