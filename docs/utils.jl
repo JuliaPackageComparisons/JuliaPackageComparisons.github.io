@@ -178,7 +178,13 @@ const PKGINFOS = [
     PkgInfo(pkgname="MIToS", username="diegozea", branch="master"),
     PkgInfo(pkgname="GeneFinder", username="camilogarciabotero", branch="main"), 
     PkgInfo(pkgname="XSim", username="reworkhow", branch="master", docslink="https://reworkhow.github.io/XSim.jl/"), 
-    
+    PkgInfo(pkgname="CausalInference", username="mschauer", branch="master"),
+    PkgInfo(pkgname="CausalTables", username="salbalkus", branch="main", docslink="https://salbalkus.github.io/CausalTables.jl/"),
+    PkgInfo(pkgname="CausalELM", username="dscolby", branch="main"),
+    PkgInfo(pkgname="TMLE", username="TARGENE", branch="main"),
+    PkgInfo(pkgname="Turing", username="TuringLang", branch="main", docslink="https://turinglang.org/"),
+    PkgInfo(pkgname="Associations", username="JuliaDynamics", branch="main"),
+    PkgInfo(pkgname="RxInfer", username="reactivebayes", branch="main"),
 ]
 
 function get_pkginfo(pkgname)
