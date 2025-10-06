@@ -46,7 +46,7 @@ jobs:
         target-folder: PR${{ github.event.number }}
         repository-name: JuliaPackageComparisons/preview
     - name: Create comment
-      uses: peter-evans/create-or-update-comment@v4
+      uses: peter-evans/create-or-update-comment@v5
       with:
         issue-number: ${{ github.event.number }}
         body: |
