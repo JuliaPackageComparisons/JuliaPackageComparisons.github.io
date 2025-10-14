@@ -172,38 +172,50 @@ XLSX.jl is an excellent package.  Therefore, **XLSX.jl is generally recommended.
 
 ### JSON
 **Overview:**
-* Use JSON3.jl or JSON.jl for most cases.
-  * JSON3.jl has faster implementation.
-  * JSON.jl has long history. If you need to load JSON on old Julia versions (e.g. v1.0), JSON.jl will be suitable.
+* Use [JSON.jl](https://github.com/JuliaIO/JSON.jl) for most cases.
+  * JSON.jl is a pure Julia JSON parser with a long history. If you need to load JSON on old Julia versions (e.g. v1.0), JSON.jl will also be suitable.
 * Use BSON.jl for [Binary JSON](https://bsonspec.org/).
 * Use JSONRPC.jl for [JSON-RPC 2.0](https://www.jsonrpc.org/specification).
-
-A quote from the later linked release-announcement for JSON3.jl helps us understand why there are so many packages:
-> Let’s cut right to the chase and answer the elephant questions in the proverbial discourse room: why do we need another JSON package in Julia? what does it offer distinct from what JSON.jl, JSON2.jl, or LazyJSON.jl offer? why spend time and effort developing something that’s “already solved”?
-> JSON3.jl was born from the spark of three separate ideas, and a vision that they could come together to make the best, most performant, simple, yet powerful JSON integration for Julia possible. It also exists as a way to “prove out” these ideas before trying to potentially upstream improvements into a more canonically named package like JSON.jl. I fully believe the package is ready for full-time use and reliance, but similar to JSON2.jl, it exists as a way to try out a different JSON integration API to potentially make things better, faster, easier.
 
 {{star_history JSON JSON2 JSON3 JSONBase LazyJSON BSON LightBSON JSONRPC}}
 
 #### JSON.jl
 {{badge JSON}}
 
+> A Julia package for reading and writing JSON data.
+
+The [documentation](https://juliaio.github.io/JSON.jl/stable) includes extensive
+guides and examples. It also has [advice for migrating to JSON.jl v1.0 from
+JSON.jl v0.21 or JSON3.jl](https://juliaio.github.io/JSON.jl/stable/migrate/).
+
+It also includes a `vendor/` directory containing a simplified,
+no-dependency JSON parser (`JSONX`) that can be vendored (copied) into other
+projects. See the [vendor README](vendor/README.md) for details.
+
 #### JSON2.jl
 {{badge JSON2}}
 
 This package is not maintained.
-Use JSON3.jl instead.
-
-#### JSON3.jl
-{{badge JSON3}}
-
-From its README:
-
->Yet another JSON package for Julia; this one is for speed and slick struct mapping
+Use JSON.jl instead.
 
 #### JSONBase.jl
 {{badge JSONBase}}
 
 [quinnj](https://github.com/quinnj) (a founder of JSON3.jl) also provides JSONBase.jl, but its is not registered yet.
+
+#### JSON3.jl
+{{badge JSON3}}
+
+[JSON3.jl](https://github.com/quinnj/JSON3.jl/tree/main) is deprecated after the release of JSON v1 in October 2025.
+It used to be the go-to package for JSON parsing in Julia.
+
+If you rely on the "automatically generate Julia struct definitions" feature from JSON3.jl, you may need to keep using JSON3.jl for now. See the [migration guide](https://juliaio.github.io/JSON.jl/stable/migrate/#Features-unique-to-each-library) for details.
+
+A quote from the [release-announcement for JSON3.jl](https://discourse.julialang.org/t/ann-json3-jl-yet-another-json-package-for-julia/25625) describes the status of JSON parsing in 2019:
+
+> Let’s cut right to the chase and answer the elephant questions in the proverbial discourse room: why do we need another JSON package in Julia? what does it offer distinct from what JSON.jl, JSON2.jl, or LazyJSON.jl offer? why spend time and effort developing something that’s “already solved”?
+> JSON3.jl was born from the spark of three separate ideas, and a vision that they could come together to make the best, most performant, simple, yet powerful JSON integration for Julia possible. It also exists as a way to “prove out” these ideas before trying to potentially upstream improvements into a more canonically named package like JSON.jl. I fully believe the package is ready for full-time use and reliance, but similar to JSON2.jl, it exists as a way to try out a different JSON integration API to potentially make things better, faster, easier.
+
 
 #### LazyJSON.jl
 {{badge LazyJSON}}
