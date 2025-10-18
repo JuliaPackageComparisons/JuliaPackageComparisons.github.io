@@ -190,7 +190,7 @@ JSON.jl v0.21 or JSON3.jl](https://juliaio.github.io/JSON.jl/stable/migrate/).
 
 It also includes a `vendor/` directory containing a simplified,
 no-dependency JSON parser (`JSONX`) that can be vendored (copied) into other
-projects. See the [vendor README](vendor/README.md) for details.
+projects. See the [vendor README](https://github.com/JuliaIO/JSON.jl/blob/master/vendor/README.md) for details.
 
 #### JSON2.jl
 {{badge JSON2}}
